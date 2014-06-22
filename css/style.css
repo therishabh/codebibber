@@ -1,0 +1,114 @@
+.test{
+	border:1px solid red;
+}
+
+body{
+	font-family: 'open-sans'
+}
+
+/* quick header */
+
+.quick-header{
+	background: #E9E9E9;
+}
+.quick-header .quick-contact ul{
+	margin-bottom: 0px;
+	margin: 8px;
+}
+.quick-header ul li{
+	display: inline-block;
+}
+.quick-header .quick-contact ul li:nth-child(1){
+	background: url('../images/phone-2.png') no-repeat;
+	background-size: 18px;
+	padding-left: 20px;
+	margin-right: 20px;
+}
+.quick-header .quick-contact ul li:nth-child(2){
+	background: url('../images/mail-icon.png') no-repeat;
+	background-size: 16px;
+	padding-left: 20px;
+}
+.quick-header .quick-contact{
+	text-align: left;
+	font-size: 13px;
+}
+
+.quick-header .quick-social{
+	text-align: right;
+	padding-right: 45px;
+}
+.quick-header .quick-social ul{
+	margin-bottom: 0px;
+	margin: 3px;
+	margin-top: 5px;
+}
+.quick-header .quick-social ul li a{
+	display: block;
+	height: 22px;
+	width: 22px;
+}
+.quick-header .quick-social ul li{
+	background: url('../images/social-icons-quick.png');
+	background-size: 107px;
+	height: 22px;
+	width: 22px;
+	
+}
+.quick-header .quick-social ul li:hover{
+	/*-webkit-filter:none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;*/
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(grayscale.svg); /* Firefox 4+ */
+	filter: gray; /* IE 6-9 */
+}
+.quick-header .quick-social ul li:nth-child(1){
+	background-position: 26px -30px;
+}
+.quick-header .quick-social ul li:nth-child(2){
+	background-position: 77px -30px;
+}
+.quick-header .quick-social ul li:nth-child(3){
+	background-position: 104px -55px;
+}
+.quick-header .quick-social ul li:nth-child(4){
+	background-position: 77px -4px;
+}
+.quick-header .quick-social ul li:nth-child(5){
+	background-position: 103px -4px;
+}
+.quick-header .quick-social ul li:nth-child(6){
+	background-position: 51px -4px;
+}
+/* // end quick header */
+
+
+
+/* main header */
+.main-header{
+	height: 90px;
+}
+.main-header .logo{
+	text-align: center;
+}
+.main-header .logo img{
+	height: 80px;
+	margin-top: 5px;
+}
+
+
+/* // main header */
+
+
+/*slider css*/
+.image-slider{
+	background: #000;
+}
+/* // end slider css*/
