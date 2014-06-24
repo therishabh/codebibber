@@ -15,6 +15,7 @@
 	<!-- // add custome css styling -->
 
 
+
 	<!-- add bootstrap javascript -->
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
@@ -335,6 +336,64 @@
 	</div>
 	<!-- // end slider section -->
 
+
+<div class="container-fluid we-offer">
+	<div class="row">
+		<div class="col-lg-10 col-centered">
+			<h1 class="text-center">We Creative Quality Designs</h1>
+			<h3 class="text-center">We Specialize in Web Design / Development and Graphic Design</h3>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="hi-icon-wrap">
+						<a href="#" class="hi-icon hi-icon-archive web-development">
+
+						</a>
+						<h2>Web Development</h2>
+						<p>
+							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
+						</p>
+						<a href="#">Read More</a>			
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hi-icon-wrap">
+						<a href="#" class="hi-icon hi-icon-archive mobile-app">
+						</a>
+						<h2>Mobile Application Development</h2>	
+						<p>
+							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
+						</p>
+						<a href="#">Read More</a>				
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hi-icon-wrap">
+						<a href="#" class="hi-icon hi-icon-archive digital-mkt">
+						</a>
+						<h2>Digital Marketing</h2>		
+						<p>
+							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
+						</p>
+						<a href="#">Read More</a>			
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="hi-icon-wrap">
+						<a href="#" class="hi-icon hi-icon-archive design">
+						</a>
+						<h2>Design</h2>	
+						<p>
+							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
+						</p>
+						<a href="#">Read More</a>				
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+</div>
 </body>
 </html>
 
