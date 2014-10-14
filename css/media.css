@@ -1,0 +1,506 @@
+/*************************************************************/
+/*Responsive web design test on portrait viewport 320 x 480*/
+/*************************************************************/
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 40px;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-7{
+
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+
+}
+/*************************************************************/
+/* // end Responsive web design test on portrait viewport 320 x 480*/
+/*************************************************************/
+
+
+
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on landscape viewport 480 x 320*/
+/*************************************************************/
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) {
+	
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 40px;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-7{
+
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 15px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+}
+
+
+/*************************************************************/
+/* // end Responsive web design test on landscape viewport 480 x 320*/
+/*************************************************************/
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on portrait viewport 320 x 568*/
+/*************************************************************/
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+
+}
+
+/*************************************************************/
+/* // end Responsive web design test on portrait viewport 320 x 568*/
+/*************************************************************/
+
+
+
+/*************************************************************/
+/*Responsive web design test on landscape viewport 568 x 320*/
+/*************************************************************/
+@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+}
+
+/*************************************************************/
+/* // end Responsive web design test on landscape viewport 568 x 320*/
+/*************************************************************/
+
+
+
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on portrait viewport 360 x 640 */
+/*************************************************************/
+@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+}
+
+/*************************************************************/
+/* // end Responsive web design test on portrait viewport 360 x 640 */
+/*************************************************************/
+
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on landscape viewport 640 x 360 */
+/*************************************************************/
+@media screen and (min-width: 360px) and (max-width: 640px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : landscape) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+}
+
+/*************************************************************/
+/* // end Responsive web design test on landscape viewport 640 x 360 */
+/*************************************************************/
+
+
+
+
+
+/*************************************************************/
+/* Responsive web design test on portrait viewport 600 x 960 */
+/*************************************************************/
+@media screen and (max-width: 600px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : portrait) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+}
+
+/*************************************************************/
+/* // end  Responsive web design test on portrait viewport 600 x 960 */
+/*************************************************************/
+
+
+
+
+
+
+
+/*************************************************************/
+/* Responsive web design test on landscape viewport 960 x 600 */
+/*************************************************************/
+
+@media screen and (min-width: 600px) and (max-width: 960px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : landscape) {
+/* CSS */ 
+}
+
+
+/*************************************************************/
+/* // end  Responsive web design test on landscape viewport 960 x 600 */
+/*************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************/
+/* Responsive web design test on portrait viewport 768 x 1024 */
+/*************************************************************/
+
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+/* CSS */ 
+}
+
+
+/*************************************************************/
+/* // end  Responsive web design test on portrait viewport 768 x 1024 */
+/*************************************************************/
+
+
+
+
+
+
+
+
+
+/*************************************************************/
+/* Responsive web design test on landscape viewport 1024 x 768 */
+/*************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+/* CSS */ 
+}
+
+
+/*************************************************************/
+/* // end  Responsive web design test on landscape viewport 1024 x 768 */
+/*************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

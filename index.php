@@ -1,425 +1,205 @@
-<html>
-<head>
-	<title>CodeBibber</title>
+<?php
 
-	<!-- add bootstrap css styling -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<!--// add bootstrap css styling -->
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ *
+ */
+	define('ENVIRONMENT', 'development');
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
 
-	<!-- add menu css styling -->
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<!-- // add menu css styling -->
+if (defined('ENVIRONMENT'))
+{
+	switch (ENVIRONMENT)
+	{
+		case 'development':
+			error_reporting(E_ALL);
+		break;
 	
-	<!-- add custome css styling -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- // add custome css styling -->
+		case 'testing':
+		case 'production':
+			error_reporting(0);
+		break;
+
+		default:
+			exit('The application environment is not set correctly.');
+	}
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" folder.
+ * Include the path if the folder is not in the same  directory
+ * as this file.
+ *
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION FOLDER NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * folder then the default one you can set its name here. The folder
+ * can also be renamed or relocated anywhere on your server.  If
+ * you do, use a full server path. For more info please see the user guide:
+ * http://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ *
+ */
+	$application_folder = 'application';
+
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here.  For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT:  If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller.  Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ *
+ */
+	// The directory name, relative to the "controllers" folder.  Leave blank
+	// if your controller is not in a sub-folder within the "controllers" folder
+	// $routing['directory'] = '';
+
+	// The controller class file name.  Example:  Mycontroller
+	// $routing['controller'] = '';
+
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ *
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
 
 
 
-	<!-- add bootstrap javascript -->
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- // add bootstrap javascript -->
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
 
-	<!-- add jquery library -->
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<!-- // add jquery library -->
-	
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
 
-	<!-- add css styling for slider -->
-	<link rel='stylesheet' type='text/css' media='all' href='css/min.css'>
-	<link rel="stylesheet" type="text/css" media='all' href="css/masterslider.main.css">
-	<!-- // end css styling for slider -->
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
 
-	<!-- add java script for slider -->
-	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="js/slider.min.js"></script>
-	<!-- // end java script for slider -->
+	if (realpath($system_path) !== FALSE)
+	{
+		$system_path = realpath($system_path).'/';
+	}
 
-	<link rel="stylesheet" type="text/css" href="http://www.google.com/fonts#UsePlace:use/Collection:Open+Sans">
+	// ensure there's a trailing slash
+	$system_path = rtrim($system_path, '/').'/';
 
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
+	}
 
-</head>
-<body>
-	<!-- start quick header section -->
-	<div class="container-fluid quick-header">
-		<div class="row">
-			<div class="col-lg-6 quick-contact">
-				<ul>
-					<li>+91-8010501458</li>
-					<li>contact@codebibber.com</li>
-				</ul>
-			</div><!-- // end quick-contact -->
-			<div class="col-lg-6 quick-social">
-				<ul>
-					<li title="facebook"><a href="#"></a></li>
-					<li title="twitter"><a href="#"></a></li>
-					<li title="linkedin"><a href="#"></a></li>
-					<li title="youtube"><a href="#"></a></li>
-					<li title="pinterest"><a href="#"></a></li>
-					<li title="google+"><a href="#"></a></li>
-				</ul>
-			</div><!-- // end quick-social -->
-		</div>
-	</div><!-- // end quick-header -->
-	<!-- // end quick header section -->
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
 
-	<!-- start main header section -->
-	<div class="container-fluid main-header">
-		<div class="row">
-			<div class="col-lg-4 logo">
-				<img src="images/logo.jpg" alt="">
-			</div>
-			<div class="col-lg-8">
-				<div class="menu">
-					<ul>
-						<li class="active">Home</li>
-						<li>We Offer</li>
-						<li>
-							Startups
-							<ul>
-								<li>Web Design</li>
-								<li>Web Development</li>
-								<li>Illustrations</li>
-							</ul>
-						</li>
-						<li>We are</li>
-						<li>Blog</li>
-						<li>Contact Us</li>
-						<li>Be the Bibber</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- // end main header section -->
+	// The PHP file extension
+	// this global constant is deprecated.
+	define('EXT', '.php');
 
-	<!-- slider section -->
-	<div class="image-slider">
-		<div class="ms-layers-template">
-			<div class="master-slider ms-skin-black-2 round-skin" id="masterslider">
-			    <div class="ms-slide slide-1" style="z-index: 10">
-			        <img src="images/slider/blank.gif" data-src="images/slider/bg.jpg" alt="lorem ipsum dolor sit"/> 
-			        
-			        <img src="images/slider/blank.gif" data-src="images/slider/bm.png" alt="layer" class="ms-layer"
-			        	style="bottom:0; left:100px"
-			        	data-effect="left(40)"
-			        	data-type="image"
-			        />
-			        
-			        <div class="ms-layer text-box" style="left:514px; top:184px "
-			        	data-effect="rotatebottom(40,250,c)"
-			        	data-duration="3500"
-			        	data-delay="900"
-			        	data-ease="easeOutExpo"
-			        > </div>
-			        
-			        <h3 class="ms-layer bold-title"  style="left:535px; top:204px" 
-			       		data-effect="right(250)"
-			        	data-duration="3500"
-			        	data-delay="1500"
-			        	data-ease="easeOutExpo"
-			        >LOREM IPSUM</h3>
-			        
-			        <h3 class="ms-layer light-title" style="left:532px; top:235px" 
-			        	data-effect="left(short)"
-			        	data-duration="3500"
-			        	data-delay="2100"
-			        	data-ease="easeOutExpo"
-			        >DOLOR SIT AMET</h3>
-			        
-			        <p class="ms-layer normal-desc"  style="left:535px; top:287px" 
-			        	data-effect="bottom(40)"
-			        	data-duration="3500"
-			        	data-delay="3000"
-			        	data-ease="easeOutExpo"
-			        >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-			        
-			        <img src="images/slider/blank.gif" data-src="images/slider/btn.gif" alt="layer" class="ms-layer"
-			        	style="left:535px; top:338px"
-			        	data-effect="rotateright(20,120,br)"
-			        	data-duration="3500"
-			        	data-delay="3600"
-			        	data-ease="easeOutExpo"
-			        	data-type="image"
-			        />
-			    </div>
-			    <div class="ms-slide slide-2" style="z-index: 11">
-			        <img src="images/slider/blank.gif" data-src="images/slider/bg2.jpg" alt="lorem ipsum dolor sit"/>  
-			            
-			        <img src="images/slider/blank.gif" data-src="images/slider/pat1.gif" alt="layer" class="ms-layer"
-			        	style="top:95px; left:320px"
-			        	data-effect="bottom(short)"
-			        	data-duration="2000"
-			        	data-ease="easeOutQuad"
-			        	data-type="image"
-			        />
-			        <img src="images/slider/blank.gif" data-src="images/slider/pat2.gif" alt="layer" class="ms-layer"
-			        	style="top:62px; left:357px"
-			        	data-effect="bottom(short)"
-			        	data-duration="2000"
-			        	data-delay="300"
-			        	data-ease="easeOutQuad"
-			        	data-type="image"
-			        />
-			        <img src="images/slider/blank.gif" data-src="images/slider/pat3.gif" alt="layer" class="ms-layer"
-			        	style="top:128px; left:596px"
-			        	data-effect="bottom(short)"
-			        	data-duration="2000"
-			        	data-delay="600"
-			        	data-ease="easeOutQuad"
-			        	data-type="image"
-			        />
-			        <img src="images/slider/blank.gif" data-src="images/slider/pat4.gif" alt="layer" class="ms-layer"
-			        	style="top:97px; left:590px"
-			        	data-effect="bottom(short)"
-			        	data-duration="2000"
-			        	data-delay="900"
-			        	data-ease="easeOutQuad"
-			        	data-type="image"
-			        />
+	// Path to the system folder
+	define('BASEPATH', str_replace("\\", "/", $system_path));
 
-			        <h3 class="ms-layer light-title"  style="left:570px; top:317px"
-			        	data-effect="skewleft(18,200,c)"
-			        	data-duration="3000"
-			        	data-delay="1200"
-			        	data-ease="easeOutExpo" 
-			        >LOREM IPSUM</h3>
-			        
-			        <h3 class="ms-layer normal-title"  style="left:570px; top:385px" 
-			        	data-effect="right(150)"
-			        	data-duration="2000"
-			        	data-delay="1500"
-			        	data-ease="easeOutExpo"
-			        >CONSECTETUER ADIPISCING</h3>
-			        
-			        <p class="ms-layer normal-desc"  style="left:570px; top:405px" 
-			       		data-effect="rotatebottom(40,250,c)"
-			        	data-duration="2000"
-			        	data-delay="1900"
-			        	data-ease="easeOutExpo"
-			        >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
-			        
-			         <img src="images/slider/blank.gif" data-src="images/slider/ipad.png" alt="layer" class="ms-layer"
-			        	style="top:94px; left:50px"
-			        	data-effect="rotateleft(10,100,bl)"
-			        	data-duration="4300"
-			        	data-delay="500"
-			        	data-ease="easeOutExpo"
-			        	data-type="image"
-			        />
-			    </div>
-			    <div class="ms-slide slide-3" style="z-index: 12">
-			       
-			       <img src="images/slider/blank.gif" data-src="images/slider/bg3.jpg" alt="lorem ipsum dolor sit"/>      
-			      	
-			       <img src="images/slider/blank.gif" data-src="images/slider/shadow.png" alt="layer" class="ms-layer"
-			        	style="bottom:100px; right:-125px"
-			        	data-effect="rotate3dright(0,30,0,100,r)"
-			        	data-duration="2500"
-			        	data-ease="easeOutQuad"
-			        	data-type="image"
-			        />
-			        
-			        <div class="ms-layer video-box" style="bottom:133px; right:10px; width:660px; height:374px"
-			       		data-type="video"
-			      		data-effect="rotate3dright(0,30,0,100,r)"
-			        	data-duration="2500"
-			        	data-ease="easeOutQuad"
-			       >
-			       	<img src="images/slider/blank.gif" data-src="images/slider/video-cover-s.jpg" alt="lorem ipsum dolor sit"/>
-			       	<iframe src="http://player.vimeo.com/video/58226214" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
-			       </div>
-			       
-			       <h3 class="ms-layer light-title"  style="left:10px; top:197px"
-			       		data-effect="bottom(20)"
-			        	data-duration="2300"
-			        	data-delay="2300"
-			        	data-ease="easeOutExpo"
-			       >REDBULL</h3>
-			        
-			       <h3 class="ms-layer bold-title"  style="left:10px; top:242px"
-			       		data-effect="left(100)"
-			        	data-duration="3300"
-			        	data-delay="1900"
-			        	data-ease="easeOutExpo"
-			       >SIGNATURE</h3>
-			       
-			       <h3 class="ms-layer normal-title"  style="left:10px; top:312px"
-			       		data-effect="bottom(20)"
-			        	data-duration="2300"
-			        	data-delay="2000"
-			        	data-ease="easeOutExpo"
-			       >CONSECTETUER ADIPISCING</h3>
-			       
-			       <p class="ms-layer normal-desc"  style="left:10px; top:330px"
-			       		data-effect="right(40)"
-			        	data-duration="2300"
-			        	data-delay="2300"
-			        	data-ease="easeOutExpo"
-			       >Youtube, Vimeo and custom iFrame supported</p>
-			        
-			      
-			        
-			    </div>
-			    				    
-			    <div class="ms-slide slide-4" style="z-index: 13">
-			    	
-			    	<img src="images/slider/blank.gif" data-src="images/slider/bg4.jpg" alt="lorem ipsum dolor sit"/>    
-			        
-			        <img src="images/slider/blank.gif" data-src="images/slider/shadow-s.png" alt="layer" class="ms-layer"
-			        	style="bottom:80px; left:-5px"
-			        	data-effect="fade"
-			        	data-duration="2000"
-			        	data-ease="easeOutExpo"
-			        	data-type="image"
-			        />
+	// Path to the front controller (this file)
+	define('FCPATH', str_replace(SELF, '', __FILE__));
 
-			        <img src="images/slider/blank.gif" data-src="images/slider/imac.png" alt="layer" class="ms-layer"
-			        	style="bottom:105px; left:40px"
-			        	data-effect="top(100)"
-			        	data-duration="2000"
-			        	data-ease="easeOutExpo"
-			        	data-type="image"
-			        />
-			        
-					 <h3 class="ms-layer light-title"  style="left:588px; top:250px" 
-						data-effect="right(40)"
-			        	data-duration="2300"
-			        	data-delay="1300"
-			        	data-ease="easeOutExpo"
-					 >LOREM IPSUM</h3>
-					 
-			        <h3 class="ms-layer normal-title"  style="left:590px; top:325px" 
-			        	data-effect="left(40)"
-			        	data-duration="2300"
-			        	data-delay="1400"
-			        	data-ease="easeOutBack"
-			        >CONSECTETUER ADIPISCING</h3>
-			    </div>
-			    <div class="ms-slide slide-5" style="z-index: 14">
-			        <img src="images/slider/blank.gif" data-src="images/slider/bg5.jpg" alt="lorem ipsum dolor sit"/>   
-			        <a href="http://player.vimeo.com/video/58226214" data-type="video">REDBULL</a>
-
-					<div class="ms-layer text-box" style="left:240px; bottom:69px "
-						data-effect="rotatebottom(-40,250,c)"
-			        	data-duration="2300"
-			        	data-delay="100"
-			        	data-ease="easeOutExpo"
-					> </div>
-					
-					<h3 class="ms-layer light-title"  style="left:270px; bottom:118px" 
-						data-effect="left(40)"
-			        	data-duration="2000"
-			        	data-delay="1000"
-			        	data-ease="easeOutExpo"
-					>REDBULL</h3>
-					
-			        <h3 class="ms-layer bold-title"  style="left:485px; bottom:118px" 
-			        	data-effect="left(40)"
-			        	data-duration="2000"
-			        	data-delay="1100"
-			        	data-ease="easeOutExpo"
-			        >SIGNATURE</h3>
-			        
-			        <h3 class="ms-layer normal-title"  style="left:400px; bottom:89px" 
-			     	   data-effect="skewright(15,40)"
-			        	data-duration="2300"
-			        	data-delay="1400"
-			        	data-ease="easeOutExpo"
-			        >CONSECTETUER ADIPISCING</h3> 
-			       
-			    </div>
-			</div>
-		</div>
-	</div>
-	<!-- // end slider section -->
+	// Name of the "system folder"
+	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
 
 
-<div class="container-fluid we-offer">
-	<div class="row">
-		<div class="col-lg-10 col-centered">
-			<h1 class="text-center">We Creative Quality Designs</h1>
-			<h3 class="text-center">We Specialize in Web Design / Development and Graphic Design</h3>
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="hi-icon-wrap">
-						<a href="#" class="hi-icon hi-icon-archive web-development">
+	// The path to the "application" folder
+	if (is_dir($application_folder))
+	{
+		define('APPPATH', $application_folder.'/');
+	}
+	else
+	{
+		if ( ! is_dir(BASEPATH.$application_folder.'/'))
+		{
+			exit("Your application folder path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
+		}
 
-						</a>
-						<h2>Web Development</h2>
-						<p>
-							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
-						</p>
-						<a href="#">Read More</a>			
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="hi-icon-wrap">
-						<a href="#" class="hi-icon hi-icon-archive mobile-app">
-						</a>
-						<h2>Mobile Application Development</h2>	
-						<p>
-							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
-						</p>
-						<a href="#">Read More</a>				
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="hi-icon-wrap">
-						<a href="#" class="hi-icon hi-icon-archive digital-mkt">
-						</a>
-						<h2>Digital Marketing</h2>		
-						<p>
-							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
-						</p>
-						<a href="#">Read More</a>			
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="hi-icon-wrap">
-						<a href="#" class="hi-icon hi-icon-archive design">
-						</a>
-						<h2>Design</h2>	
-						<p>
-							Mauris rhoncus pretium porttitor. Cras scelerisque commodo odio. Phasellus dolor enim, faucibus egestas scelerisque hendrerit, aliquet sed lorem.
-						</p>
-						<a href="#">Read More</a>				
-					</div>
-				</div>
+		define('APPPATH', BASEPATH.$application_folder.'/');
+	}
 
-			</div>
-		</div>
-	</div>
-	
-</div>
-</body>
-</html>
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ *
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
 
-<script type="text/javascript">
-$(document).ready(function(){
-
-	// script for slider
-	var slider = new MasterSlider();
-	slider.setup('masterslider' , {
-		width:1024,
-		height:580,
-		// space:100,
-		// wheel:true,
-		loop:true,
-		autoplay:true,
-		fullwidth:true,
-		centerControls:false,
-		speed:18,
-		view:'flow'
-	});
-	//slider.control('arrows');	
-	slider.control('bullets' ,{autohide:true});	
-	
-	// adds Arrows navigation control to the slider.
-    slider.control('arrows');
-	
-	// end script for slider
-});
-</script>
+/* End of file index.php */
+/* Location: ./index.php */
