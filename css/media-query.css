@@ -353,6 +353,52 @@
 		background-size: 1050px;
 		top: 77px;
 	}
+
+	.content-section p{
+		text-align: justify;
+		font-size: 18px;
+		padding: 0px 10px;
+	}
+	.content-section h2{
+		font-size: 36px; 
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.home-page .home-sample-work {
+		margin-top: 30px;
+	}
+	.footer-action .generation-info {
+		width: 85%;
+		margin-left: 10px;
+	}
+	.footer-action h5 {
+		font-size: 36px;
+	}
+	.footer-action p {
+		font-size: 18px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+	}
+	.footer-action .request-quote i {
+		width: 145px;
+		height: 113px;
+		position: absolute;
+		bottom: -50px;
+		right: 52px;
+		background-position: -1302px -7158px;
+		background-size: 941px;
+	}
+	.footer-action .generation-info i {
+		width: 119px;
+		height: 136px;
+		position: absolute;
+		bottom: -32px;
+		right: 43px;
+		background-position: -1464px -7158px;
+		background-size: 941px;
+	}
 }
 /* end Desktops and laptops ----------- */
 /* end @media only screen and (min-width:1500px)*/
@@ -694,10 +740,13 @@
 		font-size: 15px;
 		padding: 0px 10px;
 	}
+	.content-section h2{
+		font-size: 29px; 
+	}
 	.web-design .content-section ul {
 		width: 100%;
 	}
-	.web-design .home-sample-work {
+	.home-sample-work {
 		margin-top: 30px;
 	}
 	.footer-action .generation-info {
@@ -705,7 +754,7 @@
 		margin-left: 10px;
 	}
 	.footer-action h5 {
-		font-size: 33px;
+		font-size: 29px;
 	}
 	.footer-action p {
 		font-size: 14px;
@@ -714,23 +763,24 @@
 		width: 100%;
 	}
 	.footer-action .request-quote i {
-		width: 91px;
-		height: 77px;
+		width: 104px;
+		height: 94px;
 		position: absolute;
 		bottom: -50px;
 		right: 38px;
-		background-position: -804px -2712px;
-		background-size: 582px;
+		background-position: -898px -3029px;
+		background-size: 650px;
 	}
 	.footer-action .generation-info i {
-		width: 80px;
-		height: 76px;
+		width: 84px;
+		height: 97px;
 		position: absolute;
-		bottom: -29px;
+		bottom: -32px;
 		right: 43px;
-		background-position: -905px -2712px;
-		background-size: 582px;
+		background-position: -1010px -3029px;
+		background-size: 650px;
 	}
+
 	
 }
 /* iPads (landscape) ----------- */
@@ -1062,10 +1112,17 @@
 		font-size: 15px;
 		padding: 0px 10px;
 	}
+	.content-section .col-lg-10 {
+		padding-left: 10px;
+	}
+	.content-section h2{
+		font-size: 28px; 
+		padding-left: 8px;
+	}
 	.web-design .content-section ul {
 		width: 100%;
 	}
-	.web-design .home-sample-work {
+	.home-sample-work {
 		margin-top: 30px;
 	}
 	.footer-action .generation-info {
@@ -1073,7 +1130,7 @@
 		margin-left: 10px;
 	}
 	.footer-action h5 {
-		font-size: 33px;
+		font-size: 28px;
 	}
 	.footer-action p {
 		font-size: 14px;
@@ -1295,7 +1352,7 @@
 		background-position: 0px 308px;
 		background-size: 530px;
 	}
-	.home-sample-work {
+	.home-page .home-sample-work {
 		margin-top: 176px;
 	}
 	.home-page .blog-news h2 {
@@ -1455,10 +1512,14 @@
 		font-size: 15px;
 		padding: 0px 10px;
 	}
+	.content-section h2{
+		font-size: 26px; 
+		padding-left: 9px;
+	}
 	.web-design .content-section ul {
 		width: 100%;
 	}
-	.web-design .home-sample-work {
+	.home-sample-work {
 		margin-top: 30px;
 	}
 	.footer-action .generation-info {
@@ -1466,7 +1527,7 @@
 		margin-left: 10px;
 	}
 	.footer-action h5 {
-		font-size: 33px;
+		font-size: 26px;
 	}
 	.footer-action p {
 		font-size: 14px;
@@ -1629,8 +1690,14 @@
 		background-position: 0px 226px;
 		background-size: 387px;
 	}
-	.home-sample-work {
+	/*.home-page .home-sample-work {
 		margin-top: 148px;
+	}*/
+	.home-page .home-sample-work {
+		margin-top: 148px;
+	}
+	.home-sample-work {
+		margin-top: 30px;
 	}
 	.view {
 		height: 89px;
@@ -1817,11 +1884,12 @@
 		font-size: 14px;
 		padding: 0px 10px;
 	}
+	.content-section h2{
+		font-size: 23px; 
+		padding-left: 10px;
+	}
 	.web-design .content-section ul {
 		width: 100%;
-	}
-	.web-design .home-sample-work {
-		margin-top: 30px;
 	}
 	.footer-action .generation-info {
 		width: 100%;
@@ -2086,6 +2154,9 @@
 		background-position: 0px 155px;
 		background-size: 266px;
 	}
+	.home-page .home-sample-work {
+		margin-top: 18px;
+	}
 	.home-sample-work {
 		margin-top: 18px;
 	}
@@ -2181,11 +2252,11 @@
 	}
 	.service-banner{
 		padding-left: 15px;
-		padding-right: 0px;
+		padding-right: 15px;
 	}
 	.service-banner p {
 		text-align: justify;
-		font-size: 14px;
+		font-size: 14px;	
 	}
 	.services .services-overview .service-section {
 		margin-top: 0px;
@@ -2276,6 +2347,10 @@
 		text-align: justify;
 		font-size: 14px;
 		padding: 0px 0px;
+	}
+	.content-section h2{
+		font-size: 20px; 
+		padding-left: 0px;
 	}
 	.web-design .content-section ul {
 		width: 100%;

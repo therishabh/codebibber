@@ -1,23 +1,21 @@
-<div class="web-design">
+<div class="ui-ux-page">
 	<div class="row service-banner">
 		<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-centered">
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<h1>
 						<span>Services</span>
-						Web Development
+						UI / UX
 					</h1>
 					<p>
-						The current robust web environment demands 
-						keeping up with the latest and greatest 
-						communication platforms. Your website if the 
-						first impression that you give to your clients 
-						hence encouraging the vital decision of doing 
-						business with you, by giving them a crystal 
-						clear idea of your products or services. letting 
-						them grasp the planned events, identify the 
-						concerned person to consult, and aptly portray 
-						the information which is most important to them.
+						CodeBibber apart from being obsessed with 
+						technology, is passionate about incorporating 
+						relishing user experience into whatever what we 
+						do, because at the end of the day users are the 
+						targets. We tend to concentrate on the 
+						requirements and wants of the users to create 
+						revolutionising solutions via our dedication to 
+						Researching, Strategizing and Designing techniques.
 					</p>
 				</div>
 			</div>
@@ -27,8 +25,8 @@
 				<h6>Services</h6>
 				<ul>
 					<li><a href="<?php echo base_url(); ?>services/">Overview</a></li>
-					<li><a href="<?php echo base_url(); ?>services/web-development-service/" class="active">Web Development</a></li>
-					<li><a href="<?php echo base_url(); ?>services/user-interface-design-service/">UI / UX</a></li>
+					<li><a href="<?php echo base_url(); ?>services/web-development-service/">Web Development</a></li>
+					<li><a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="active">UI / UX</a></li>
 					<li><a href="<?php echo base_url(); ?>services/mobile-development-service/">Mobile Development</a></li>
 					<li><a href="<?php echo base_url(); ?>services/enterprise-mobility-service/">Enterprise Mobility</a></li>
 					<li><a href="<?php echo base_url(); ?>services/digital-marketing-agency/">Digital Marketing</a></li>
@@ -44,67 +42,37 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<p>
-						'New is always better' This applies to every 
-						advancement in technology. New/Latest technology 
-						is a betterment over what has been best so far.
+						Attain the ultimate business targets by 
+						providing the most appeasing UX designs on 
+						your website, mobile application or enterprise 
+						application to the user's delight and 
+						fascination Leave the users of your website 
+						dumb-folded with the splash of captivating user interface that we design for your very own business.
 					</p>
 					<p>
-						At CodeBibber, we believe in the <strong>ideology of 
-							better solution</strong> by using the best and latest 
-						technology out there. This can be easily inferred 
-						from our technology  stack that includes what 
-						considered to be best frameworks to build a 
-						scalable web app.
+						We follow a seamless process to give you an intelligent UX and exuberant UI
+					</p>
+					<h2>
+						Researching
+					</h2>
+					<p>
+						We research the end users to collect vital information about the in order to create a detailed prospect of the visual experience. We dig up to formulate additional strategies to achieve the calculated expectations of the users. Thus ensuring ease of design utility, and diminishes the requirement for expensive re-work before an investment. Ideally we improvise staying focused on the user.
+					</p>
+					<h2>
+						Strategizing
+					</h2>
+					<p>
+						Utilizing our research findings, we  look beyond the boundaries to enhance the functionality and augment features to exceed the expectations of the folks who will be using the product. We engage strategic tools which vary according to specific to the project and client needs. Hence succeeding in obtaining substantial user experience for our clients.
+					</p>
+					<h2>
+						Designing
+					</h2>
+					<p>
+						We stimulate designing a consistent design language, as we move forward through the evolution process of the visual design.During which the user is always kept at the centre of all decisions made. This enables us to make the final product beyond a mere user interface to touch your ideas, but rather to be a recipient and medium of user's euphoria, reactions and feelings which attaches you to your clients enduringly.
 					</p>
 					<p>
-						Technology stack at CodeBibber:
+						We give you the differentiating factor with respect to your competitors, the design, and you will outshine in a crowded marketplace. Our team of designers will strategize your difference that gives you a unique identity.
 					</p>
-					<ul class="ft-lt">
-						<li>Nodejs (JavaScript)</li>
-						<li>Django (Python)</li>
-						<li>CodeIgniter (PHP)</li>
-					</ul>
-					<p style="clear:both;">
-						The process of building a complex web app is 
-						almost similar to that of constructing a building. 
-						If you don't estimate the crowd or the future 
-						disasters then everything would collapse/crash. 
-						We emphasize on the research and planning part to 
-						prevent such mishap.
-					</p>
-					<p>
-						After the analysis and feasibility study, we 
-						move onto the core of our expertise - Design 
-						& Development.
-					</p>
-					<p>
-						We provide more than just a breathtaking design. 
-						We blend it with most efficient algorithms to see 
-						you achieve your business goals through your website. 
-						Heeding to the time restraints, we develop websites that 
-						are responsive to your needs and are ripe to spin the 
-						action wheel at your adjuration.You can handle enormous 
-						databases and sophisticated web applications just like a 
-						piece of cake, when we are through with it. Leave the 
-						users of your website dumb-folded with the splash of 
-						captivating user interface that we design for your very 
-						own website.Attain the ultimate business targets by 
-						providing the trendiest UX designs on your website to 
-						the user's delight and fascination.
-					</p>
-					<p>
-						We provide customised websites that by far, are 
-						guaranteed to exhibit your idea to millions of 
-						mobile application users in a fine and unique 
-						fashion. Be ensured that your website is going to 
-						be the next big thing, as your dream becomes ours. 
-					</p>
-					<!-- <ul class="ft-lt">
-						<li></li>
-					</ul> -->
-					<!-- <ul class="ft-lt">
-						<li></li>
-				    </ul> -->
 				</div>
 			</div>
 		</div>
@@ -180,15 +148,14 @@
 						<i></i>
 						<h5>Request a Quote</h5>
 						<p>
-							<strong>Get your dream Website Developed !</strong>
+							<strong>Get your UI/UX embellished</strong>
 							Quick and easy, simply request a quote by clicking below.
 						</p>
-						<a href="quote/" class="bttn white-btn">Request Quote Today</a>
+						<a href="#" class="bttn white-btn">Request Quote Today</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
 
 </div>	

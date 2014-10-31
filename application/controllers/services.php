@@ -24,28 +24,28 @@ class Services extends CI_Controller {
 	function user_interface_design_service()
 	{
 		$data['title'] = "Services | CodeBibber";
-		$data['page'] = "ui-ux";
+		$data['page'] = "user_interface_design_service";
 		$this->load->view('template',$data);
 	}
 
 	function mobile_development_service()
 	{
 		$data['title'] = "Services | CodeBibber";
-		$data['page'] = "mobile-design";
+		$data['page'] = "mobile_development_service";
 		$this->load->view('template',$data);
 	}
 
 	function enterprise_mobility_service()
 	{
 		$data['title'] = "Services | CodeBibber";
-		$data['page'] = "branding-and-corporate-identity";
+		$data['page'] = "enterprise_mobility_service";
 		$this->load->view('template',$data);
 	}
 
 	function digital_marketing_agency()
 	{
 		$data['title'] = "Services | CodeBibber";
-		$data['page'] = "graphic-design";
+		$data['page'] = "digital_marketing_agency";
 		$this->load->view('template',$data);
 	}
 

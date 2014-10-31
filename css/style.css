@@ -1310,6 +1310,7 @@ background-position: -132px -323px;
 	font-size: 14px;
 	padding-top: 6px;
 	font-family: 'font_2';
+	text-align: justify;
 }
 
 /*****************************/
@@ -1338,6 +1339,7 @@ background-position: -132px -323px;
 	text-decoration: none;
 	font-size: 15px;
 	font-family: 'font_2';
+	text-align: justify;
 }
 .services .services-overview  a{
 	text-decoration: none;
@@ -1510,6 +1512,7 @@ background-position: -132px -323px;
 .content-section p{
 	font-family: 'font_2';
 	font-size: 15px;
+	text-align: justify;
 	color:#000;
 }
 .content-section h2{
@@ -1630,22 +1633,17 @@ background-position: -132px -323px;
 
 
 
-
-
-
 /*****************************/
-/* Start branding-page */
+/* Start enterprise-page */
 /*****************************/
 
-.branding-page .service-banner{
+.enterprise-page .service-banner{
 	background-color: #d15894;
 	color: #fff;
 }
-.branding-page .content-section h2{
-	width: 60%;
-}
+
 /*****************************/
-/* end branding-page */
+/* end enterprise-page */
 /*****************************/
 
 
@@ -1658,13 +1656,11 @@ background-position: -132px -323px;
 /* Start graphic-design-page */
 /*****************************/
 
-.graphic-design-page .service-banner{
+.digital-marketing-page .service-banner{
 	background-color: #21c2bc;
 	color: #fff;
 }
-.graphic-design-page .content-section h2{
-	width: 60%;
-}
+
 /*****************************/
 /* end graphic-design-page */
 /*****************************/
