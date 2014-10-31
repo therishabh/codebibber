@@ -9,9 +9,15 @@ $page_name = uri_string();
 <head>
 	<title><?php echo isset($title) ? $title : "Codebibber"  ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/media.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/media-query.css">
 	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+	<meta name="viewport" content="width=device-width">
+	<!-- for internet explorer 8 -->
+	<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<!-- // end for internet explorer 8 -->
 	
+
 	<!-- add basic jquery -->
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-ui.js"></script>
@@ -34,7 +40,7 @@ $page_name = uri_string();
 
 	<div class="top-header">
 		<div class="row">
-			<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-centered">
+			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-12 col-centered">
 
 				<!-- top header social icons section -->
 				<div class="row">
@@ -95,11 +101,12 @@ $page_name = uri_string();
 	</div>
 
 	<div class="row mobile-menu">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12">
 			
 			<div class="logo">
-				<a href="#">
+				<a href="<?php echo base_url(); ?>">
 					<img src="<?php echo base_url(); ?>images/logo-white.png" alt="Logo Image" >
+					<div class="logo-name">CODE <span>BIBBER</span></div>
 				</a>
 			</div>
 			<div class="menu-icon">
@@ -151,7 +158,7 @@ $page_name = uri_string();
 
 	<!-- menu section -->
 	<div class="row main-menu">
-		<div class="col-lg-10 col-md-10 col-centered">
+		<div class="col-lg-10 col-md-10 col-sm-11 col-centered">
 			<ul class="ft-lt">
 				<li>
 					<a href="<?php echo base_url(); ?>services" <?php echo $page_name == 'services' ? 'class="active"' : '' ?>>
@@ -197,12 +204,12 @@ $page_name = uri_string();
 
 	<div class="row second-menu">
 		<div class="col-lg-10 col-centered">
-			<div class="col-lg-2 col-md-2">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 				<div class="logo">
 					<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>images/logo-white.png" alt=""></a>
 				</div>
 			</div>
-			<div class="col-lg-10 col-md-10">
+			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 				<ul class="first">
 					<li>
 						<a href="<?php echo base_url(); ?>services" <?php echo $page_name == 'services' ? 'class="active"' : '' ?>>

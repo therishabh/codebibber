@@ -17,6 +17,490 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 60px;
+	}
+	.mobile-menu .logo .logo-name {
+		font-size: 16px !important;
+		top: 10px !important;
+		left: 63px !important;
+	}
+
+	.mobile-menu .logo img {
+		height: 40px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 50px;
+	}
+
+	.home-page .banner .play-btn{
+		display: none;
+	}
+
+
+
+
+
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 36px !important;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.services .services-overview p {
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-7{
+
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px; 
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
+	}
+
+}
+/*************************************************************/
+/* // end Responsive web design test on portrait viewport 320 x 480*/
+/*************************************************************/
+
+
+
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on landscape viewport 480 x 320*/
+/*************************************************************/
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) {
+	
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		height: 63px;
+	}
+	.mobile-menu .logo img {
+		height: 43px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 23px;
+		margin-top: 11px;
+	}
+	.mobile-menu ul{
+		top: 53px;
+	}
+	.mobile-menu .logo .logo-name{
+		font-size: 20px; 
+		top: 9px;
+		left: 65px;
+	}
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 40px;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.services .services-overview p {
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px;
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
+	}
+
+}
+
+
+/*************************************************************/
+/* // end Responsive web design test on landscape viewport 480 x 320*/
+/*************************************************************/
+
+
+
+
+/*************************************************************/
+/*Responsive web design test on portrait viewport 320 x 568*/
+/*************************************************************/
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		height: 60px;
+	}
+
+	.mobile-menu .logo img {
+		height: 40px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 50px;
 	}
 
 	.side-bar{
@@ -160,25 +644,59 @@
 		left: 0;
 		right: 0;
 	}
-	
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px; 
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
+	}
 
 
 }
+
 /*************************************************************/
-/* // end Responsive web design test on portrait viewport 320 x 480*/
+/* // end Responsive web design test on portrait viewport 320 x 568*/
 /*************************************************************/
-
-
-
-
 
 
 
 /*************************************************************/
-/*Responsive web design test on landscape viewport 480 x 320*/
+/*Responsive web design test on landscape viewport 568 x 320*/
 /*************************************************************/
-@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) {
-	
+@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
 	.top-header ul.social-icon{
 		text-align: center;
 	}
@@ -193,8 +711,25 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 62px;
 	}
 
+	.mobile-menu .logo img {
+		height: 42px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 52px;
+	}
+	.mobile-menu .logo .logo-name {
+		font-size: 22px;
+		top: 6px;
+		left: 63px;
+	}
 	.side-bar{
 		display: none;
 	}
@@ -217,6 +752,9 @@
 	.services .services-overview h2 a {
 		font-size: 30px;
 	}
+	.services .services-overview p {
+		text-align: justify;
+	}
 	.bttn {
 		font-size: 16px;
 		padding: 9px 15px;
@@ -225,12 +763,9 @@
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.services .services-overview .web.service-section .col-lg-7{
-
-	}
 	.services .services-overview a.ico {
 		width: 175px;
-		top: 15px;
+		top: 20px;
 	}
 	.services .services-overview .web.service-section .col-lg-5 {
 		height: 167px;
@@ -270,63 +805,110 @@
 		left: 0;
 		right: 0;
 	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
 
-}
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
 
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
 
-/*************************************************************/
-/* // end Responsive web design test on landscape viewport 480 x 320*/
-/*************************************************************/
-
-
-
-
-/*************************************************************/
-/*Responsive web design test on portrait viewport 320 x 568*/
-/*************************************************************/
-@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
-	.top-header ul.social-icon{
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px;
 		text-align: center;
 	}
-	.top-header .logo{
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.footer .copyright .footer-logo {
 		display: none;
 	}
-	.main-menu{
-		display: none;
-	}
-	.second-menu{
-		display: none;
-	}
-	.mobile-menu{
-		display: block;
-	}
-
-}
-
-/*************************************************************/
-/* // end Responsive web design test on portrait viewport 320 x 568*/
-/*************************************************************/
-
-
-
-/*************************************************************/
-/*Responsive web design test on landscape viewport 568 x 320*/
-/*************************************************************/
-@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
-	.top-header ul.social-icon{
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
 		text-align: center;
+		bottom: -38px;
 	}
-	.top-header .logo{
-		display: none;
+	.footer .copyright .text {
+		float: none;
 	}
-	.main-menu{
-		display: none;
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
 	}
-	.second-menu{
-		display: none;
-	}
-	.mobile-menu{
-		display: block;
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
 	}
 }
 
@@ -358,6 +940,203 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 60px;
+	}
+
+	.mobile-menu .logo img {
+		height: 40px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 50px;
+	}
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 36px !important;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.services .services-overview p {
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-7{
+
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px; 
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
 	}
 }
 
@@ -387,6 +1166,204 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 62px;
+	}
+
+	.mobile-menu .logo img {
+		height: 42px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 52px;
+	}
+	.mobile-menu .logo .logo-name {
+		font-size: 22px;
+		top: 6px;
+		left: 63px;
+	}
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 40px;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.services .services-overview p {
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px;
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
 	}
 }
 
@@ -416,6 +1393,212 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 60px;
+	}
+
+	.mobile-menu .logo img {
+		height: 40px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 50px;
+	}
+	.mobile-menu .logo .logo-name{
+		font-size: 27px;
+		top: 5px;
+		left: 68px;
+	}
+
+	.side-bar{
+		display: none;
+	}
+	.service-banner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.service-banner h1 {
+		font-size: 36px !important;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.services .services-overview .service-section {
+	 margin-top: 0px; 
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 30px;
+	}
+	.services .services-overview p {
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 16px;
+		padding: 9px 15px;
+	}
+	.services .services-overview {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-7{
+
+	}
+	.services .services-overview a.ico {
+		width: 175px;
+		top: 20px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 {
+		height: 167px;
+	}
+	.services .services-overview .web.service-section .col-lg-5 a{
+		background-size: 1003px;
+		height: 146px;
+		background-position: -809px 0;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .ui-ux.service-section .col-lg-5 {
+		height: 154px;
+	}
+	.services .services-overview .ui-ux.service-section .col-lg-5 a{
+		background-size: 1014px;
+		height: 150px;
+		background-position: -822px -147px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .mobile-design.service-section .col-lg-5 {
+		height: 145px;
+	}
+	.services .services-overview .mobile-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 137px;
+		background-position: -819px -309px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .branding.service-section .col-lg-5 {
+		height: 168px;
+	}
+	.services .services-overview .branding.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 145px;
+		background-position: -818px -455px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	.services .services-overview .graphic-design.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .graphic-design.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -741px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .video-and-media.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .video-and-media.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -607px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+
+	.services .services-overview .seo.service-section .col-lg-5 {
+		height: 100px;
+	}
+	.services .services-overview .seo.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 92px;
+		background-position: -819px -1154px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.services .services-overview .advertising.service-section .col-lg-5 {
+		height: 160px;
+	}
+	.services .services-overview .advertising.service-section .col-lg-5 a{
+		background-size: 1010px;
+		height: 140px;
+		background-position: -819px -877px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	.footer h3 {
+		padding: 5px 15px 5px;
+		font-size: 24px;
+	}
+	.footer ul.social {
+		margin-top: 33px;
+		float: none; 
+		margin-right: 0px; 
+		text-align: center;
+	}
+	.footer ul.social li{
+		display: inline-block;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	.footer .copyright {
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		text-align: center;
+		bottom: -38px;
+	}
+	.footer .copyright .text {
+		float: none;
+	}
+	.footer ul li {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.back-to-top {
+		width: 35px;
+		height: 40px;
+		background-position: 6px -401px;
+		background-size: 979px;
+	}
+	.home-page .home-content .our-approach h2 {
+		font-size: 33px !important;
+		text-align: center !important;
 	}
 }
 
@@ -434,7 +1617,86 @@
 /*************************************************************/
 
 @media screen and (min-width: 600px) and (max-width: 960px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : landscape) {
-/* CSS */ 
+	.top-header .logo img {
+		margin-left: 23px !important;
+		height: 57px !important;
+	}
+	.top-header .logo .logo-name {
+		font-size: 25px !important;
+		top: 11px !important;
+		left: 92px !important;
+
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 18px !important;
+		padding: 9px 11px !important;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 14px !important;
+		padding: 11px 10px !important;
+	}
+	.second-menu .logo img {
+		height: 36px !important;
+		margin-top: 7px !important;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+	.second-menu ul li a {
+		padding: 15px 10px !important;
+	}
+	.home-page .banner {
+		height: 310px !important;
+	}
+	.home-page .banner .play-btn {
+		width: 92px !important;
+		height: 91px !important;
+		background-position: -178px -203px !important;
+		margin-top: 88px !important;
+		margin-left: 144px !important;
+		background-size: 680px !important;
+	}
+	.home-page .banner .info {
+		margin-top: 65px !important;
+	}
+	.home-page .banner .info h1 {
+		font-size: 31px !important;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 19px !important;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2' !important;
+		font-size: 13px !important;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 20px !important;
+		padding: 6px 23px !important;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 20px !important;
+		padding: 6px 23px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 132px !important;
+		padding: 11px 0 !important;
+		font-size: 13px !important;
+	}
+	.home-page .home-content .our-approach h2 {
+		font-size: 33px !important;
+		text-align: center !important;
+	}
 }
 
 
@@ -457,7 +1719,92 @@
 /*************************************************************/
 
 @media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
-/* CSS */ 
+	.top-header .logo img {
+		margin-left: 23px !important;
+		height: 57px !important;
+	}
+	.top-header .logo .logo-name {
+		font-size: 25px !important;
+		top: 11px !important;
+		left: 92px !important;
+
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 18px !important;
+		padding: 9px 11px !important;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 14px !important;
+		padding: 11px 10px !important;
+	}
+
+	.second-menu .logo img {
+		height: 36px !important;
+		margin-top: 7px !important;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 14px 10px !important;
+		font-size: 15px !important;
+	}
+	.second-menu ul li a {
+		padding: 15px 10px !important;
+	}
+
+
+
+
+	.home-page .banner {
+		height: 310px !important;
+	}
+	.home-page .banner .play-btn {
+		width: 92px !important;
+		height: 91px !important;
+		background-position: -178px -203px !important;
+		margin-top: 88px !important;
+		margin-left: 144px !important;
+		background-size: 680px !important;
+	}
+	.home-page .banner .info {
+		margin-top: 65px !important;
+	}
+	.home-page .banner .info h1 {
+		font-size: 31px !important;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 19px !important;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2' !important;
+		font-size: 13px !important;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 20px !important;
+		padding: 6px 23px !important;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 20px !important;
+		padding: 6px 23px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 132px !important;
+		padding: 11px 0 !important;
+		font-size: 13px !important;
+	}
+	.home-page .home-content .our-approach h2 {
+		font-size: 33px !important;
+		text-align: center !important;
+	}
+	
 }
 
 
@@ -478,7 +1825,8 @@
 /*************************************************************/
 
 @media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
-/* CSS */ 
+	
+
 }
 
 

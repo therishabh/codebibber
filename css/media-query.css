@@ -1,0 +1,2319 @@
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width:1500px) {
+	.top-header .logo img {
+		margin-left: 0px;
+		height: 80px;
+	}
+	.top-header .logo .logo-name {
+		font-size: 40px;
+		top: 11px;
+		left: 91px;
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 34px;
+		padding: 17px 22px;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 19px;
+		padding: 27px 18px;
+	}
+	.second-menu .logo img {
+		height: 65px;
+		margin-top: 18px;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 33px 27px;
+		font-size: 27px;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 33px 27px;
+		font-size: 27px;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 33px 27px;
+		font-size: 27px;
+	}
+	.second-menu ul li a {
+		padding: 35px 13px;
+		font-size: 22px;
+	}
+	.home-page .banner .play-btn {
+		width: 124px;
+		height: 124px;
+		background-position: -243px -276px;
+		margin-top: 147px;
+		margin-left: 405px;
+	}
+	.home-page .banner .play-btn:hover {
+		background-position: -379px -276px;
+	}
+	.home-page .banner .info {
+		margin-top: 104px;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 35px;
+	}
+	.home-page .banner .info h1 {
+		font-size: 62px;;
+	}
+	.home-page .banner .info div.first {
+		margin-top: 22px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 22px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 28px;
+		padding: 10px 33px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 28px;
+		padding: 10px 33px;
+	}
+	.home-page .home-content .home-services-overview ul li {
+		width: 32.5%;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 100%;
+		padding: 28px 0;
+		font-size: 19px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 30px;
+		padding-top: 30px;
+		font-size: 62px;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 36px;
+	}
+	.home-page .home-content .our-approach .meet {
+		width: 100%;
+	}
+	.home-page .home-content .our-approach .meet i {
+		width: 209px;
+		height: 140px;
+		background-position: -394px -1311px;
+		margin-right: 0px;
+		margin-top: 32px;
+		margin-left: -10px;
+		background-size: 858px;
+	}
+	.home-page .home-content .our-approach p {
+		font-size: 21px;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 30%;
+		margin-left: 25%;
+		padding-top: 39px;
+	}
+	.home-page .home-content .our-approach .plan i {
+		width: 261px;
+		height: 217px;
+		right: -287px;
+		top: 51px;
+		position: absolute;
+		background-position: -22px -1634px;
+		background-size: 1035px;
+	}
+	.home-page .home-content .our-approach .meet .arrow-one {
+		width: 87px;
+		height: 88px;
+		background-position: 0px 0;
+		position: absolute;
+		bottom: -39px;
+		left: -51px;
+		background-size: 1113px;
+	}
+	.home-page .home-content .our-approach .design .arrow-one {
+		top: -71px;
+		right: 123px;
+		width: 86px;
+		height: 80px;
+		background-position: -91px -98px;
+		background-size: 1111px;
+	}
+	.home-page .home-content .our-approach .design {
+		width: 34%;
+		margin-left: 0%;
+	}
+	.home-page .home-content .our-approach .design i {
+		width: 746px;
+		height: 159px;
+		position: absolute;
+		top: 57px;
+		background-position: 0px 940px;
+		background-size: 1092px;
+		right: -800px;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 25%;
+		margin-top: 42px;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 76px;
+		width: 1112px;
+		height: 408px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 645px;
+		background-size: 1111px;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 23%;
+		position: relative;
+		margin-left: 73%;
+		margin-top: 144px;
+	}
+	.home-page .home-content .our-approach .testing .arrow {
+		width: 173px;
+		height: 119px;
+		background-position: -335px 2px;
+		position: absolute;
+		top: -56px;
+		right: -214px;
+		background-size: 1111px;
+	}
+	.home-sample-work h3 {
+		font-size: 55px;
+		padding: 22px 0;
+	}
+	.view {
+		height: 234px;
+	}
+	.view .mask, .view .content {
+		height: 234px;
+	}
+	.view h2 {
+		font-size: 21px;
+		padding: 12px;
+		margin: 26px 0 0 0;
+	}
+	.view p {
+		font-size: 17px;
+		padding: 10px 10px 10px;
+	}
+	.view a.info {
+		padding: 7px 27px;
+		font-size: 17px;
+	}
+
+	.home-page .blog-news h2{
+		font-size: 40px;
+	}
+	.home-page .blog-news h3 {
+		font-size: 22px;
+	}
+	.home-page .blog-news .bttn {
+		font-size: 20px;
+	}
+	.home-page .blog-news p{
+		font-size: 18px;
+	}
+	.home-page .why-us h2 {
+		font-size: 40px;
+	}
+	.home-page .why-us .get-start-now h2 span {
+		font-size: 22px;
+	}
+	.home-page .why-us .red-btn {
+		font-size: 28px;
+	}
+	.home-page .why-us p {
+		font-size: 17px;
+	}
+	.home-page .why-us .get-start-now i {
+		width: 132px;
+		height: 77px;
+		background-position: -639px -301px;
+		display: block;
+		margin: 24px 0 12px;
+		background-size: 1111px;
+	}
+	.home-page .get-to-know-us h2 {
+		font-size: 40px;
+	}
+	.home-page .get-to-know-us h2 span {
+		font-size: 18px !important;
+	}
+	.footer h3 {
+		padding: 20px 10px 5px;
+		font-size: 30px;
+	}
+	.footer ul li div {
+		font-size: 16px;
+		padding: 4px 10px;
+	}
+	.footer .copyright {
+		position: absolute;
+		right: 0px;
+		bottom: -15px;
+	}
+	.back-to-top {
+		width: 42px;
+		height: 44px;
+		background-position: 11px -396px;
+		background-size: 971px;
+		bottom: 34px;
+		right: 45px;
+	}
+	/*service section*/
+	.side-bar {
+		top: 38px;
+		right: 24px;
+		width: 28%;
+	}
+	.side-bar h6 {
+		font-size: 36px;
+	}
+	.side-bar ul li a {
+		padding: 6px 15px;
+		font-size: 18px;
+	}
+	.service-banner h1 {
+		font-size: 60px;
+	}
+	.service-banner p {
+		text-align: justify;
+		font-size: 18px;
+	}
+	.service-banner .col-lg-8{
+		padding-left: 0px;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview h2 a {
+		font-size: 36px;
+	}
+	.services .services-overview {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.services .services-overview p {
+		font-size: 18px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 20px;
+		padding: 11px 22px;
+	}
+	.services .services-overview .web a.ico {
+		height: 215px;
+		width: 245px;
+		background-position: 270px 2px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 1050px;
+		top: 73px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 185px;
+		width: 245px;
+		background-position: 264px -239px;
+		left: 0;
+		right: 0;
+		background-size: 1050px;
+		margin: auto;
+		top: 65px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 193px;
+		width: 246px;
+		background-position: 263px -456px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 1050px;
+		top: 67px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 204px;
+		width: 249px;
+		background-position: 264px -669px;
+		top: 70px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 1050px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 68px;
+		width: 246px;
+		background-position: 263px -1722px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 1050px;
+		top: 77px;
+	}
+}
+/* end Desktops and laptops ----------- */
+/* end @media only screen and (min-width:1500px)*/
+
+/* iPads (landscape) ----------- */
+@media only screen and (max-width : 1224px) {
+	.top-header .logo img {
+		margin-left: 0px;
+		height: 60px;
+	}
+	.top-header .logo .logo-name {
+		font-size: 28px;
+		top: 9px;
+		left: 69px;
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 23px;
+		padding: 12px 17px;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 15px;
+		padding: 17px 12px;
+	}
+
+	.second-menu .logo img {
+		height: 40px;
+		margin-top: 10px;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 17px 13px;
+		font-size: 18px;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 17px 13px;
+		font-size: 18px;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 17px 13px;
+		font-size: 18px;
+	}
+	.second-menu ul li a {
+		padding: 19px 13px;
+	}
+	.home-page .banner {
+		height: 350px;
+	}
+	.home-page .banner .play-btn {
+		width: 100px;
+		height: 100px;
+		background-position: -197px -224px;
+		margin-top: 92px;
+		margin-left: 220px;
+		background-size: 750px;
+	}
+	.home-page .banner .play-btn:hover {
+		background-position: -307px -224px;
+	}
+	.home-page .banner .info {
+		margin-top: 67px;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 27px;
+	}
+	.home-page .banner .info h1 {
+		font-size: 42px;
+	}
+	.home-page .banner .info div.first {
+		margin-top: 15px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 16px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 23px;
+		padding: 7px 25px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 23px;
+		padding: 7px 25px;
+	}
+	.home-page .home-content .home-services-overview ul li {
+		width: 32.5%;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 100%;
+		padding: 14px 0;
+		font-size: 14px;
+	}
+	.home-page .home-content .home-services-overview ul li a i {
+		height: 62px;
+		margin: 0 auto 7px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 20px;
+		padding-top: 19px;
+		font-size: 42px;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 29px;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design {
+		padding-top: 10px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design i {
+		width: 50px !important;
+		background-position: -126px -169px !important;
+		background-size: 769px !important;
+		height: 46px !important;
+	}
+	.home-page .home-content .our-approach .meet {
+		width: 100%;
+	}
+	.home-page .home-content .our-approach .meet i {
+		width: 157px;
+		height: 105px;
+		background-position: -290px -961px;
+		margin-right: 0px;
+		background-size: 629px;
+		margin-top: 32px;
+		margin-left: -10px;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 32%;
+		margin-left: 23%;
+	}
+	.home-page .home-content .our-approach .plan i {
+		width: 183px;
+		height: 152px;
+		right: -222px;
+		top: 45px;
+		position: absolute;
+		background-size: 705px;
+		background-position: -13px -1112px;
+	}
+	.home-page .home-content .our-approach .design .arrow-one {
+		top: -50px;
+		right: 82px;
+	}
+	.home-page .home-content .our-approach .design {
+		width: 34%;
+		margin-left: 0%;
+	}
+	.home-page .home-content .our-approach .design i {
+		width: 478px;
+		height: 102px;
+		position: absolute;
+		top: 72px;
+		background-position: 0px 603px;
+		background-size: 700px;
+		right: -506px;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 29%;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 76px;
+		width: 674px;
+		height: 251px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 393px;
+		background-size: 674px;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 29%;
+		position: relative;
+		margin-left: 65%;
+		margin-top: 80px;
+	}
+	.home-page .home-content .our-approach .testing .arrow {
+		width: 107px;
+		height: 75px;
+		background-position: -195px -70px;
+		position: absolute;
+		top: -43px;
+		right: -131px;
+		background-size: 666px;
+	}
+	.home-sample-work h3 {
+		font-size: 34px;
+		padding: 22px 0;
+	}
+	.view {
+		height: 149px;
+	}
+	.view h2 {
+		font-size: 14px;
+		padding: 8px;
+		margin: 11px 0 0 0;
+	}
+	.view p {
+		font-size: 11px;
+		padding: 2px 10px 2px;
+	}
+	.view a.info {
+		padding: 4px 15px;
+		font-size: 12px;
+	}
+	.home-page .blog-news h2{
+		font-size: 28px;
+	}
+	.home-page .blog-news h3 {
+		font-size: 16px;
+	}
+	.home-page .blog-news .bttn {
+		font-size: 17px;
+	}
+	.home-page .why-us h2 {
+		font-size: 31px;
+	}
+	.home-page .why-us .get-start-now h2 span {
+		font-size: 17px;
+	}
+	.home-page .why-us .red-btn {
+		font-size: 23px;
+	}
+	.home-page .get-to-know-us h2 {
+		font-size: 31px;
+	}
+	.home-page .get-to-know-us h2 span {
+		font-size: 15px !important;
+	}
+	.footer h3 {
+		padding: 20px 10px 5px;
+		font-size: 25px;
+	}
+	.footer ul li div {
+		font-size: 14px;
+		padding: 4px 10px;
+	}
+	.footer .copyright {
+		position: absolute;
+		right: 4px;
+		bottom: -17px;
+	}
+	.back-to-top {
+		width: 42px;
+		height: 44px;
+		background-position: 11px -396px;
+		background-size: 971px;
+		bottom: 31px;
+	}
+
+	/*service section*/
+	.side-bar {
+		top: 38px;
+		right: 24px;
+		width: 28%;
+	}
+	.side-bar h6 {
+		font-size: 29px;
+	}
+	.service-banner h1 {
+		font-size: 42px;
+	}
+	.service-banner p {
+		text-align: justify;
+		font-size: 15px;
+	}
+	.service-banner .col-lg-8{
+		padding-left: 0px;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview h2 a {
+		font-size: 29px;
+	}
+	.services .services-overview {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.services .services-overview p {
+		font-size: 15px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 15px;
+		padding: 9px 16px;
+	}
+	.services .services-overview .web a.ico {
+		height: 159px;
+		width: 181px;
+		background-position: 201px 1px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 780px;
+		top: 73px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 141px;
+		width: 180px;
+		background-position: 195px -175px;
+		left: 0;
+		right: 0;
+		background-size: 780px;
+		margin: auto;
+		top: 65px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 144px;
+		width: 184px;
+		background-position: 197px -338px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 780px;
+		top: 67px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 154px;
+		width: 185px;
+		background-position: 197px -495px;
+		top: 70px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 780px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 51px;
+		width: 185px;
+		background-position: 198px -1278px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 780px;
+		top: 77px;
+	}
+	
+	.content-section p{
+		text-align: justify;
+		font-size: 15px;
+		padding: 0px 10px;
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.web-design .home-sample-work {
+		margin-top: 30px;
+	}
+	.footer-action .generation-info {
+		width: 85%;
+		margin-left: 10px;
+	}
+	.footer-action h5 {
+		font-size: 33px;
+	}
+	.footer-action p {
+		font-size: 14px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+	}
+	.footer-action .request-quote i {
+		width: 91px;
+		height: 77px;
+		position: absolute;
+		bottom: -50px;
+		right: 38px;
+		background-position: -804px -2712px;
+		background-size: 582px;
+	}
+	.footer-action .generation-info i {
+		width: 80px;
+		height: 76px;
+		position: absolute;
+		bottom: -29px;
+		right: 43px;
+		background-position: -905px -2712px;
+		background-size: 582px;
+	}
+	
+}
+/* iPads (landscape) ----------- */
+/* end @media only screen and (max-width : 1224px) */
+
+
+/* iPads (portrait) ----------- */
+@media only screen and (max-width : 1024px) {
+	.top-header .logo img {
+		margin-left: 0px;
+		height: 57px;
+	}
+	.top-header .logo .logo-name {
+		font-size: 25px;
+		top: 11px;
+		left: 68px;
+
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 18px;
+		padding: 9px 11px;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 14px;
+		padding: 11px 10px;
+	}
+
+	.second-menu .logo img {
+		height: 36px;
+		margin-top: 7px;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+	.second-menu ul li a {
+		padding: 15px 10px;
+	}
+
+	.home-page .banner {
+		height: 330px;
+	}
+	.home-page .banner .play-btn {
+		width: 100px;
+		height: 100px;
+		background-position: -197px -224px;
+		margin-top: 81px;
+		margin-left: 242px;
+		background-size: 750px;
+	}
+	.home-page .banner .play-btn:hover {
+		background-position: -307px -224px;
+	}
+	.home-page .banner .info {
+		margin-top: 54px;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 26px;
+	}
+	.home-page .banner .info h1 {
+		font-size: 39px;
+	}
+	.home-page .banner .info div.first {
+		margin-top: 14px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 15px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 22px;
+		padding: 6px 23px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 22px;
+		padding: 6px 23px;
+	}
+
+	.home-page .home-content .home-services-overview ul li a {
+		width: 130px;
+		padding: 14px 0;
+		font-size: 14px;
+	}
+	.home-page .home-content .home-services-overview ul li a i {
+		height: 62px;
+		margin: 0 auto 7px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 20px;
+		padding-top: 17px;
+		font-size: 40px;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 28px;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design {
+		padding-top: 10px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design i {
+		width: 50px !important;
+		background-position: -126px -169px !important;
+		background-size: 769px !important;
+		height: 46px !important;
+	}
+	.home-page .home-content .our-approach .meet {
+		width: 100%;
+	}
+	.home-page .home-content .our-approach .meet i {
+		width: 154px;
+		height: 105px;
+		background-position: -285px -949px;
+		margin-right: 0px;
+		background-size: 621px;
+		margin-top: 27px;
+		margin-left: -15px;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 31%;
+	}
+	.home-page .home-content .our-approach .plan i {
+		width: 183px;
+		height: 152px;
+		right: -222px;
+		top: 45px;
+		position: absolute;
+		background-size: 691px;
+		background-position: -9px -1091px;
+	}
+	.home-page .home-content .our-approach .design {
+		width: 32%;
+	}
+	.home-page .home-content .our-approach .design i {
+		width: 458px;
+		height: 98px;
+		right: -488px;
+		position: absolute;
+		top: 89px;
+		background-position: 0px 576px;
+		background-size: 668px;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 29%;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 65px;
+		width: 674px;
+		height: 251px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 393px;
+		background-size: 674px;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 28%;
+		position: relative;
+		margin-left: 69%;
+		margin-top: 77px;
+	}
+	.home-page .home-content .our-approach .testing .arrow {
+		width: 107px;
+		height: 75px;
+		background-position: -195px -70px;
+		position: absolute;
+		top: -43px;
+		right: -131px;
+		background-size: 666px;
+	}
+	.view {
+		height: 142px;
+	}
+	.view h2 {
+		font-size: 13px;
+		padding: 7px;
+		margin: 11px 0 0 0;
+	}
+	.view p {
+		font-size: 11px;
+		padding: 2px 10px 2px;
+	}
+	.view a.info {
+		padding: 4px 15px;
+		font-size: 11px;
+	}
+	.home-page .blog-news h2{
+		font-size: 28px;
+	}
+	
+	.home-page .why-us h2 {
+		font-size: 29px;
+	}
+	.home-page .why-us .get-start-now h2 span {
+		font-size: 18px;
+	}
+	.home-page .why-us .red-btn {
+		font-size: 23px;
+	}
+	.home-page .get-to-know-us h2 {
+		font-size: 29px;
+	}
+	.home-page .get-to-know-us h2 span {
+		font-size: 14px !important;
+	}
+	.home-sample-work h3 {
+		font-size: 29px;
+		padding: 22px 0;
+	}
+	.footer h3 {
+		padding: 20px 10px 5px;
+		font-size: 23px;
+	}
+	.footer ul li div {
+		font-size: 13px;
+		padding: 4px 10px;
+	}
+	.footer .copyright {
+		position: absolute;
+		right: 42px;
+		bottom: -17px;
+	}
+	.back-to-top {
+		width: 39px;
+		height: 43px;
+		background-position: 8px -396px;
+		background-size: 971px;
+		bottom: 31px;
+	}
+	.side-bar {
+		top: 36px;
+		right: 24px;
+		width: 28%;
+	}
+	.side-bar h6 {
+		font-size: 27px;
+	}
+
+	/*service section*/
+	.service-banner h1 {
+		font-size: 40px;
+	}
+	.service-banner p {
+		text-align: justify;
+		font-size: 14px;
+	}
+	.service-banner .col-lg-8{
+		padding-left: 0px;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview h2 a {
+		font-size: 28px;
+	}
+	.services .services-overview {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.services .services-overview p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 15px;
+		padding: 9px 16px;
+	}
+	.services .services-overview .web a.ico {
+		height: 153px;
+		width: 173px;
+		background-position: 191px 1px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 744px;
+		top: 73px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 134px;
+		width: 173px;
+		background-position: 186px -167px;
+		left: 0;
+		right: 0;
+		background-size: 744px;
+		margin: auto;
+		top: 62px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 136px;
+		width: 175px;
+		background-position: 187px -323px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 744px;
+		top: 63px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 147px;
+		width: 177px;
+		background-position: 188px -473px;
+		top: 70px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 744px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 48px;
+		width: 177px;
+		background-position: 188px -1220px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 744px;
+		top: 77px;
+	}
+	.content-section p{
+		text-align: justify;
+		font-size: 15px;
+		padding: 0px 10px;
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.web-design .home-sample-work {
+		margin-top: 30px;
+	}
+	.footer-action .generation-info {
+		width: 85%;
+		margin-left: 10px;
+	}
+	.footer-action h5 {
+		font-size: 33px;
+	}
+	.footer-action p {
+		font-size: 14px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+	}
+	.footer-action .request-quote i {
+		width: 91px;
+		height: 77px;
+		position: absolute;
+		bottom: -50px;
+		right: 38px;
+		background-position: -804px -2712px;
+		background-size: 582px;
+	}
+	.footer-action .generation-info i {
+		width: 80px;
+		height: 76px;
+		position: absolute;
+		bottom: -29px;
+		right: 43px;
+		background-position: -905px -2712px;
+		background-size: 582px;
+	}
+}
+/*end @media only screen and (max-width : 1024px)*/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (max-width : 768px) {
+	.top-header .logo img {
+		margin-left: 0px;
+		height: 53px;
+	}
+	.top-header .logo .logo-name {
+		font-size: 23px;
+		top: 11px;
+		left: 64px;
+	}
+	.main-menu ul.ft-lt li a {
+		font-size: 16px;
+		padding: 9px 10px;
+	}
+	.main-menu ul.ft-rt li a {
+		font-size: 14px;
+		padding: 11px 10px;
+	}
+	.second-menu .logo img {
+		height: 36px;
+		margin-top: 7px;
+	}
+	.second-menu ul li:nth-child(1) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+
+	.second-menu ul li:nth-child(2) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+
+	.second-menu ul li:nth-child(3) a {
+		padding: 14px 10px;
+		font-size: 15px;
+	}
+	.second-menu ul li a {
+		padding: 15px 10px;
+	}
+	.home-page .banner {
+		height: 330px;
+	}
+	.home-page .banner .play-btn {
+		width: 80px;
+		height: 80px;
+		background-position: -156px -177px;
+		margin-top: 81px;
+		margin-left: 141px;
+		background-size: 594px;
+	}
+	.home-page .banner .play-btn:hover {
+		background-position: -243px -177px;
+	}
+	.home-page .banner .info {
+		margin-top: 38px;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 22px;
+		margin-bottom: 7px;
+	}
+	.home-page .banner .info h1 {
+		font-size: 31px;
+	}
+	.home-page .banner .info div.first {
+		margin-top: 14px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 14px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 18px;
+		padding: 6px 21px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 18px;
+		padding: 6px 21px;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 100%;
+		padding: 28px 0;
+		font-size: 17px;
+	}
+	.home-page .home-content .home-services-overview ul li a i {
+		height: 62px;
+		margin: 0 auto 7px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 20px;
+		padding-top: 17px;
+		font-size: 37px;
+		text-align: center;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 26px;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design {
+		padding-top: 28px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design i {
+		width: 60px !important;
+		background-position: -152px -198px !important;
+		background-size: 920px !important;
+		height: 62px !important;
+	}
+	.home-page .home-content .our-approach .meet {
+		width: 100%;
+	}
+	.home-page .home-content .our-approach .meet .col-lg-8{
+		float: left;
+		width: 50%;
+	}
+	.home-page .home-content .our-approach .meet .col-lg-4{
+		float: left;
+	}
+	.home-page .home-content .our-approach .meet i {
+		width: 154px;
+		height: 105px;
+		background-position: -285px -949px;
+		margin-right: 0px;
+		background-size: 621px;
+		margin-top: 27px;
+		margin-left: 25px;
+	}
+	.home-page .home-content .our-approach .meet .arrow-one {
+		display: none;
+	}
+	.home-page .home-content .our-approach .meet p {
+		width: 80%;
+		float: right;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 38%;
+		margin-left: 10%;
+	}
+	.home-page .home-content .our-approach .design .arrow-one {
+		display: none;
+	}
+	.home-page .home-content .our-approach .design {
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.home-page .home-content .our-approach .design h3{
+		text-align: center;
+	}
+	
+	.home-page .home-content .our-approach .design i {
+		width: 458px;
+		height: 98px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		position: absolute;
+		top: 62px;
+		background-position: 0px 576px;
+		background-size: 668px;
+	}
+	.home-page .home-content .our-approach .design p {
+		margin-top: 120px;
+		text-align: left;
+	}
+	.home-page .home-content .our-approach .testing-launch {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.home-page .home-content .our-approach .testing .arrow{
+		display: none;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 40%;
+		float: left;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 38%;
+		position: relative;
+		margin-left: 58%;
+		margin-top: 43px;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 199px;
+		width: 530px;
+		height: 197px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 308px;
+		background-size: 530px;
+	}
+	.home-sample-work {
+		margin-top: 176px;
+	}
+	.home-page .blog-news h2 {
+		font-size: 26px;
+	}
+	.home-page .blog-news .bttn {
+		font-size: 15px;
+	}
+	.home-page .blog-news h3 {
+		font-size: 15px;
+	}
+	.home-page .why-us {
+		padding: 20px 20px;
+	}
+	.home-page .why-us p {
+		width: 100%;
+		text-align: justify;
+	}
+	.home-page .why-us .get-start-now{
+		margin-top: 50px;
+		text-align: center;
+	}
+	.home-page .why-us .get-start-now i {
+		margin: auto;
+	}
+	.home-page .why-us h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+	.home-page .why-us .get-start-now h2 span {
+		font-size: 17px;
+	}
+	.home-page .why-us .get-start-now p {
+		text-align: center;
+	}
+	.home-page .get-to-know-us h2 {
+		font-size: 26px;
+	}
+
+	.footer .copyright {
+		position: absolute;
+		right: 76px;
+		bottom: -21px;
+	}
+	.footer ul.social {
+		margin-top: 25px;
+		margin-bottom: 25px;
+		float: none;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.footer ul.social li {
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		padding-left: 18px;
+	}
+	
+
+	/*service section*/
+	.service-banner h1 {
+		font-size: 36px;
+	}
+	.service-banner h1 span {
+		font-size: 14px;
+	}
+	.side-bar{
+		display: none;
+	}
+	.service-banner{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.service-banner p {
+		text-align: justify;
+		font-size: 15px;
+	}
+	.service-banner .col-lg-8{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview h2 a {
+		font-size: 29px;
+	}
+	.services .services-overview {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.services .services-overview p {
+		font-size: 15px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 15px;
+		padding: 8px 14px;
+	}
+	.services .services-overview .web a.ico {
+		height: 132px;
+		width: 150px;
+		background-position: 165px 2px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 644px;
+		top: 63px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 120px;
+		width: 151px;
+		background-position: 162px -278px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 644px;
+		top: 56px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 118px;
+		width: 150px;
+		background-position: 162px -144px;
+		left: 0;
+		right: 0;
+		background-size: 644px;
+		margin: auto;
+		top: 62px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 128px;
+		width: 154px;
+		background-position: 163px -409px;
+		top: 62px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 644px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 45px;
+		width: 152px;
+		background-position: 162px -1055px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 644px;
+		top: 77px;
+	}
+	/* // end service section*/
+
+	.content-section .col-lg-10 {
+		padding-left: 15px;
+	}
+	.content-section p{
+		text-align: justify;
+		font-size: 15px;
+		padding: 0px 10px;
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.web-design .home-sample-work {
+		margin-top: 30px;
+	}
+	.footer-action .generation-info {
+		width: 100%;
+		margin-left: 10px;
+	}
+	.footer-action h5 {
+		font-size: 33px;
+	}
+	.footer-action p {
+		font-size: 14px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+	}
+	.footer-action .request-quote i {
+		width: 91px;
+		height: 77px;
+		position: absolute;
+		bottom: -29px;
+		right: 38px;
+		background-position: -804px -2712px;
+		background-size: 582px;
+	}
+	.footer-action .generation-info i {
+		width: 80px;
+		height: 76px;
+		position: absolute;
+		bottom: -29px;
+		right: 20px;
+		background-position: -905px -2712px;
+		background-size: 582px;
+	}
+	.footer-action .col-lg-6{
+		width: 49.5%;
+		float: left;
+	}
+}
+/* end @media only screen and (max-width : 768px)*/
+
+/* Big smartphones (portrait) (ie: Galaxy 3 has 360)*/
+@media only screen and (max-width : 640px) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		height: 60px;
+	}
+	.mobile-menu .logo .logo-name {
+		font-size: 16px !important;
+		top: 10px !important;
+		left: 63px !important;
+	}
+
+	.mobile-menu .logo img {
+		height: 40px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 22px;
+		margin-top: 9px;
+	}
+	.mobile-menu ul{
+		top: 50px;
+	}
+	.mobile-menu ul li a {
+		font-size: 14px;
+	}
+	.home-page .banner {
+		height: 300px;
+	}
+	.home-page .banner .play-btn{
+		display: none;
+	}
+	.home-page .banner .info {
+		margin-top: 57px;
+	}
+	.home-page .banner .info h1 span {
+		font-size: 15px;
+		margin-bottom: 6px;
+	}
+	.home-page .banner .info h1 {
+		font-size: 20px;
+	}
+	.home-page .banner .info div.first {
+		margin-top: 9px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 13px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 15px;
+		padding: 6px 11px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 15px;
+		padding: 6px 11px;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 100%;
+		padding: 28px 0;
+		font-size: 13px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 20px;
+		padding-top: 17px;
+		font-size: 31px;
+		text-align: center;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 23px;
+	}
+	.home-page .home-content .our-approach p {
+		font-size: 14px;
+	}
+	.home-page .home-content .our-approach .meet p {
+		width: 85%;
+		float: right;
+	}
+	.home-page .home-content .our-approach .meet i {
+		margin-top: 50px;
+		margin-left: 11px;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 41%;
+		margin-left: 6%;
+	}
+	.home-page .home-content .our-approach .plan i {
+		right: -200px;
+		top: 57px;
+	}
+	.home-page .home-content .our-approach .design i {
+		width: 398px;
+		height: 87px;
+		top: 68px;
+		background-position: 0px 503px;
+		background-size: 582px;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 43%;
+		float: left;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 42%;
+		position: relative;
+		margin-left: 54%;
+		margin-top: 43px;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 208px;
+		width: 387px;
+		height: 145px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 226px;
+		background-size: 387px;
+	}
+	.home-sample-work {
+		margin-top: 148px;
+	}
+	.view {
+		height: 89px;
+		margin: 30px 4px;
+	}
+	.view p{
+		display:none;
+	}
+	.view a.info {
+		padding: 4px 15px;
+		font-size: 11px;
+		margin-top: 10px;
+	}
+	.home-page .blog-news .blog-section i {
+		width: 30px;
+		height: 34px;
+		margin: 15px 0 10px 1px;
+		display: block;
+		background-position: -927px 0px;
+		background-size: 565px;
+	}
+	.home-page .blog-news .news-section i {
+		width: 30px;
+		height: 34px;
+		margin: 15px 0 10px 1px;
+		display: block;
+		background-position: -927px -35px;
+		background-size: 565px;
+	}
+	.home-page .blog-news h2 {
+		font-size: 24px;
+	}
+	.home-page .blog-news .bttn {
+		font-size: 14px;
+		padding: 6px 19px;
+	}
+	.home-page .why-us h2 {
+		font-size: 24px;
+		text-align: center;
+	}
+	.home-page .why-us .red-btn {
+		font-size: 20px;
+	}
+	.home-page .get-to-know-us a {
+		display: inline-block;
+		width: 47px;
+		height: 45px;
+		margin: 10px;
+	}
+	.footer h3 {
+		padding: 20px 10px 5px;
+		font-size: 21px;
+	}
+	.footer .copyright {
+		position: absolute;
+		right: 76px;
+		bottom: -42px;
+	}
+	.back-to-top {
+		width: 31px;
+		height: 32px;
+		background-position: 7px -347px;
+		background-size: 844px;
+	}
+	.footer .copyright .text {
+		float: left;
+		font-family: 'font_1';
+		font-size: 12px;
+		margin-top: 6px;
+	}
+	.footer .copyright .footer-logo img {
+		height: 31px;
+	}
+
+	.footer ul.social {
+		margin-top: 25px;
+		margin-bottom: 11px;
+		float: none;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.footer ul.social li {
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		padding-left: 18px;
+	}
+
+	/*service section*/
+	.service-banner h1 {
+		font-size: 31px;
+	}
+	.service-banner h1 span {
+		font-size: 13px;
+	}
+	.side-bar{
+		display: none;
+	}
+	.service-banner{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.service-banner p {
+		text-align: justify;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview h2{
+		/*text-align: center;*/
+	}
+	.services .services-overview h2 a {
+		font-size: 26px;
+	}
+	.services .services-overview {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.services .services-overview p {
+		font-size: 14px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 14px;
+		padding: 7px 13px;
+	}
+	.services .services-overview .web a.ico {
+		height: 120px;
+		width: 136px;
+		background-position: 149px 2px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 582px;
+		top: 88px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 107px;
+		width: 137px;
+		background-position: 147px -253px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 582px;
+		top: 69px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 104px;
+		width: 137px;
+		background-position: 147px -132px;
+		left: 0;
+		right: 0;
+		background-size: 582px;
+		margin: auto;
+		top: 68px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 115px;
+		width: 137px;
+		background-position: 147px -370px;
+		top: 81px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 582px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 47px;
+		width: 137px;
+		background-position: 147px -949px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 582px;
+		top: 77px;
+	}
+	/* // end service section*/
+
+	.content-section .col-lg-10 {
+		padding-left: 15px;
+	}
+	.content-section p{
+		text-align: justify;
+		font-size: 14px;
+		padding: 0px 10px;
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.web-design .home-sample-work {
+		margin-top: 30px;
+	}
+	.footer-action .generation-info {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.footer-action h5 {
+		font-size: 29px;
+	}
+	.footer-action p {
+		font-size: 14px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+		margin-top: 31px;
+	}
+	.footer-action .request-quote i {
+		width: 91px;
+		height: 77px;
+		position: absolute;
+		bottom: -29px;
+		right: 38px;
+		background-position: -804px -2712px;
+		background-size: 582px;
+	}
+	.footer-action .generation-info i {
+		width: 80px;
+		height: 76px;
+		position: absolute;
+		bottom: -33px;
+		right: 20px;
+		background-position: -905px -2712px;
+		background-size: 582px;
+	}
+	.footer-action {
+		padding-left: 10px;
+	}
+	.footer-action .col-lg-6{
+		width: 100%;
+		float: none;
+	}
+
+}
+
+
+/* Smartphones (portrait) (ie: Galaxy 1) */
+@media only screen and (max-width : 375px) {
+	.top-header ul.social-icon{
+		text-align: center;
+	}
+	.top-header .logo{
+		display: none;
+	}
+	.main-menu{
+		display: none;
+	}
+	.second-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+		height: 51px;
+	}
+	.mobile-menu .logo .logo-name {
+		font-size: 15px !important;
+		top: 6px !important;
+		left: 55px !important;
+	}
+
+	.mobile-menu .logo img {
+		height: 33px;
+	}
+	
+	.mobile-menu .menu-icon img {
+		height: 19px;
+		margin-top: 4px;
+	}
+	.mobile-menu ul{
+		top: 41px;
+	}
+	.mobile-menu ul li a {
+		font-size: 13px;
+	}
+	.home-page .banner {
+		height: 180px;
+		background-size: 771px;
+	}
+	.home-page .banner .banner-content{
+		width: 100%;
+	}
+	.home-page .banner .play-btn{
+		display: none;
+	}
+	.home-page .banner .info {
+		margin-top: 20px;
+		color: #FFF;
+		margin-left: 43%;
+	}
+
+	.home-page .banner .info h1 span {
+		font-size: 13px;
+		margin-bottom: 4px;
+		font-family: 'font_2';
+	}
+	.home-page .banner .info h1 {
+		font-size: 14px;
+		font-family: 'font_2';
+	}
+	.home-page .banner .info div.first {
+		margin-top: 9px;
+	}
+	.home-page .banner .info div {
+		font-family: 'font_2';
+		font-size: 11px;
+	}
+	.home-page .banner .info div.link {
+		margin-top: 9px;
+	}
+	.home-page .banner .info div.link a.quote {
+		font-size: 12px;
+		padding: 5px 9px;
+	}
+	.home-page .banner .info div.link a.discover {
+		font-size: 12px;
+		padding: 5px 9px;
+	}
+	.home-page .home-content .home-services-overview ul li {
+		width: 49%;
+	}
+	.home-page .home-content .home-services-overview ul li a.web-design i {
+		width: 48px;
+		height: 43px;
+		background-position: 0px -128px;
+		background-size: 600px;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design i {
+		width: 41px !important;
+		background-position: -97px -129px !important;
+		background-size: 600px !important;
+		height: 41px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.mobile-design {
+		padding-top: 17px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.ui-ux i {
+		width: 47px;
+		height: 39px;
+		background-position: -49px -129px;
+		background-size: 600px;
+	}
+	.home-page .home-content .home-services-overview ul li a.enterprises i {
+		width: 41px !important;
+		background-position: -97px -129px !important;
+		background-size: 600px !important;
+		height: 41px !important;
+	}
+	.home-page .home-content .home-services-overview ul li a.digital i {
+		width: 41px;
+		height: 33px;
+		background-position: -137px -128px;
+		background-size: 600px;
+	}
+	.home-page .home-content .home-services-overview ul li a {
+		width: 100%;
+		padding: 15px 0;
+		font-size: 13px;
+	}
+	.home-page .home-content .our-approach h2 {
+		padding-bottom: 14px;
+		padding-top: 11px;
+		font-size: 26px;
+		text-align: center;
+		line-height: 1.2;
+	}
+	.home-page .home-content .our-approach .meet .col-lg-8 {
+		float: none; 
+		width: 100%;
+	}
+	.home-page .home-content .our-approach h3 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.home-page .home-content .our-approach p {
+		font-size: 13px;
+		text-align: justify;
+	}
+	.home-page .home-content .our-approach .meet .col-lg-4 {
+		float: none;
+		width: 100%;
+	}
+	.home-page .home-content .our-approach .meet p {
+		width: 100%;
+		float: none;
+		text-align: justify;
+		font-size: 13px;
+		margin-top: 120px;
+	}
+	.home-page .home-content .our-approach .meet i {
+		top: -244px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.home-page .home-content .our-approach .plan {
+		width: 100%;
+		margin-left: 0%;
+	}
+	.home-page .home-content .our-approach .plan i {
+		right: 0px;
+		top: 69px;
+		left: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 147px;
+		height: 126px;
+		background-size: 581px;
+		background-position: -12px -916px;
+	}
+	.home-page .home-content .our-approach .plan p{
+		padding-top: 138px;
+	}
+	.home-page .home-content .our-approach .design {
+		width: 100%;
+		 padding-left: 0%; 
+		 padding-right: 0%; 
+	}
+	.home-page .home-content .our-approach .design i {
+		width: 272px;
+		height: 58px;
+		top: 68px;
+		background-position: 0px 343px;
+		background-size: 397px;
+	}
+	.home-page .home-content .our-approach .design p {
+		margin-top: 97px;
+		text-align: justify;
+	}
+	.home-page .home-content .our-approach .testing-launch {
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.home-page .home-content .our-approach .testing {
+		width: 100%;
+		float: none;
+		margin-top: 9px;
+	}
+	.home-page .home-content .our-approach .launch {
+		width: 100%;
+		position: relative;
+		margin-left: 0%;
+		margin-top: 111px;
+	}
+	.home-page .home-content .our-approach .testing-launch i {
+		position: absolute;
+		top: 139px;
+		width: 266px;
+		height: 102px;
+		margin: auto;
+		left: 0;
+		right: 0;
+		background-position: 0px 155px;
+		background-size: 266px;
+	}
+	.home-sample-work {
+		margin-top: 18px;
+	}
+	.home-sample-work h3 {
+		font-size: 21px;
+		padding: 22px 0;
+	}
+	.home-sample-work .inner {
+		padding: 20px 0px;
+	}
+	.view {
+		height: 101px;
+		margin: 5px 3px;
+		width: 47%;
+	}
+	.view a.info {
+		margin-top: 25px;
+	}
+	.home-page .blog-news h2 {
+		font-size: 22px;
+	}
+	.home-page .blog-news h3 {
+		font-size: 14px;
+	}
+	.home-page .blog-news p{
+		font-size: 13px;
+		text-align: justify;
+	}
+	.home-page .why-us h2 {
+		font-size: 22px;
+		text-align: center;
+	}
+	.home-page .why-us p {
+		font-size: 13px;
+	}
+	.home-page .why-us h2 {
+		font-size: 21px;
+		text-align: center;
+		line-height: 1.5;
+	}
+	.home-page .why-us .get-start-now h2 span {
+		font-size: 16px;
+	}
+	.home-page .why-us .red-btn {
+		font-size: 19px;
+	}
+	.home-page .get-to-know-us h2 {
+		font-size: 23px;
+	}
+	.home-page .get-to-know-us h2 span {
+		font-size: 11px !important;
+	}
+	.home-page .get-to-know-us a {
+		width: 32px;
+		height: 38px;
+		margin: 4px;
+	}
+	.footer h3 {
+		padding: 11px 9px 0px;
+		font-size: 19px;
+	}
+	.footer .copyright {
+		right: 15px;
+		bottom: -39px;
+	}
+	.footer .copyright .footer-logo {
+		display: none;
+	}
+	
+	.footer ul.social {
+		margin-top: 25px;
+		margin-bottom: 11px;
+		float: none;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.footer ul.social li {
+		display: inline-block;
+		position: relative;
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	/*service section*/
+	.service-banner h1 {
+		font-size: 26px;
+	}
+	.service-banner h1 span {
+		font-size: 12px;
+	}
+	.side-bar{
+		display: none;
+	}
+	.service-banner{
+		padding-left: 15px;
+		padding-right: 0px;
+	}
+	.service-banner p {
+		text-align: justify;
+		font-size: 14px;
+	}
+	.services .services-overview .service-section {
+		margin-top: 0px;
+	}
+	.services .services-overview .service-section .col-xs-4{
+		width: 100%;
+	}
+	.services .services-overview .service-section .col-xs-8{
+		width: 100%;
+	}
+	.services .services-overview h2{
+		text-align: center;
+	}
+	.services .services-overview h2 a {
+		font-size: 24px;
+	}
+	.services .services-overview {
+		padding-left: 15px;
+	}
+	.services .services-overview p {
+		font-size: 14px;
+		padding-top: 109px;
+		text-align: justify;
+	}
+	.bttn {
+		font-size: 14px;
+		padding: 7px 13px;
+	}
+	.services .services-overview .web a.ico {
+		height: 103px;
+		width: 116px;
+		background-position: 128px 0px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 500px;
+		top: 63px;
+	}
+	.services .services-overview .mobile-design a.ico {
+		height: 94px;
+		width: 120px;
+		background-position: 127px -216px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		background-size: 500px;
+		top: 69px;
+	}
+	.services .services-overview .ui-ux a.ico {
+		height: 91px;
+		width: 121px;
+		background-position: 126px -113px;
+		left: 0;
+		right: 0;
+		background-size: 500px;
+		margin: auto;
+		top: 68px;
+	}
+	.services .services-overview .branding a.ico {
+		height: 99px;
+		width: 121px;
+		top: 62px;
+		background-position: 127px -318px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 500px;
+	}
+	.services .services-overview .graphic-design a.ico {
+		height: 39px;
+		width: 122px;
+		background-position: 127px -819px;
+		right: 0px;
+		left: 0px;
+		margin: auto;
+		background-size: 500px;
+		top: 68px;
+	}
+	.services .services-overview .graphic-design p{
+		padding-top: 55px;
+	}
+	/* end service section*/
+
+	.content-section .col-lg-10 {
+		padding-left: 15px;
+	}
+	.content-section p{
+		text-align: justify;
+		font-size: 14px;
+		padding: 0px 0px;
+	}
+	.web-design .content-section ul {
+		width: 100%;
+	}
+	.footer-action .generation-info {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.footer-action h5 {
+		font-size: 26px;
+	}
+	.footer-action p {
+		font-size: 14px;
+	}
+	.footer-action .request-quote {
+		width: 100%;
+		margin-top: 31px;
+	}
+	.footer-action .generation-info i {
+		width: 68px;
+		height: 76px;
+		position: absolute;
+		bottom: -9px;
+		right: 35px;
+		background-position: -775px -2330px;
+		background-size: 500px;
+	}
+	.footer-action .request-quote i {
+		width: 80px;
+		height: 76px;
+		position: absolute;
+		bottom: -33px;
+		right: 20px;
+		background-position: -691px -2330px;
+		background-size: 500px;
+	}
+	.footer-action .col-lg-6{
+		width: 100%;
+		float: none;
+	}
+}

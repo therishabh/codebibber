@@ -28,7 +28,10 @@
 }
 .ico, i{
 	display: inline-block;
-	background-image: url(../images/sprite.png);
+	background-image: url(../images/codebibber-sprite.png);
+}
+a{
+	outline:0;
 }
 .ft-lt{
 	float: left;
@@ -93,56 +96,48 @@ strong{
 	height: 20px;
 }
 .top-header ul li a.facebook i {
-	background-position: -135px 0;
+	background-position: -132px -323px;
 }
 .top-header ul li a.facebook:hover i {
-	background-position: -135px -20px;
+	background-position: -132px -343px;
 }
 
 .top-header ul li a.twitter i {
-	background-position: -108px 0;
+	background-position: -106px -323px;
 }
 .top-header ul li a.twitter:hover i {
-	background-position: -108px -20px;
+	background-position: -106px -343px;
 }
 
 .top-header ul li a.youtube i {
-	background-position: 0 0;
+	background-position: 3px -323px;
 }
 .top-header ul li a.youtube:hover i {
-	background-position: 0 -20px;
+	background-position: 3px -343px;
 }
 
 .top-header ul li a.googleplus i {
-	background-position: -54px 0;
+	background-position: -51px -323px;
 }
 .top-header ul li a.googleplus:hover i {
-	background-position: -54px -20px;
+	background-position: -51px -343px;
 }
 
 .top-header ul li a.linkedin i {
-	background-position: -81px 0;
+	background-position:-77px -323px;
 }
 .top-header ul li a.linkedin:hover i {
-	background-position: -81px -20px;
+	background-position: -77px -343px;
 }
 
 .top-header ul li a.pinterest i {
-	background-position: -189px 0;
+	background-position: -156px -323px;
 }
 .top-header ul li a.pinterest:hover i {
-	background-position: -189px -20px;
+	background-position: -156px -343px;
 }
 
-/*.top-header ul li a.search-icon{
-background-color: #000;
-}
-.top-header ul li a.search-icon i {
-	background-position: -162px 0px;
-}
-.top-header ul li a.search-icon:hover {
-	background:#db3737;
-}*/
+
 /*****************************/
 /* // end top social icons*/
 /*****************************/
@@ -162,7 +157,7 @@ background-color: #000;
 }
 .top-header .logo .logo-name{
 	position: absolute;
-	font-family: 'font_2';
+	font-family: 'font_1';
 	font-size: 30px;
 	top: 15px;
 	left: 116px;
@@ -209,6 +204,18 @@ background-color: #000;
 .mobile-menu .logo img{
 	height: 48px;
 }
+.mobile-menu .logo .logo-name {
+position: absolute;
+font-family: 'font_1';
+font-size: 16px;
+top: 10px;
+left: 63px;
+color: #FFF;
+}
+.mobile-menu .logo .logo-name span {
+	font-family: 'font_1';
+	color: #db3737;
+}
 
 .mobile-menu ul{
 	margin: 0px;
@@ -247,7 +254,14 @@ background-color: #000;
 	margin-top: 10px
 }
 
-
+.mobile-menu.fix-menu{
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 2;
+	top: 0;
+	position: fixed;
+}
 /*****************************/
 /* main-menu */
 /*****************************/
@@ -265,7 +279,6 @@ background-color: #000;
 .main-menu ul.ft-lt li a{
 	font-size: 30px;
 	font-family: 'font_1';
-	font-weight: bold;
 	display: block;
 	color: #fff;
 	padding: 15px 20px;
@@ -417,12 +430,12 @@ background-color: #000;
 .home-page .banner .play-btn {
 	width: 136px;
 	height: 136px;
-	background-position: 0 -40px;
+	background-position: -237px -272px;
 	margin-top: 123px;
 	margin-left: 320px;
 }
 .home-page .banner .play-btn:hover{
-	background-position:-136px -40px
+	background-position:-373px -272px;
 }
 
 .home-page .banner .info{
@@ -495,9 +508,10 @@ background-color: #000;
 }
 .home-page .home-content .home-services-overview ul li{
 	display: inline-block;
+	width: 32.5%;
 }
 .home-page .home-content .home-services-overview ul li a{
-	width: 165px;
+	width: 100%;
 	display: block;
 	padding: 20px 0;
 	float: left;
@@ -530,40 +544,40 @@ background-color: #000;
 	background: #e04545;
 }
 .home-page .home-content .home-services-overview ul li a.web-design i {
-	width: 76px;
-	background-position: -307px -52px;
-}
-
-.home-page .home-content .home-services-overview ul li a.ui-ux {
-	background: #8b499c;
-}
-.home-page .home-content .home-services-overview ul li a.ui-ux i {
-	width: 72px;
-	background-position: -383px -46px;
-}
-
-.home-page .home-content .home-services-overview ul li a.media {
-	background: #3287c2;
-}
-.home-page .home-content .home-services-overview ul li a.media i {
-	width: 62px;
-	background-position: -519px -40px;
+	width: 73px;
+	background-position: -1px -197px;
 }
 
 .home-page .home-content .home-services-overview ul li a.mobile-design {
-	background: #ef7b22;
+	background: #8b499c;
 }
 .home-page .home-content .home-services-overview ul li a.mobile-design i {
-	width: 64px;
-	background-position: -455px -52px;
+	width: 66px;
+	background-position: -147px -195px;
 }
 
-.home-page .home-content .home-services-overview ul li a.seo {
+.home-page .home-content .home-services-overview ul li a.ui-ux {
+	background: #3287c2;
+}
+.home-page .home-content .home-services-overview ul li a.ui-ux i {
+	width: 71px;
+	background-position: -75px -195px;
+}
+
+.home-page .home-content .home-services-overview ul li a.enterprises {
+	background: #ef7b22;
+}
+.home-page .home-content .home-services-overview ul li a.enterprises i {
+	width: 66px;
+	background-position: -147px -195px;
+}
+
+.home-page .home-content .home-services-overview ul li a.digital {
 	background: #4b9342;
 }
-.home-page .home-content .home-services-overview ul li a.seo i {
-	width: 65px;
-	background-position: -581px -41px;
+.home-page .home-content .home-services-overview ul li a.digital i {
+	width: 64px;
+	background-position: -210px -188px;
 }
 /*****************************/
 /* // end home services overview*/
@@ -606,193 +620,135 @@ background-color: #000;
 	text-align: right;
 }
 .home-page .home-content .our-approach p{
-	color: #000;
 	font-family: 'font_2';
 	font-size: 15px;
 	text-align: right;
+	color: #000;
 }
+/*.home-page .home-content .our-approach .meet{
+	color: #3d3d3d;
+}*/
+/*.home-page .home-content .our-approach .meet:hover{
+	color: #000;
+}*/
 .home-page .home-content .our-approach .meet i {
-	width: 81px;
-	height: 59px;
-	background-position: 0 -176px;
+	width: 187px;
+	height: 124px;
+	background-position: -350px -1170px;
 	margin-right: 101px;
-	margin-top: 33px;
+	background-size: 765px;
+	margin-top: 27px;
 }
-.home-page .home-content .our-approach .meet:hover i {
-	background-position: 0 -235px;
-}
+/*.home-page .home-content .our-approach .meet:hover i {
+	background-position: -350px -1170px;
+}*/
+/*.home-page .home-content .our-approach .meet:hover .arrow-one{
+	background-position: -77px 0px;	
+}*/
 /*end meet*/
 
 /*plan*/
-.home-page .home-content .our-approach .plan .arrow-one {
+.home-page .home-content .our-approach .meet .arrow-one {
 	width: 76px;
 	height: 74px;
-	background-position: -643px 0;
+	background-position: 0px 0;
 	position: absolute;
-	top: -35px;
-	right: 84px;
+	bottom: -25px;
+	left: -60px;
 }
 .home-page .home-content .our-approach .plan{
-	width: 27%;
+	width: 29%;
 	position: relative;
 	margin-left: 32%;
-	padding-top: 5px;
+	padding-top: 22px;
 }
 .home-page .home-content .our-approach .plan i {
-	width: 104px;
-	height: 83px;
-	right: -115px;
-	top: 37px;
+	width: 209px;
+	height: 172px;
+	right: -222px;
+	top: 25px;
 	position: absolute;
-	background-position: -85px -176px;
-}
-.home-page .home-content .our-approach .plan:hover i {
-	background-position: -85px -259px;
+	background-size: 765px;
+	background-position: -10px -1208px;
 }
 /*end plan*/
 
 /*design*/
 .home-page .home-content .our-approach .design{
-	width: 26%;
+	width: 32%;
 	position: relative;
-	margin-left: 11%;
+	margin-left: 5%;
 	padding-top: 5px;
 }
 .home-page .home-content .our-approach .design i {
-	width: 103px;
-	height: 93px;
-	right: -120px;
+	width: 524px;
+	height: 114px;
+	right: -557px;
 	position: absolute;
 	top: 48px;
-	background-position: -196px -176px;
+	background-position: 0px 661px;
+	background-size: 765px;
 }
-.home-page .home-content .our-approach .design:hover i{
-	background-position: -198px -269px;
-}
+
+
 .home-page .home-content .our-approach .design .arrow-one {
 	width: 76px;
 	height: 74px;
-	background-position: -643px 0;
+	background-position: -73px -77px;
 	position: absolute;
-	top: -53px;
-	right: 65px;
+	top: -59px;
+	right: 48px;
 }
 
-.home-page .home-content .our-approach .us {
-	width: 202px;
-	height: 151px;
-	display: block;
-	position: absolute;
-	top: 198px;
-	right: 20px;
-	background-position: -651px -199px;
-}
-.home-page .home-content .our-approach .us:hover {
-	background-position: -651px -350px;
-}
+
 /* end design*/
 
 
 
 /*testing*/
-.home-page .home-content .our-approach .testing{
-	width: 25%;
+.home-page .home-content .our-approach .testing-launch{
+	width: 100%;
 	position: relative;
-	margin-left: 33%;
 	padding-top: 20px;;
 }
-.home-page .home-content .our-approach .testing i {
+.home-page .home-content .our-approach .testing-launch i {
 	position: absolute;
-	top: 54px;
-	width: 49px;
-	height: 53px;
-	right: -74px;
-	background-position: -307px -176px;
+	top: 42px;
+	width: 743px;
+	height: 275px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	background-position: 0px 433px;
+	background-size: 743px;
 }
-.home-page .home-content .our-approach .testing:hover i {
-	background-position: -303px -230px
+.home-page .home-content .our-approach .testing{
+	width: 25%;
+	margin-top: 23px;
+	position: relative;
 }
-
-.home-page .home-content .our-approach .testing .arrow-two {
+.home-page .home-content .our-approach .testing .arrow{
 	width: 145px;
-	height: 100px;
-	background-position: -646px -81px;
+	height: 99px;
+	background-position: -270px -98px;
 	position: absolute;
-	top: 0px;
-	right: 250px;
+	top: -43px;
+	right: -169px;
 }
-
-.home-page .home-content .our-approach .testing .arrow-agile {
-	width: 97px;
-	height: 60px;
-	background-position: -796px 0;
-	position: absolute;
-	top: -27px;
-	right: 6px;
-}
-/* end testing*/
 
 /*launch*/
 .home-page .home-content .our-approach .launch{
 	width: 25%;
 	position: relative;
-	margin-left: 54%;
-}
-.home-page .home-content .our-approach .launch i {
-	position: absolute;
-	width: 268px;
-	height: 206px;
-	top: -36px;
-	right: -114px;
-	background-position: -383px -176px;
-}
-
-.home-page .home-content .our-approach .launch .arrow-one {
-	width: 125px;
-	height: 117px;
-	background-position: -797px -81px;
-	position: absolute;
-	top: -16px;
-	right: 270px;
+	margin-left: 62%;
+	margin-top: 74px;
 }
 
 /* end launch*/
 
 
+/* end testing*/
 
-/*customer*/
-.home-page .home-content .our-approach .customer{
-	width: 25%;
-	position: absolute;
-	bottom: -30px;
-	left: 30px;
-}
-.home-page .home-content .our-approach .customer i {
-	width: 236px;
-	height: 70px;
-	display: block;
-	background-position: -651px -510px;
-}
-.home-page .home-content .our-approach .customer:hover i {
-background-position: -651px -580px;
-}
-.home-page .home-content .our-approach .customer p{
-	font-size: 13px;
-	text-align: left;
-}
-.home-page .home-content .our-approach .customer span{
-	display: block;
-	padding: 10px 0;
-	font-size: 15px;
-}
-.home-page .home-content .our-approach .customer span strong {
-	display: block;
-	font-family: 'font_1';
-	color:#000;
-	font-weight: bold;
-}
-
-/* end customer*/
 
 
 /*****************************/
@@ -809,12 +765,11 @@ background-position: -651px -580px;
 }
 .home-sample-work h3 {
 	text-align: center;
-	font-size: 50px;
+	font-size: 47px;
 	padding: 40px 0;
 	background: #fff;
-	font-family: 'font_1';
+	font-family: 'font_3';
 	color: #000;
-	font-weight: bold;
 }
 .home-sample-work .inner{
 	background: #000;
@@ -995,10 +950,36 @@ background-position: -651px -580px;
 /* end home-sample-work*/
 /*****************************/
 
-
-
-
-
+.home-page .blog-news .blog-section i{
+	width: 48px;
+	height: 57px;
+	margin: 15px 0 10px 1px;
+	display: block;
+	background-position: -594px 0px;
+}
+.home-page .blog-news .news-section i{
+	width: 48px;
+	height: 57px;
+	margin: 15px 0 10px 1px;
+	display: block;
+	background-position: -594px -56px;
+}
+.home-page .blog-news{
+	padding: 20px;
+	font-family: 'font_2';
+	margin-bottom: 30px;
+}
+.home-page .blog-news h2{
+	font-size: 32px;
+}
+.home-page .blog-news h3{
+	font-family: 'font_3';
+	font-size: 17px;
+}
+.home-page .blog-news .bttn{
+	text-decoration: none;
+	font-size: 16px;
+}
 
 
 
@@ -1008,7 +989,7 @@ background-position: -651px -580px;
 
 .home-page .why-us{
 	font-family: 'font_2';
-	background: #fff;
+	background: #fafafa;
 	padding: 30px 0px;
 }
 .home-page .why-us h2{
@@ -1024,13 +1005,16 @@ background-position: -651px -580px;
 .home-page .why-us .get-start-now i {
 	width: 106px;
 	height: 64px;
-	background-position: -894px -199px;
+	background-position: -535px -251px;
 	display: block;
 	margin: 20px 0 10px;
 }
 .home-page .why-us .get-start-now h2 span {
 	display: block;
 	font-size: 20px;
+}
+.home-page .why-us .get-start-now p{
+	margin-top: 10px;
 }
 
 .home-page .why-us .red-btn{
@@ -1041,6 +1025,10 @@ background-position: -651px -580px;
 	text-decoration: none;
 	padding: 10px 20px;
 	font-family: 'font_1';
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
 }
 .home-page .why-us .red-btn:hover{
 	background: #efefef;
@@ -1095,32 +1083,32 @@ background-position: -651px -580px;
 .home-page .get-to-know-us  a.facebook i {
 	width: 11px;
 	height: 18px;
-	background-position: -137px -351px;
+	background-position: -137px -282px;
 }
 .home-page .get-to-know-us .twitter i {
 	width: 22px;
 	height: 18px;
-	background-position: -102px -352px;
+	background-position: -104px -284px;
 }
 .home-page .get-to-know-us .youtube i {
 	width: 15px;
 	height: 16px;
-	background-position: 0 -352px;
+	background-position: 0px -284px;
 }
 .home-page .get-to-know-us .googleplus i {
 	width: 11px;
 	height: 16px;
-	background-position: -52px -352px;
+	background-position: -53px -284px;
 }
 .home-page .get-to-know-us .linkedin i {
-	width: 15px;
+	width: 17px;
 	height: 15px;
-	background-position: -77px -352px;
+	background-position: -77px -284px;
 }
 .home-page .get-to-know-us .pinterest i {
 	width: 14px;
 	height: 17px;
-	background-position: -156px -352px;
+	background-position: -158px -283px;
 }
 /*****************************/
 /* end get-to-know-us*/
@@ -1138,7 +1126,7 @@ background-position: -651px -580px;
 }
 .footer h3{
 	padding: 20px 10px 10px;
-	font-size: 30px;
+	font-size: 29px;
 	font-weight: 200;
 	font-family: 'font_2';
 	/*margin-left: 20px;*/
@@ -1215,45 +1203,45 @@ background-position: -651px -580px;
 }
 
 .footer ul.social li a.facebook i {
-background-position: -135px 0;
+background-position: -132px -323px;
 }
 .footer ul li a.facebook:hover i {
-	background-position: -135px -20px;
+	background-position: -132px -343px;
 }
 
 .footer ul.social li a.twitter i {
-	background-position: -108px 0;
+	background-position: -106px -323px;
 }
 .footer ul.social li a.twitter:hover i {
-	background-position: -108px -20px;
+	background-position: -106px -343px;
 }
 
 .footer ul.social li a.youtube i {
-	background-position: 0 0;
+	background-position: 3px -323px;
 }
 .footer ul.social li a.youtube:hover i {
-	background-position: 0 -20px;
+	background-position: 3px -343px;
 }
 
 .footer ul.social li a.googleplus i {
-	background-position: -54px 0;
+	background-position: -51px -323px;
 }
 .footer ul.social li a.googleplus:hover i {
-	background-position: -54px -20px;
+	background-position: -51px -343px;
 }
 
 .footer ul.social li a.linkedin i {
-	background-position: -81px 0;
+	background-position: -77px -323px;
 }
 .footer ul.social li a.linkedin:hover i {
-	background-position: -81px -20px;
+	background-position: -77px -343px;
 }
 
 .footer ul.social li a.pinterest i {
-	background-position: -189px 0;
+	background-position: -156px -323px;
 }
 .footer ul.social li a.pinterest:hover i {
-	background-position: -189px -20px;
+	background-position: -156px -343px;
 }
 
 /*****************************/
@@ -1274,7 +1262,7 @@ background-position: -135px 0;
 	text-decoration: none;
 	color: #000;
 	background-color: rgba(0,0,0,.9);
-	background-position: -291px 0;
+	background-position: 15px -370px;
 	display: none;
 }
 
@@ -1363,48 +1351,50 @@ background-position: -135px 0;
 
 .services .services-overview .web a.ico {
 	height: 188px;
-	background-position: -1055px 0;
+	background-position: 258px 0px;
 	right: 0;
 }
 
 .services .services-overview .ui-ux a.ico {
 	height: 188px;
-	background-position: -1055px -212px;
+	background-position:258px -200px;
 	left: 0;
 }
 
 .services .services-overview .mobile-design a.ico {
 	height: 170px;
-	background-position: -1055px -404px;
+	background-position: 258px -402px;
 	right: 0;
 }
 
 .services .services-overview .branding a.ico {
 	height: 188px;
-	background-position: -1055px -591px;
+	background-position: 258px -585px;
 	left: 30px;
 }
 
 .services .services-overview .graphic-design a.ico {
-	height: 145px;
-	background-position: -1055px -984px;
+	height: 60px;
+	width: 221px;
+	background-position: 236px -1520px;
 	right: 30px;
+	top: 53px;
 }
 
 .services .services-overview .video-and-media a.ico {
 	height: 170px;
-	background-position: -1055px -799px;
+	background-position: 258px -791px;
 	left: 30px;
 }
 
 .services .services-overview .seo a.ico {
 	height: 80px;
-	background-position: -1055px -1524px;
+	background-position: 252px -1504px;
 	right: 0px;
 }
 .services .services-overview  .advertising a.ico {
 	height: 150px;
-	background-position: -1055px -1137px;
+	background-position: 252px -1127px;
 	left: 30px;
 }
 
@@ -1514,9 +1504,12 @@ background-position: -135px 0;
 .content-section{
 	margin-bottom: 20px;
 }
+.content-section .col-lg-10{
+	padding-left: 30px;
+}
 .content-section p{
 	font-family: 'font_2';
-	font-style: 15px;
+	font-size: 15px;
 	color:#000;
 }
 .content-section h2{
@@ -1549,12 +1542,13 @@ background-position: -135px 0;
 	margin-left: 20px;	
 }
 .footer-action .generation-info i {
-	width: 142px;
-	height: 131px;
+	width: 86px;
+	height: 95px;
 	position: absolute;
 	bottom: -30px;
-	right: 75px;
-	background-position: -744px -1226px;
+	right: 86px;
+	background-position: -360px -1118px;
+	background-size: 650px;
 }
 .footer-action h5 {
 	font-size: 36px;
@@ -1581,12 +1575,13 @@ background-position: -135px 0;
 	width: 80%;
 }
 .footer-action .request-quote i {
-	width: 142px;
-	height: 131px;
+	width: 105px;
+	height: 93px;
 	position: absolute;
-	bottom: -71px;
+	bottom: -48px;
 	right: 83px;
-	background-position: -586px -1226px;
+	background-position: -249px -1118px;
+	background-size: 650px;
 }
 
 /*****************************/
@@ -1979,7 +1974,8 @@ padding-left: 34px;
 	border: 0;
 	cursor: pointer;
 	font-family: 'font_1';
-	width: 65%;
+	width: 68%;
+	text-align: center;
 }
 #submit-form:hover{
 	background: #000;
@@ -1993,7 +1989,7 @@ padding-left: 34px;
 }
 .quote-overview .r-s p{
 	font-size: 15px;
-	width: 80%;
+	width: 82%;
 }
 .quote-overview .r-s p a{
 	font-size: 15px;	
@@ -2015,7 +2011,7 @@ padding-left: 34px;
 	left: 143px;
 	color: #fff;
 	font-family: 'font_2';
-	width: 31%;
+	width: 34%;
 }
 .contact .map h1 span{
 	font-size: 14px;
@@ -2025,7 +2021,7 @@ padding-left: 34px;
 	padding: 20px;
 	background: #000;
 	opacity: 0.8;
-	width: 72%;
+	width: 65%;
 	margin: 0px;
 	padding-bottom: 0px;
 	font-size: 45px;
@@ -2060,13 +2056,13 @@ padding-left: 34px;
 
 .company .think-different i {
 	width: 98px;
-	background-position: 0 -402px;
+	background-position: 0 -824px;
 	height: 145px;
 	margin: 0 auto 10px;
 }
 .company .being-unique i {
 	width: 249px;
-	background-position: -114px -402px;
+	background-position: -113px -824px;
 	height: 145px;
 	margin: 0 auto 10px;
 }
@@ -2091,13 +2087,13 @@ padding-left: 34px;
 .company .who .down i{
 	width: 168px;
 	height: 178px;
-	background-position: -383px -402px;
+	background-position: -384px -827px
 }
 .company .who .discover-tcm .ship {
-	width: 519px;
-	height: 192px;
-	margin: 20px auto;
-	background-position: 0 -580px;
+	width: 521px;
+	height: 255px;
+	margin: 20px auto 0px auto;
+	background-position: 0px -1006px;
 }
 .company .who .discover-tcm h1{
 	font-size: 46px;
@@ -2105,7 +2101,7 @@ padding-left: 34px;
 	color: #000;
 }
 .company .who .discover-tcm p {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	font-size: 28px;
 	font-family: 'font_2';
@@ -2117,14 +2113,17 @@ padding-left: 34px;
 .company .who .discover-tcm p span {
 	display: inline;
 	padding-bottom: 8px;
-	background-position: 0 -955px;
+	background-position: -519px -353px;
 	background-repeat: no-repeat;
 }
 .company .who .discover-tcm i.downn{
 	width: 51px;
 	height: 21px;
-	background-position: -519px -671px;
+	background-position: -519px -1096px;
 	margin: 20px auto;
+}
+.company .who .discover-tcm{
+	padding-bottom: 50px;
 }
 
 .company .what{ 
@@ -2154,7 +2153,7 @@ padding-left: 34px;
 	position: absolute;
 	width: 105px;
 	height: 156px;
-	background-position: 0 -1036px;
+	background-position: -286px -1745px;
 	top: -100px;
 	left: -30px;
 }
@@ -2167,7 +2166,7 @@ padding-left: 34px;
 	width: 249px;
 	height: 147px;
 	position: absolute;
-	background-position: -108px -1036px;
+	background-position: -393px -1746px;
 	top: -80px;
 	right: -160px;
 }
@@ -2187,12 +2186,12 @@ padding-left: 34px;
 }
 
 .company .trust i {
-	width: 377px;
-	height: 125px;
-	background-position: -383px -1036px;
+	width: 629px;
+	height: 111px;
+	background-position: 0px 656px;
 	position: absolute;
-	top: -83px;
-	left: 32%;
+	top: -80px;
+	left: 21%;
 }
 .company .trust h2 {
 	font-size: 43px;
@@ -2237,45 +2236,45 @@ padding-left: 34px;
 	height: 110px;
 }
 .company .connect ul li a.facebook i {
-	background-position: 0 -1227px;
+	background-position: 0px -584px
 }
 .company .connect ul li a.facebook:hover i {
-	background-position: 0 -1337px;
+	background-position: 0 -694px;
 }
 
 .company .connect ul li a.twitter i {
-	background-position: 0 -1447px;
+	background-position: -551px -584px;
 }
 .company .connect ul li a.twitter:hover i {
-	background-position: 0 -1557px;
+	background-position: -551px -694px;
 }
 
 .company .connect ul li a.youtube i {
-	background-position: -330px -1227px;
+	background-position: -330px -584px;
 }
 .company .connect ul li a.youtube:hover i {
-	background-position: -330px -1337px;
+	background-position: -330px -694px;
 }
 
 .company .connect ul li a.google i {
-	background-position: -220px -1227px;
+	background-position: -220px -584px;
 }
 .company .connect ul li a.google:hover i {
-	background-position: -220px -1337px;
+	background-position: -220px -694px;
 }
 
 .company .connect ul li a.linkedin i {
-	background-position: -110px -1227px;
+	background-position: -110px -584px;
 }
 .company .connect ul li a.linkedin:hover i {
-	background-position: -110px -1337px;
+	background-position: -110px -694px;
 }
 
 .company .connect ul li a.pinterest i {
-	background-position: -440px -1227px;
+	background-position: -440px -584px;
 }
 .company .connect ul li a.pinterest:hover i {
-	background-position: -440px -1337px;
+	background-position: -440px -694px;
 }
 .company .connect .get-started{
 	padding: 30px 0;
@@ -2296,7 +2295,7 @@ padding-left: 34px;
 .company .connect .get-started i {
 	width: 146px;
 	height: 92px;
-	background-position: -651px -690px;
+	background-position: -25px -1715px;
 	margin: 0 auto;
 	display: block;
 }
@@ -2317,10 +2316,89 @@ padding-left: 34px;
 .company .connect .get-started p{
 	font-family: 'font_2';
 }
+.company .discover-sample {
+	background: #000;
+	padding: 30px 0;
+	color: #fff;
+	font-family: 'font_1';
+	color: #b0b1b1;
+}
+.company .discover-sample .ft-rt{
+	width: 90%
+}
+.company .discover-sample h5 {
+	font-size: 52px;
+	font-weight: 400;
+	line-height: 1em;
+	
+}
+.company .discover-sample p {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.4em;
+}
 
+.company .company-progress {
+	padding: 100px 0;
+	background: #efefef;
+}
+.company .company-progress h3 {
+	font-size: 40px;
+	font-weight: 200;
+	line-height: 1em;
+	padding-bottom: 40px;
+	text-align: center;
+	font-family: 'font_2';
+}
+.company .company-progress ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.company .company-progress ul li{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'font_2';
+	float: left;
+}
+.company .company-progress li i {
+	width: 90px;
+	height: 90px;
+	margin: 0 auto 10px;
 
-
-
+}
+.company-progress .coffee i {
+	background-position: 8px -423px;
+}
+.company-progress .code i {
+	width: 104px !important;
+	background-position: -130px -423px;
+}
+.company-progress .pixel i {
+	background-position: -286px -423px;
+}
+.company-progress .tweets i {
+	background-position: -420px -423px;
+}
+.company-progress .songs i {
+	background-position: -574px -416px;
+}
+.company-progress li span {
+	display: block;
+}
+.company-progress li span.num {
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'font_1';
+	color: #000;
+}
+.company-progress li span.text {
+	font-size: 16px;
+	font-family: 'font_2';
+	color: #000;
+}
 /*****************************/
 /* end company-page*/
 /*****************************/

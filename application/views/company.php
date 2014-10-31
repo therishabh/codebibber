@@ -6,8 +6,8 @@
 					<div class="think-different">
 						<i></i>
 						<h2>
-							<em>We believe in</em>
-							thinking different.
+							<em>We are passionate</em>
+							about Design.
 						</h2>
 					</div>
 				</div>
@@ -15,8 +15,8 @@
 					<div class="being-unique">
 						<i></i>
 						<h2>
-							<em>We believe in</em>
-							being unique.
+							<em>We are obsessed</em>
+							with Technology.
 						</h2>
 					</div>
 				</div>
@@ -28,20 +28,26 @@
 				<div class="col-lg-12">
 					<div class="discover-tcm text-center">
 						<i class="ship"></i>
-						<h1>Discovering</h1>
+						<h1>Blending</h1>
 						<p>
-							<strong>The Creative Momentum</strong>
-							is discovering that we don't provide the status quo, 
-							but in fact we provide <span class="ico">momentum</span>.
+							<strong>Design with Coding</strong>
+							We enforce our ingenious engineering focus 
+							with a dedication to flawless design. We take 
+							pride in possessing a team which comprehensively 
+							understands the unique needs of our clients. 
+							Hence, ensuring your 'light bulb moment' the 
+							dead-on direction to evolve and be recognized 
+							by the world.
+							<!-- <span class="ico"></span>. -->
 						</p>
-						<i class="downn"></i>
+						<!-- <i class="downn"></i> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="row what">
+	<!-- <div class="row what">
 		<div class="col-lg-10 col-centered">
 			<h2>
 			What is
@@ -75,13 +81,63 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div class="row trust">
 		<div class="col-lg-10 col-centered">
 			<i></i>
-			<h2>Trust</h2>
-			<p>With being different and unique your brand now holds the new standard. People begin to trust, communicate and react to your brand like never before. Now your audience lives and breaths your brand. Because your brand is the only one they trust.</p>
+			<h2>Revolutised Solutions</h2>
+			<p>We come up with revolutionizing solutions unique to your requirement. People begin to trust, communicate and react to your brand like never before, because of exceptional portrayal of solution.</p>
+		</div>
+	</div>
+
+	<div class="discover-sample row">
+		<div class="col-lg-10 col-centered">
+			<div class="row">
+
+				<div class="col-lg-5">
+					<div class="ft-rt">
+						<h5>With our experised touch your audience</h5>
+						<p>feel the natural crafted connection and not just anoher manufactured canned product.</p>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<iframe src="//fast.wistia.net/embed/iframe/rosznd0o0h" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" width="628" height="353"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="company-progress row">
+		<div class="col-lg-10 col-centered">
+			<h3>CodeBibber Stats</h3>
+			<ul>
+				<li class="coffee">
+					<i></i>
+					<span class="num">433</span>
+					<span class="text">Cups of Coffee</span>
+				</li>
+				<li class="code">
+					<i></i>
+					<span class="num">1,889,854</span>
+					<span class="text">Lines of Code</span>
+				</li>
+				<li class="pixel">
+					<i></i>
+					<span class="num">2,424,545</span>
+					<span class="text">Pixels</span>
+				</li>
+				<li class="tweets">
+					<i></i>
+					<span class="num">656</span>
+					<span class="text">Tweets</span>
+				</li>
+				<li class="songs">
+					<i></i>
+					<span class="num">5,161</span>
+					<span class="text">Songs Played</span>
+				</li>
+			</ul>
 		</div>
 	</div>
 
@@ -115,3 +171,14 @@
 		</div>
 	</div>
 </div>
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> 
+<script src="<?php echo base_url(); ?>js/jquery.counterup.min.js"></script> 
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.num').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script>

@@ -3,18 +3,18 @@
     <div class="row banner">
         <div class="col-lg-12">
             <div class="row">
-                <div class="col-lg-6 play">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 play">
                     <a href="//fast.wistia.net/embed/iframe/jyqikw1uk8?popover=true" class="play-btn ico wistia-popover[height=512,playerColor=7b796a,width=640]"></a>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 banner-content">
                     <div class="info">
                         <h1>
-                            <span>Best</span>
-                            Web Development Firm
+                            <span>Robust</span>
+                            Design & Development
                         </h1>
                         
-                        <div class="first">Use Codebibber top-ranked web design firm to </div> 
-                        <div>generate more traffic, leads and sales. <a href="<?php echo base_url() ?>quote">Get a quote</a>.</div> 
+                        <div class="first">We create things that look magnificent and work best.</div> 
+                        <div>Generate more traffic, leads and sales with us. <a href="<?php echo base_url() ?>quote">Get a quote</a>.</div> 
                         <div class="link">
                             <a href="<?php echo base_url() ?>quote" class="quote red-btn">Get a Quote</a>
                             <a href="<?php echo base_url() ?>company" class="discover">Discover</a>
@@ -26,88 +26,90 @@
     </div>
     <div class="home-content">
         <div class="row">
-            <div class="col-lg-10 col-centered">
-            
+            <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                 <!-- home-service-overview section and our approach meet section -->
                 <div class="row">
 
                     <!-- start home-services-overview -->
-                    <div class="col-lg-6 home-services-overview">
+                    <div class="col-lg-6 col-md-6 col-sm-6 home-services-overview">
                         <ul>
                             <li>
-                                <a href="<?php echo base_url(); ?>services/web-design-and-interactive/" class="web-design">
+                                <a href="<?php echo base_url(); ?>services/web-development-service/" class="web-design">
                                     <i></i>
-                                    Web Design
+                                    Web Development
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/ui-ux/" class="ui-ux">
+                                 <a href="<?php echo base_url(); ?>services/mobile-development-service/" class="mobile-design">
+                                    <i></i>
+                                    Mobile Development
+                                </a>
+                            </li>
+                            <li>
+                                 <a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="ui-ux">
                                     <i></i>
                                     UI / UX
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/video-and-media/" class="media">
+                                 <a href="<?php echo base_url(); ?>services/enterprise-mobility-service/" class="enterprises">
                                     <i></i>
-                                    Explainer Videos
+                                    Enterprise Mobility
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/mobile-design/" class="mobile-design">
+                                 <a href="<?php echo base_url(); ?>services/digital-marketing-agency/" class="digital">
                                     <i></i>
-                                    Mobile Design
-                                </a>
-                            </li>
-                            <li>
-                                 <a href="<?php echo base_url(); ?>services/seo/" class="seo">
-                                    <i></i>
-                                    SEO
+                                    Digital Marketing
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <!-- //end home-services-overview -->
 
-                    <div class="col-lg-6 our-approach">
+                    <div class="col-lg-6 col-md-6 col-sm-6 our-approach">
                         <div class="row">
                             <div class="col-lg-6 col-lg-offset-6">
-                                <h2>The Momentum Process</h2>
+                                <h2>The CodeBibber Process</h2>
                             </div>
                         </div>
 
                         <!-- meet section -->
                         <div class="meet">
                             <div class="row">
-                                <div class="col-lg-8">
-                                   <h3>Meet</h3>
+                                <div class="col-lg-8 col-md-8 col-sm-8">
+                                   <h3>YOUR IDEA</h3>
                                    <p>
-                                       The first step is to discover more about you, 
-                                       your company's vision, and to build a strong relationship. 
-                                       This is where we will create your brand, create a custom 
-                                       strategy, and set project goals.
+                                       We meet up to understand you and your Company. 
+                                       We absorb your core idea, elaborate and discuss 
+                                       your requirements to achieve the target that 
+                                       you have in mind.
                                    </p>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-4">
                                     <i></i>
                                 </div>
-                            </div>
+                            </div><!-- // end row -->
+                            <div class="arrow-one ico"></div>
                         </div>
                         <!-- // end meet section -->
 
                     </div>
-                </div>
-                <!-- // end home-service-overview section and our approach meet section -->
-                
+                    <!-- //end our-approach -->
+
+                </div><!-- end row -->
+
+
                 <div class="our-approach plan">
                     
                     <!-- plan section -->
                     <div class="plan">
-                        <h3>Plan</h3>
+                        <h3>Research & Plan</h3>
                         <p>
-                            Following the initial meetup, we will outline your project, 
-                            create milestones, and agree on priorities. Now we have a 
-                            strategic plan in place that aligns with your initial vision 
-                            and makes your goals achievable.
+                            We devise finest plans that will lead to the fulfilment 
+                            of your target, abiding by all constraints. Present our 
+                            strategic proposal for its development and a launch to 
+                            your idea's lucrative and promising future.
                         </p>
                         <i></i>
                         <div class="arrow-one ico"></div>
@@ -116,61 +118,48 @@
                     <!-- // end plan section -->
 
                     <div class="design">
-                        <h3>Design & Dev</h3>
+                        <h3>Design & Development</h3>
                         <p>
-                            Once the outline is finished, visual concepts of the 
-                            custom project will be created. Our creative and development 
-                            team reviews and revises the materials until it aligns with your goals.
+                           We diligently work towards the user experience by artistically 
+                           designing the UX and UI to make your idea intuitive and user-centric. 
+                           We code optimized algorithms 
+                            to ensure smooth, secure and responsive functioning for your 
+                            idea's implementation.
                         </p>
                         <i></i>
                         <div class="arrow-one ico"></div>
                     </div>
-                    <a href="<?php echo base_url(); ?>company" class="us ico"></a>
+                    
 
-                    <div class="testing">
-                        <h3>Testing</h3>
-                        <p>
-                            Here review and testing takes place, which ensures the quality 
-                            of your project. This is the most valuable step because your 
-                            reputation is our reputation!
-                        </p>
+                    <div class="testing-launch">
                         <i></i>
-                        <div class="arrow-two ico"></div>
-                        <div class="arrow-agile ico"></div>
+                        <div class="testing">
+                            <div class="arrow ico"></div>
+                            <h3>Testing</h3>
+                            <p>
+                                We test it through extensive test cases to attain an impregnable
+                                master-piece. Ensuring it to be streamlined for the user's 
+                                seamless operability.
+                            </p>
+                        </div>
+                        <div class="launch">
+                            <h3>Launch</h3>
+                            <p>
+                                We establish branding and popularizing your idea ahead of time. 
+                                Furnishing it the Star launch.
+                            </p>
+                        </div>
+                        <!-- <div class="arrow-agile ico"></div> -->
                     </div>
+                </div>  
 
-                    <div class="launch">
-                        <h3>Launch</h3>
-                        <p>
-                            Here review and testing takes place, which ensures the quality 
-                            of your project. This is the most valuable step because your 
-                            reputation is our reputation!
-                        </p>
-                        <i></i>
-                        <div class="arrow-one ico"></div>
-                    </div>
-
-                    <div class="customer">
-                        <i></i>
-                        <p>
-                            We couldn't be more pleased with Codebibber. 
-                            Their ability to quickly translate our ideas into a fresh, 
-                            clean, easy-to-navigate UI was phenomenal. The code The Creative 
-                            Momentum produced was so organized and required such little re-work 
-                            to incorporate that our development team still thanks me for using them!
-                        </p>
-                        <span>John Kavin <strong>Codebibber, Inc.</strong></span>
-                    </div>
-
-                </div>
-                
             </div><!-- end col-lg-10 col-centered -->
         </div><!-- end row -->
 
         <div class="home-sample-work">
             <h3>Some Awesome Work</h3>
             <div class="row inner">
-                <div class="col-lg-10 col-centered">
+                <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                             
                     <div class="view view-first">
                         <img src="<?php echo base_url(); ?>images/1.png" />
@@ -213,33 +202,53 @@
 
         </div><!-- end home-sample-work -->
 
-        <div class="row why-us">
-            <div class="col-lg-10 col-centered">
+        <div class="blog-news row">
+            <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h2>Why us?</h2>
-                        <p>The world of <a href="#">advertising</a>, <a href="#">marketing</a>, 
-                        and <a href="#">design</a> are ever-changing and may have already passed 
-                        your company - you may also see that your strategy is becoming mute or even 
-                        behind the times. As an <a href="contact">Atlanta-based</a> full service 
-                        creative agency, we give your company the momentum it needs to bridge that 
-                        gap and to get the conversation started. Moving in the right direction to 
-                        align with your market is what we bring to the table. As a team with the 
-                        leading industry knowledge and our fixation with top of the line 
-                        <a href="#">web design</a> solutions, 
-                        <a href="#">branding</a>, 
-                        <a href="#">marketing strategy</a> 
-                        and simply the best <a href="#">creativity</a> at your disposal, there 
-                        is nothing that we as a team cannot overcome. As a team...<em>we</em> win.</p>
+                    <div class="col-lg-6 col-md-6 col-sm-6 blog-section">
+                        <i></i>
+                        <h2>Latest Blog Post</h2>
+                        <h3>Benefits of A/B Testing for Your Website</h3>
+                        <p>
+                            A/B Testing is the secret ingredient of successful websites. You may be thinking, "A/B testing is no secret-even presidential campaigns use it."
+                        </p>
+                        <p>
+                            The secret about A/B testing is that while "everybody" talks about it, most businesses don't do it. This means that using A/B testing on your website gives you an advantage over your competitors.
+                        </p>
+                        <a href="<?php echo base_url() ?>blog" class="bttn gray-btn">Read Post</a>
                     </div>
-                    <div class="col-lg-6 get-start-now">
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 news-section">
+                        <i></i>
+                        <h2>Leads to Conversations - Amazing new clean and responsive Website Goes Live!</h2>
+                        
+                        <p>
+                            The Leads to Conversations VisualTask software brings your pipeline to life and helps you focus on the right deals. Built with simplicity in mind, we bridge the gap between time-consuming lead research and complex sales automation platforms to help your teams visualize, rank, convert and report on actionable leads. The value is in getting sales teams more quality time with prospects that matter. leadstoconversations.com
+                        </p>
+                       
+                        <a href="<?php echo base_url() ?>news" class="bttn gray-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row why-us">
+            <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <h2>Why us?</h2>
+                        <p>
+                            We enforce our ingenious engineering focus with a dedication to flawless design. We take pride in possessing a team which comprehensively understands the unique needs of our clients. We assist you outshine in mobile apps pool by designing and developing tailor-made exuberant Mobile Application Solutions. We help you glitz in the boundless web with art-of-the-class Websites and Web Applications. We facilitate solutions to expedite your Enterprise efficiency by transforming sophisticated problems to simple handy solutions. We ensure that your idea and business reaches all corners of the great wide interwebs. Hence, ensuring your 'light bulb moment' the dead-on direction to evolve and be recognized by the world.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 get-start-now">
                         <i></i>
                         <h2>
                             Get Started Now!
                             <span>less than a minute of your time</span>
                         </h2>
-                        <p>or simply call <a href="#">+91-8899665544</a></p>
                         <a href="<?php echo base_url() ?>quote" class="red-btn">Request a Quote</a>
+                        <p>or simply call <a href="#">+91-9711575088</a></p>
                     </div>
                 </div>
             </div>

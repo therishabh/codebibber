@@ -1,8 +1,8 @@
 
 <div class="row footer">
-	<div class="col-lg-10 col-centered">
+	<div class="col-lg-10 col-md-10 col-sm-11 col-centered">
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<h3>Quick Links</h3>
 				<ul>
 					<li>
@@ -46,68 +46,42 @@
 					</li>
 					<li>
 						<a href="<?php echo base_url(); ?>career">
-							<div>Career</div>
+							<div>Careers</div>
 						</a>
 					</li>
 				</ul>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<h3>Services</h3>
 				<ul>
 					<li>
-						<a href="<?php echo base_url(); ?>services/web-design-and-interactive/">
-							<div>Web Design / Interactive</div>
+						<a href="<?php echo base_url(); ?>services/web-development-service/">
+							<div>Web Development</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/ui-ux/">
+						<a href="<?php echo base_url(); ?>services/user-interface-design-service/">
 							<div>UI / UX</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/mobile-design/">
-							<div>Mobile Design</div>
+						<a href="<?php echo base_url(); ?>services/mobile-development-service/">
+							<div>Mobile Development</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/branding-and-corporate-identity/">
-							<div>Branding / Corporate Identity</div>
+						<a href="<?php echo base_url(); ?>services/enterprise-mobility-service/">
+							<div>Enterprise Mobility</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/graphic-design/">
-							<div>Graphic Design</div>
+						<a href="<?php echo base_url(); ?>services/digital-marketing-agency/">
+							<div>Digital Marketing</div>
 						</a>
 					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/video-and-media/">
-							<div>Video / Media</div>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/seo/">
-							<div>SEO</div>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/advertising/">
-							<div>Advertising</div>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/marketing-and-strategic-planning/">
-							<div>Marketing / Strategic Planning</div>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/business-management-mentoring/">
-							<div>Business Management Mentoring</div>
-						</a>
-					</li>
-
 				</ul>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<h3>Popular</h3>
 				<ul>
 					<li>
@@ -132,7 +106,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<?php 
 				if(uri_string() != "")
 				{
@@ -180,7 +154,9 @@
 				&copy; 2014 CodeBibber. All Rights Reserved.
 			</div>
 			<div class="footer-logo">
+				<a href="<?php echo base_url(); ?>">
 				<img src="<?php echo base_url() ?>images/logo.png" alt="">
+				</a>
 			</div>
 		</div>
 
@@ -205,7 +181,7 @@ jQuery(document).ready(function($) {
 		{
 			if(scrollTop > 189) {
 				$(".second-menu").css({
-					'top' : '0px'
+					'top' : '-1px'
 				});
 			} else {
 				$(".second-menu").css({
@@ -230,6 +206,19 @@ jQuery(document).ready(function($) {
 		$('html, body').animate({scrollTop: 0}, 1000);
 		return false;
 	});
+
+	// var lastScrollTop = 0;
+	// $(window).scroll(function(event){
+	//    var st = $(this).scrollTop();
+	//    if (st > lastScrollTop){
+	//    	$(".mobile-menu").removeClass('fix-menu');
+	//    } else {
+	//        console.log("success")
+	//        $(".mobile-menu").addClass('fix-menu');
+	//       // upscroll code
+	//    }
+	//    lastScrollTop = st;
+	// });
 });
 </script>
 

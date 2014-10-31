@@ -40,14 +40,11 @@
 
 $route['default_controller'] = "home";
 $route['404_override'] = '';
-$route['services/web-design-and-interactive'] = "services/web_design_and_interactive";
-$route['services/ui-ux'] = "services/ui_ux";
-$route['services/mobile-design'] = "services/mobile_design";
-$route['services/branding-and-corporate-identity'] = "services/branding_and_corporate_identity";
-$route['services/graphic-design'] = "services/graphic_design";
-$route['services/video-and-media'] = "services/video_and_media";
-$route['services/marketing-and-strategic-planning'] = "services/marketing_and_strategic_planning";
-$route['services/business-management-mentoring'] = "services/business_management_mentoring";
+$route['services/web-development-service'] = "services/web_development_service";
+$route['services/user-interface-design-service'] = "services/user_interface_design_service";
+$route['services/mobile-development-service'] = "services/mobile_development_service";
+$route['services/enterprise-mobility-service'] = "services/enterprise_mobility_service";
+$route['services/digital-marketing-agency'] = "services/digital_marketing_agency";
 
 
 /* End of file routes.php */
