@@ -1,7 +1,7 @@
 @import url('bootstrap.css');
 @import url('font-awesome.css');
 @import url('font-awesome.min.css');
-
+@import url('fonts/webrupee/stylesheet.css');
 @font-face {
 	font-family: 'font_1';
 	src: url('fonts/OpenSans-Regular.ttf');
@@ -18,10 +18,30 @@
 	font-family: 'font_4';
 	src: url('fonts/Roboto-Medium.ttf');
 }
+@font-face {
+	font-family: 'font_5';
+	src: url('fonts/seguibli.ttf');
+}
+@font-face {
+	font-family: 'font_6';
+	src: url('fonts/seguibl.ttf');
+}
+@font-face {
+	font-family: 'font_7';
+	src: url('fonts/seguili.ttf');
+}
+@font-face {
+	font-family: 'font_8';
+	src: url('fonts/OpenSans-Italic.ttf');
+}
 
 /*user color */
 /*Blue : #0F5040*/
 /*end user color */
+
+.WebRupee{
+	font-family: 'webrupeebook';
+}
 .test{
 	border: 2px solid red;
 	width: 100%
@@ -414,9 +434,102 @@ color: #FFF;
 /*****************************/
 
 
+/*image slider*/
+.slider ul li{
+	position:relative;
+}
 
+.slider ul li .small-circle.robust{
+	position: absolute;
+	top: 16%;
+	left: 4.2%;
+	font-size: 28px;
+	color: #fff;
+	font-family: 'font_5';
+}
+.slider ul li .small-circle.because{
+	position: absolute;
+	top: 16%;
+	left: 3.6%;
+	font-size: 28px;
+	color: #fff;
+	font-family: 'font_5';
+}
+.slider ul li .big-circle{
+	
+}
+.slider ul li .big-circle .design{
+	left: 8.5%;
+	top: 13%;
+	font-size: 50px;
+	width: 25%;
+	text-align: center;
+	position: absolute;
+	color: #330000;
+	font-family: 'font_5';
+	line-height: 1;
+}
+.slider ul li .big-circle .we-create{
+	text-align: center;
+	position: absolute;
+	font-family: 'font_8';
+	font-size: 20px;
+	top: 50%;
+	width: 28%;
+	left: 6.5%;
+	color: #FFF;
+}
+.slider ul li .big-circle .we-think{
+	left: 8.5%;
+	top: 13%;
+	font-size: 50px;
+	width: 25%;
+	text-align: center;
+	position: absolute;
+	color: #330000;
+	font-family: 'font_5';
+	line-height: 1;
+}
+.slider ul li .big-circle .button{
+	position: absolute;
+	top: 72%;
+	left: 9%;
+}
+.slider ul li .big-circle .button a{
+	font-family: 'font_2';
+	font-size: 22px;
+}
+.slider ul li .big-circle .button a.discover-btn{
+	margin-right: 1px;
+	padding: 8px 20px;
+	color: #000;
+	text-decoration: underline;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.slider ul li .big-circle .button a.discover-btn:hover{
+	background: #fff;
+	text-decoration: none;
 
-
+}
+.slider ul li .big-circle .button a.quote-btn{
+	background: #db3737;
+	padding: 8px 20px;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	-ms-transition: all 300ms;
+	-o-transition: all 300ms;
+	transition: all 300ms;
+}
+.slider ul li .big-circle .button a.quote-btn:hover{
+	background: #fff;
+	color: #000;
+}
 /*****************************/
 /*banner*/
 /*****************************/
@@ -879,7 +992,7 @@ color: #FFF;
 
 .view {
 	width: 23%;
-   height: 200px;
+   height: 147px;
    margin: 30px 7px;
 	float: left;
    overflow: hidden;
@@ -892,7 +1005,7 @@ color: #FFF;
 }
 .view .mask,.view .content {
 	width: 100%;
-   height: 200px;
+   height: 147px;
    position: absolute;
    overflow: hidden;
    top: 0;
@@ -933,6 +1046,7 @@ color: #FFF;
    -webkit-box-shadow: 0 0 1px #000;
    -moz-box-shadow: 0 0 1px #000;
    box-shadow: 0 0 1px #000;
+   margin-top: 23px;
 }
 .view a.info: hover {
    -webkit-box-shadow: 0 0 5px #000;
@@ -1140,12 +1254,18 @@ color: #FFF;
 	display: block;
 	position: relative;
 	padding-left: 15px;
+	color: #777;
 }
 .footer ul li a{
 	color: #777;
 	text-decoration: underline;
 }
-
+.contact-us-footer ul li:nth-child(4){
+	margin-top: 5px;
+}
+.contact-us-footer ul li:nth-child(5){
+	margin-top: 5px;
+}
 .footer ul li div{
 	font-family: 'font_1';
 	font-size: 14px;
@@ -1581,7 +1701,7 @@ background-position: -132px -323px;
 	width: 105px;
 	height: 93px;
 	position: absolute;
-	bottom: -48px;
+	bottom: -29px;
 	right: 83px;
 	background-position: -249px -1118px;
 	background-size: 650px;
@@ -1757,7 +1877,7 @@ background-position: -132px -323px;
 }
 
 .folio-page .folio-banner p{
-	font-family: 'font_2'
+	font-family: 'font_2';
 	font-size: 16px;
 }
 
@@ -1860,6 +1980,9 @@ background-position: -132px -323px;
 	width: 100%;
 	margin: 20px;
 	margin-top: 24px;
+	box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(119, 119, 119, 0.75);
 }
 .folio-modal .modal-content .folio-desc p{
 	font-family: 'font_2';
@@ -1970,7 +2093,7 @@ padding-left: 34px;
 	border: 0;
 	cursor: pointer;
 	font-family: 'font_1';
-	width: 68%;
+	width: 71%;
 	text-align: center;
 }
 #submit-form:hover{
@@ -2031,7 +2154,9 @@ padding-left: 34px;
 .contact .quote-overview{
 	margin-top: 30px;
 }
-
+.mobile-contact-us{
+	display: none;
+}
 
 
 
@@ -2042,12 +2167,22 @@ padding-left: 34px;
 /*****************************/
 /*company-page*/
 /*****************************/
+.company .company-brain{
+	text-align: center;
+}
+.company .company-brain img{
+	height: 330px;
+}
+.company .company-brain .company-brain-img-2{
+	display: none;
+}
 .company .who{
 	margin-top: 30px;
 }
 .company .think-different, .company .being-unique{
 	padding: 30px 0; 
 	text-align: center;
+	margin-top: 78px;
 }
 
 .company .think-different i {
@@ -2065,7 +2200,7 @@ padding-left: 34px;
 .company .who h2 {
 	font-size: 30px;
 	font-weight: 600;
-	line-height: 1em;
+	line-height: 1;
 	font-family: 'font_1';
 	color: #000;
 }
@@ -2182,12 +2317,14 @@ padding-left: 34px;
 }
 
 .company .trust i {
-	width: 629px;
+	width: 651px;
 	height: 111px;
 	background-position: 0px 656px;
 	position: absolute;
 	top: -80px;
-	left: 21%;
+	left: 0px;
+	right: 0px;
+	margin: auto;
 }
 .company .trust h2 {
 	font-size: 43px;
@@ -2353,7 +2490,7 @@ padding-left: 34px;
 }
 .company .company-progress ul li{
 	display: inline-block;
-	width: 20%;
+	width: 25%;
 	text-align: center;
 	font-size: 16px;
 	font-family: 'font_2';

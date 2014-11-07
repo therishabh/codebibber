@@ -9,7 +9,7 @@ class Folio extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Services | CodeBibber";
+		$data['title'] = "Folio | CodeBibber";
 		$data['page'] = "folio";
 		$this->load->view('template',$data);
 	}

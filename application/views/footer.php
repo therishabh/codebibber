@@ -27,15 +27,15 @@
 					</li>
 				</ul>
 
-				<h3>Our Momentum</h3>
+				<h3>Our Activities</h3>
 				<ul>
 					<li>
-						<a href="<?php echo base_url(); ?>news">
+						<a href="#">
 							<div>News</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>blog">
+						<a href="#">
 							<div>Blog</div>
 						</a>
 					</li>
@@ -81,28 +81,23 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-lg-3 col-md-3 col-sm-3">
-				<h3>Popular</h3>
+			<div class="col-lg-3 col-md-3 col-sm-3 contact-us-footer">
+				<h3>Contact Us</h3>
 				<ul>
 					<li>
-						<a href="#">
-							<div>Wordpress Web Design</div>
-						</a>
+						A - 281 Basement Block A, Shivalik, Malviya Nagar
 					</li>
 					<li>
-						<a href="#">
-							<div>Custom Web Design</div>
-						</a>
+						New Delhi, 110017
 					</li>
 					<li>
-						<a href="#">
-							<div>Responsive Web Design</div>
-						</a>
+						India
 					</li>
 					<li>
-						<a href="#">
-							<div>Branding Explainer Videos</div>
-						</a>
+						+91-9711575088
+					</li>
+					<li>
+						you@codebibber.com
 					</li>
 				</ul>
 			</div>
@@ -205,6 +200,14 @@ jQuery(document).ready(function($) {
 	$(".back-to-top").click(function() {
 		$('html, body').animate({scrollTop: 0}, 1000);
 		return false;
+	});
+
+	$('body').on('click', function (e) {
+	        //the 'is' for buttons that trigger popups
+	        //the 'has' for icons within a button that triggers a popup
+	        if ($('ul.mobile-menu-nav').has(e.target).length === 0 && $('.menu-icon').has(e.target).length === 0) {
+	          $("ul.mobile-menu-nav").slideUp();
+        	}
 	});
 
 	// var lastScrollTop = 0;

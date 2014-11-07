@@ -7,26 +7,31 @@
 		</div>
 		<div class="map-data">
 			<h1>
-				<span>You know you like what you see, now</span>
-				Contact
+				<span>You are liking what you witnessing, so here you go</span>
+				Contact Us
 			</h1>
 			<p>
-				If you are looking at our work, reading this copy, we are already starting 
-				to connect. And isn't that what a good client/agency relationship should do? 
-				Become apart of the team.
+				Now that you've gone through our work, and are reading this page, we have already begun to connect. Isn't that what a client agency relationship should be able to achieve ? Reach out to us !
 			</p>
 		</div>
 	</div>
 	
 
 	<div class="row">
-		<div class="col-lg-10 col-centered quote-overview">
+		<div class="col-lg-10 col-md-10 col-sm-11 col-centered quote-overview">
 			<div class="row">
 				<div class="col-lg-6">
+					<div class="mobile-contact-us">
+						<h2>
+							Contact Us
+						</h2>
+						<p>
+							Now that you've gone through our work, and are reading this page, we have already begun to connect. Isn't that what a client agency relationship should be able to achieve ? Reach out to us !
+						</p>
+					</div>
+
 					<p>
-						To learn more about <strong>CodeBibber</strong> or to schedule a free consultation,
-						call us at +1 678.648.1445 or fill out the form below. Whatever you need,
-						we can relate and exceed your expectations.
+						To learn more about <strong>CodeBibber</strong> or to fix a meetup , contact us at +91-9711575088 or simply fill up the form below. Whatever you require, we can impart and will excel your expectations.
 					</p>
 				</div>
 			</div>
@@ -137,32 +142,32 @@
 							<div class="col-lg-8">
 								<select id="your-budget" class="form-control"> 
 									<option value="" selected="selected"></option>
-									<option value="$10,000 - $15,000">
-										$10,000 - $15,000
+									<option value="10,000 - 15,000" >
+										<span class="WebRupee">Rs.</span>10,000 - <span class="WebRupee">Rs.</span>15,000
 									</option>
-									<option value="$15,000 - $20,000">
-										$15,000 - $20,000
+									<option value="15,000 - 20,000">
+										<span class="WebRupee">Rs.</span>15,000 - <span class="WebRupee">Rs.</span>20,000
 									</option>
-									<option value="$20,000 - $35,000">
-										$20,000 - $35,000
+									<option value="20,000 - 35,000">
+										<span class="WebRupee">Rs.</span>20,000 - <span class="WebRupee">Rs.</span>35,000
 									</option>
-									<option value="$35,000 - $50,000">
-										$35,000 - $50,000
+									<option value="35,000 - 50,000">
+										<span class="WebRupee">Rs.</span>35,000 - <span class="WebRupee">Rs.</span>50,000
 									</option>
-									<option value="$50,000 - $100,000">
-										$50,000 - $100,000
+									<option value="50,000 - 100,000">
+										<span class="WebRupee">Rs.</span>50,000 - <span class="WebRupee">Rs.</span>100,000
 									</option>
-									<option value="$100,000 - $250,000">
-										$100,000 - $250,000
+									<option value="100,000 - 250,000">
+										<span class="WebRupee">Rs.</span>100,000 - <span class="WebRupee">Rs.</span>250,000
 									</option>
-									<option value="$250,000 - $500,000">
-										$250,000 - $500,000
+									<option value="250,000 - 500,000">
+										<span class="WebRupee">Rs.</span>250,000 - <span class="WebRupee">Rs.</span>500,000
 									</option>
-									<option value="$500,000 - $1,000,000">
-										$500,000 - $1,000,000
+									<option value="500,000 - 1,000,000">
+										<span class="WebRupee">Rs.</span>500,000 - <span class="WebRupee">Rs.</span>1,000,000
 									</option>
-									<option value="$1,000,000 +">
-										$1,000,000 +
+									<option value="1,000,000 +">
+										<span class="WebRupee">Rs.</span>1,000,000 +
 									</option>
 									<option value="Undetermined">
 										Undetermined
@@ -283,19 +288,19 @@
 						<div class="col-lg-6">
 							<h2>Where to find us</h2>
 							<p>
-								A-281
+								A-281 Basement
 								Block A, Shivalik, Malviya Nagar
-								New Delhi, Delhi 110017, India
+								New Delhi, 110017, India
 							</p>
 							<p>
 								<a href="https://www.google.com/maps/place/A-281,+Block+A,+Shivalik,+Malviya+Nagar,+New+Delhi,+Delhi+110017,+India/@28.5322301,77.2061329,18z/data=!4m2!3m1!1s0x390ce21d335d3499:0x37ba716982b00ad6?hl=en" target="_blank">Map it</a>
 							</p>							
 						</div>
 						<div class="col-lg-6">
-							<h2>Hear our voice</h2>
+							<h2>Reach out to us</h2>
 							<p>
-								Say hello:
-								<strong>+91-9988556655</strong>
+								Say Hi:
+								<strong>+91-9711575088</strong>
 							</p>
 						</div>
 						
@@ -306,25 +311,24 @@
 					</h2>
 
 					<div class="row">
-						<div class="col-lg-6">
-							<h2>Information</h2>
-							<p>
-								<a href="mainto:hello@codebibber.com">hello@codebibber.com</a>
-							</p>
-							<p>
-								<a href="mainto:info@codebibber.com">info@codebibber.com</a>
-							</p>
-							
-						</div>
+						
 						<div class="col-lg-6">
 							<h2>Hear our voice</h2>
 							<p>
-								<a href="mainto:payments@codebibber.com">payments@codebibber.com</a>
+								<a href="mainto:you@codebibber.com">you@codebibber.com</a>
 							</p>
+							
+							
+						</div>
+						<div class="col-lg-6">
+							<!-- <h2>Information</h2>
+							<p>
+								<a href="mainto:info@codebibber.com">info@codebibber.com</a>
+							</p> -->
 						</div>
 						
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-lg-6">
 							<h2>Sales</h2>
 							<p>
@@ -340,7 +344,7 @@
 								<a href="mainto:careers@codebibber.com">careers@codebibber.com</a>
 							</p>
 						</div>
-					</div>
+					</div> -->
 
 				</div>
 			</div>
@@ -371,7 +375,7 @@
 	        title:"CodeBibber"
 	    });  
 	 
-	    var contentString = '<strong>CodeBibber</strong><br> A-281 Block A, Shivalik, Malviya Nagar New Delhi 110017, India <br>+91-8010 101010 <br>contact@codebibber.com';
+	    var contentString = '<strong>CodeBibber</strong><br> A-281 Basement Block A, Shivalik, Malviya Nagar New Delhi 110017, India <br>+91-9711575088 <br>info@codebibber.com';
 	    var infowindow = new google.maps.InfoWindow({
 	        content: contentString
 	    });

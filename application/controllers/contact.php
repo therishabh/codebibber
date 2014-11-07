@@ -9,7 +9,7 @@ class Contact extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Services | CodeBibber";
+		$data['title'] = "Contact | CodeBibber";
 		$data['page'] = "contact";
 		$this->load->view('template',$data);
 	}

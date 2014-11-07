@@ -9,7 +9,7 @@ class Quote extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Services | CodeBibber";
+		$data['title'] = "Quote | CodeBibber";
 		$data['page'] = "quote";
 		$this->load->view('template',$data);
 	}

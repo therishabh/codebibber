@@ -247,7 +247,7 @@
 	}
 	.footer ul li div {
 		font-size: 16px;
-		padding: 4px 10px;
+		padding: 8px 10px;
 	}
 	.footer .copyright {
 		position: absolute;
@@ -398,6 +398,138 @@
 		right: 43px;
 		background-position: -1464px -7158px;
 		background-size: 941px;
+	}
+	.footer ul.social li {
+		margin-top: 10px;
+	}
+	.quote .quote-overview p {
+		font-size: 18px;
+	}
+	.quote .quote-overview h2 {
+		font-size: 36px;
+	}
+	.quote .quote-overview .labeled{
+		font-size: 18px;
+	}
+	#submit-form {
+		padding: 15px 23px;
+		font-size: 20px;
+		width: 81%;
+	}
+	.quote .quote-overview input, .quote .quote-overview select{
+		height: 46px;
+		font-size: 18px;
+		font-family: 'font_1';
+	}
+	.quote-overview textarea{
+		font-size: 18px;
+		font-family: 'font_1';
+		height: 150px !important;
+	}
+	.quote-overview .r-s p a {
+		font-size: 18px;
+	}
+	.service-banner h1 span {
+		display: block;
+		font-size: 16px;
+	}
+	.contact .map h1 span {
+		font-size: 18px;
+		display: block;
+	}
+	.contact .map-data p {
+		font-size: 18px;
+	}
+	.map-data {
+		top: 15px;
+		width: 38%;
+	}
+	.folio-page .folio-banner span {
+		font-size: 17px;
+	}
+	.folio-page .folio-banner p {
+		font-size: 19px;
+	}
+	.folio-page .folio-banner {
+		padding: 60px;
+	}
+	.folio-page .folio-banner h1 {
+		font-size: 50px;
+	}
+
+	.folio-page .folio-content ul li img {
+		width: 100%;
+		height: 267px;
+	}
+	.folio-page .folio-content ul li a {
+		left: 39%;
+		top: 90px;
+		font-size: 19px;
+		padding: 8px 30px;
+	}
+	.folio-page .folio-content ul li:hover a {
+		top: 113px;
+	}
+	.folio-modal .modal-content .modal-title {
+		font-size: 35px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		width: 100%;
+		margin: 0px; 
+		margin-top: 69px;
+	}
+	.folio-modal .modal-content .folio-desc .desc-heading {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 28px;
+	}
+	.folio-modal .modal-content .folio-desc p{
+		font-size: 17px;
+	}
+	.modal-lg {
+		width: 1119px;
+	}
+	.slider ul li .small-circle.robust {
+		top: 106px;
+		left: 83px;
+		font-size: 44px;
+	}
+	.slider ul li .small-circle.because {
+		top: 105px;
+		left: 73px;
+		font-size: 44px;
+	}
+	.slider ul li .big-circle .we-think {
+		left: 252px;
+		top: 88px;
+		font-size: 63px;
+		width: 319px;
+	}
+	.slider ul li .big-circle .design {
+		left: 223px;
+		top: 102px;
+		font-size: 63px;
+		width: 418px;
+	}
+	.slider ul li .big-circle .we-create {
+		font-size: 28px;
+		top: 305px;
+		width: 520px;
+		left: 150px;
+	}
+	.slider ul li .big-circle .button {
+		position: absolute;
+		top: 477px;
+		left: 184px;
+	}
+	.slider ul li .big-circle .button a {
+		font-size: 33px;
+	}
+	.slider ul li .big-circle .button a.quote-btn {
+		padding: 10px 30px;
+	}
+	.slider ul li .big-circle .button a.discover-btn {
+		padding: 10px 30px;
 	}
 }
 /* end Desktops and laptops ----------- */
@@ -781,6 +913,108 @@
 		background-size: 650px;
 	}
 
+	#submit-form{
+		padding: 10px 0px;
+		font-size: 15px;
+		width: 70%;
+	}
+	.map-data {
+		top: 28px;
+		left: 103px;
+		width: 50%;
+	}
+	.contact .map-data h1 {
+		width: 63%;
+		font-size: 37px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		margin-top: 34px;
+	}
+	.folio-page .folio-banner {
+		padding: 45px;
+		color: #000;
+	}
+	.slider ul li .small-circle.robust {
+		font-size: 23px;
+	}
+	.slider ul li .small-circle.because{
+		font-size: 22px;
+	}
+	.slider ul li .big-circle .we-think{
+		font-size: 36px;
+	}
+	.slider ul li .big-circle .design {
+		font-size: 36px;
+	}
+	.slider ul li .big-circle .we-create{
+		font-size: 18px;
+	}
+	.slider ul li .big-circle .button a {
+		font-size: 17px;
+	}
+	.slider ul li .big-circle .button a.quote-btn {
+		padding: 7px 11px;
+	}
+	.slider ul li .big-circle .button a.discover-btn {
+		padding: 7px 11px;
+	}
+	.slider ul li .big-circle .button {
+		left: 10%;
+	}
+	.company .company-brain img {
+		height: 300px;
+	}
+	.company .who h2 {
+		font-size: 26px;
+	}
+	.company .think-different, .company .being-unique {
+		margin-top: 53px;
+	}
+	.company .who .discover-tcm h1 {
+		font-size: 37px;
+	}
+	.company .who .discover-tcm p {
+		font-size: 18px;
+	}
+	.company .trust h2 {
+		font-size: 37px;
+	}
+	.company .trust i {
+		width: 561px;
+		height: 101px;
+		background-position: 0px 584px;
+		position: absolute;
+		top: -68px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 824px;
+	}
+	.company .trust p {
+		font-size: 17px;
+	}
+	.company .company-progress {
+		padding: 67px 0;
+		background: #efefef;
+	}
+	.company .company-progress h3 {
+		font-size: 37px;
+		padding-bottom: 30px;
+	}
+	.company-progress li span.num {
+		font-size: 27px;
+	}
+	.company .connect h3 {
+		padding: 30px 0 20px;
+		font-size: 36px;
+	}
+	.company .connect .get-started a {
+		width: 100%;
+		padding: 75px 0;
+	}
+	.company .connect .get-started h6 {
+		font-size: 35px;
+	}
 	
 }
 /* iPads (landscape) ----------- */
@@ -788,7 +1022,7 @@
 
 
 /* iPads (portrait) ----------- */
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1024px){
 	.top-header .logo img {
 		margin-left: 0px;
 		height: 57px;
@@ -1155,6 +1389,169 @@
 		right: 43px;
 		background-position: -905px -2712px;
 		background-size: 582px;
+	}
+	.quote .service-banner p {
+		width: 97%;
+	}
+	.quote .quote-overview .form {
+		margin-top: 10px;
+	}
+
+	.quote .quote-overview .labeled {
+		font-size: 15px;
+	}
+	.quote .quote-overview input, .quote .quote-overview select{
+		height: 35px;
+	}
+	.quote .quote-overview textarea {
+		height: 89px !important;
+	}
+	#submit-form {
+		padding: 10px 0px;
+		font-size: 15px;
+		width: 57%;
+	}
+	.quote-overview .r-s {
+		padding: 25px;
+	}
+	.quote-overview .r-s p {
+		font-size: 15px;
+		width: 100%;
+	}
+	.quote-overview .r-s p a {
+		font-size: 14px;
+	}
+	.quote .quote-overview {
+		padding-left: 15px;
+	}
+	.map-data{
+		width: 43%;
+		left: 87px;
+	}
+	.contact .map-data h1 {
+		width: 65%;
+		font-size: 36px;
+	}
+	.contact .map h1 span {
+		font-size: 14px;
+	}
+	.folio-page .folio-banner h1 {
+		font-size: 40px;
+	}
+	.folio-page .folio-banner {
+		padding: 40px;
+	}
+	/*.folio-page .folio-content ul li {
+		width: 49%;
+	}*/
+	.folio-page .folio-content ul li img {
+		width: 100%;
+		height: 191px;
+	}
+	.folio-page .folio-content ul li a {
+		left: 42%;
+		top: 50px;
+	}
+	.folio-page .folio-content ul li:hover a {
+		top: 72px;
+	}
+	.folio-modal .modal-content .col-lg-6{
+		width: 50%;
+		float: left;
+	}
+	.folio-modal .modal-content .modal-title {
+		font-size: 26px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		width: 100%;
+		margin: 0px; 
+		margin-top: 73px;
+	}
+	.folio-modal .modal-content .folio-desc .desc-heading {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+	.slider ul li .small-circle.robust {
+		font-size: 22px;
+	}
+	.slider ul li .small-circle.because{
+		font-size: 21px;
+	}
+	.slider ul li .big-circle .we-think{
+		font-size: 34px;
+	}
+	.slider ul li .big-circle .design {
+		font-size: 34px;
+	}
+	.slider ul li .big-circle .we-create{
+		font-size: 16px;
+	}
+	.slider ul li .big-circle .button a {
+		font-size: 16px;
+	}
+	.slider ul li .big-circle .button a.quote-btn {
+		padding: 6px 10px;
+	}
+	.slider ul li .big-circle .button a.discover-btn {
+		padding: 6px 10px;
+	}
+	.slider ul li .big-circle .button {
+		left: 10%;
+	}
+	.company .company-brain img {
+		height: 280px;
+	}
+	.company .who h2 {
+		font-size: 26px;
+	}
+	.company .think-different, .company .being-unique {
+		margin-top: 53px;
+	}
+	.company .who .discover-tcm h1 {
+		font-size: 37px;
+	}
+	.company .who .discover-tcm p {
+		font-size: 18px;
+	}
+	.company .trust h2 {
+		font-size: 37px;
+	}
+	.company .trust i {
+		width: 550px;
+		height: 104px;
+		background-position: 0px 559px;
+		position: absolute;
+		top: -76px;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		background-size: 780px;
+	}
+	.company .trust p {
+		font-size: 17px;
+	}
+	.company .company-progress {
+		padding: 67px 0;
+		background: #efefef;
+	}
+	.company .company-progress h3 {
+		font-size: 37px;
+		padding-bottom: 30px;
+	}
+	.company-progress li span.num {
+		font-size: 27px;
+	}
+	.company .connect h3 {
+		padding: 30px 0 20px;
+		font-size: 36px;
+	}
+	.company .connect .get-started a {
+		width: 100%;
+		padding: 47px 0;
+	}
+	.company .connect .get-started h6 {
+		font-size: 35px;
 	}
 }
 /*end @media only screen and (max-width : 1024px)*/
@@ -1557,6 +1954,291 @@
 		width: 49.5%;
 		float: left;
 	}
+	.quote .service-banner h1 span {
+		font-size: 13px;
+		line-height: 2.5;
+	}
+	.quote .service-banner p {
+		width: 100%;
+	}
+	.quote .quote-overview p {
+		padding-left: 10px;
+		font-size: 15px;
+		padding-right: 10px;
+	}
+	.quote .quote-overview {
+		padding-left: 15px;
+	}
+	.quote .quote-overview h2 {
+		font-size: 28px;
+	}
+	.quote .quote-overview .form-section {
+		padding-left: 10px;
+	}
+	.quote .quote-overview .form {
+		margin-top: 12px;
+	}
+	.quote .quote-overview .labeled {
+		font-size: 15px;
+	}
+	.quote .quote-overview input, .quote .quote-overview select{
+		height: 35px;
+	}
+	.quote .quote-overview textarea {
+		height: 89px !important;
+	}
+	#submit-form {
+		padding: 10px 0px;
+		font-size: 16px;
+		width: 57%;
+	}
+	.quote-overview .r-s {
+		padding: 25px;
+	}
+	.quote-overview .r-s p {
+		font-size: 15px;
+		width: 100%;
+	}
+	.quote-overview .r-s p a {
+		font-size: 14px;
+		text-decoration: underline;
+	}
+	.map-data {
+		top: 26px;
+		left: 39px;
+		width: 48%;
+	}
+	.contact .map-data h1 {
+		width: 72%;
+		font-size: 30px;
+	}
+	.contact .map h1 span {
+		font-size: 13px;
+	}
+	.contact .map-data p {
+		font-size: 13px;
+	}
+	.folio-page .folio-banner h1 {
+		font-size: 38px;
+	}
+	.folio-page .folio-banner {
+		padding: 0px;
+		padding-top: 40px;
+	}
+	.folio-page .folio-content ul li {
+		width: 49%;
+	}
+	.folio-page .folio-content ul li img {
+		width: 100%;
+		height: 191px;
+	}
+	.folio-page .folio-content ul li a {
+		left: 42%;
+		top: 50px;
+	}
+	.folio-page .folio-content ul li:hover a {
+		top: 72px;
+	}
+	.folio-modal .modal-content .col-lg-6{
+		width: 50%;
+		float: left;
+	}
+	.folio-modal .modal-content .modal-title {
+		font-size: 26px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		width: 100%;
+		margin: 0px; 
+		margin-top: 73px;
+	}
+	.folio-modal .modal-content .folio-desc .desc-heading {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 24px;
+	}
+	.slider ul li .small-circle.robust {
+		font-size: 17px;
+	}
+	.slider ul li .small-circle.because{
+		font-size: 17px;
+	}
+	.slider ul li .big-circle .we-think{
+		font-size: 25px;
+	}
+	.slider ul li .big-circle .design {
+		font-size: 25px;
+	}
+	.slider ul li .big-circle .we-create{
+		font-size: 13px;
+	}
+	.slider ul li .big-circle .button a {
+		font-size: 13px;
+	}
+	.slider ul li .big-circle .button a.quote-btn {
+		padding: 5px 8px;
+	}
+	.slider ul li .big-circle .button a.discover-btn {
+		padding: 5px 8px;
+	}
+	.slider ul li .big-circle .button {
+		left: 10%;
+	}
+		.company .think-different, .company .being-unique {
+		padding: 15px 0;
+		margin-top: 0px;
+	}
+	.company .who {
+		margin-top: 30px;
+	}
+	.company .who h2 {
+		font-size: 32px;
+	}
+
+	.company .company-brain img {
+		height: 250px;
+	}
+	.company .who .discover-tcm .ship {
+		width: 442px;
+		height: 193px;
+		margin: 20px auto 0px auto;
+		background-position: 0px -852px;
+		background-size: 786px;
+	}
+	.company .who .discover-tcm h1 {
+		font-size: 35px;
+	}
+	.company .who .discover-tcm p {
+		width: 80%;
+		font-size: 16px;
+	}
+	.company .trust h2 {
+		font-size: 33px;
+	}
+	.company .trust i{
+		display: none;
+	}
+	.company .trust p {
+		width: 80%;
+		font-size: 16px;
+		padding-top: 20px;
+	}
+	.company .trust {
+		background: #ffffdf;
+		text-align: center;
+		padding: 40px 0 40px;
+	}
+	.company .company-progress {
+		padding: 30px 0;
+	}
+	.company .company-progress h3 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.company .company-progress ul li {
+		display: inline-block;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.company .company-progress li i {
+		width: 66px;
+		height: 69px;
+		margin: 0 auto 5px;
+	}
+	.company-progress .coffee i {
+		background-position: 2px -329px;
+		background-size: 718px;
+	}
+	.company-progress .code i {
+		width: 83px !important;
+		background-position: -99px -329px;
+		background-size: 718px;
+	}
+	.company-progress .pixel i {
+		background-position: -224px -329px;
+		background-size: 718px;
+	}
+	.company-progress .songs i {
+		background-position: -448px -329px;
+		background-size: 718px;
+	}
+	.company-progress li span.num {
+		font-size: 24px;
+	}
+	.company-progress li span.text {
+		font-size: 18px;
+	}
+	.company .connect h3 {
+		padding: 20px 0 20px;
+		font-size: 30px;
+		text-align: center;
+	}
+	.company .connect ul li a i {
+		width: 84px;
+		height: 84px;
+	}
+	.company .connect ul li a.facebook i {
+		background-position: 0px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.facebook:hover i {
+		background-position: 0px -524px;
+	}
+	.company .connect ul li a.twitter i {
+		background-position: -416px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.twitter:hover i {
+		background-position: -416px -524px;
+	}
+	.company .connect ul li a.youtube i{
+		background-position: -249px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.youtube:hover i{
+		background-position: -249px -524px;
+	}
+	.company .connect ul li a.google i {
+		background-position: -167px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.google:hover i {
+		background-position: -167px -524px;
+	}
+	.company .connect ul li a.linkedin i {
+		background-position: -82px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.linkedin:hover i {
+		background-position: -82px -524px;
+	}
+	.company .connect ul li a.pinterest i {
+		background-position: -332px -441px;
+		background-size: 700px;
+	}
+	.company .connect ul li a.pinterest:hover i {
+		background-position: -332px -524px;
+	}
+	.company .connect ul li a {
+		text-align: center;
+	}
+	.company .connect .get-started {
+		padding: 14px 0;
+	}
+	.company .connect .get-started a {
+		width: 80%;
+		padding: 65px 0;
+	}
+	.company .connect .get-started i {
+		width: 122px;
+		height: 75px;
+		background-position: -17px -5803px;
+		margin: 0 auto;
+		display: block;
+		background-size: 750px;
+	}
+	.company .connect .get-started h6 {
+		font-size: 39px;
+	}
 }
 /* end @media only screen and (max-width : 768px)*/
 
@@ -1930,7 +2612,287 @@
 		width: 100%;
 		float: none;
 	}
-
+	
+	.quote .service-banner h1 span {
+		font-size: 12px;
+		line-height: 2.5;
+	}
+	.quote .service-banner p {
+		width: 100%;
+	}
+	.quote .quote-overview p {
+		padding-left: 10px;
+	}
+	.quote .quote-overview {
+		padding-left: 15px;
+	}
+	.quote .quote-overview h2 {
+		font-size: 26px;
+	}
+	.quote .quote-overview .form-section {
+		padding-left: 10px;
+	}
+	.quote .quote-overview .form {
+		margin-top: 10px;
+	}
+	.quote .quote-overview .labeled {
+		font-size: 14px;
+	}
+	.quote .quote-overview input, .quote .quote-overview select{
+		height: 35px;
+	}
+	.quote .quote-overview textarea {
+		height: 89px !important;
+	}
+	#submit-form {
+		padding: 8px 0px;
+		font-size: 15px;
+		width: 58%;
+	}
+	.quote-overview .r-s {
+		padding: 25px;
+	}
+	.quote-overview .r-s p {
+		font-size: 14px;
+		width: 100%;
+	}
+	.quote-overview .r-s p a {
+		font-size: 14px;
+		text-decoration: underline;
+	}
+	.mobile-contact-us{
+		display: block;
+	}
+	.map-data{
+		display: none;
+	}
+	#map_canvas{
+		height: 200px !important;
+	}
+	.folio-page .folio-banner span {
+		font-size: 13px;
+	}
+	.folio-page .folio-banner p {
+		font-size: 15px;
+	}
+	.folio-page .folio-banner {
+		padding: 0px;
+		padding-top: 25px;
+	}
+	.folio-page .folio-banner h1 {
+		font-size: 28px;
+	}
+	.folio-page .folio-content ul li {
+		width: 49%;
+	}
+	.folio-page .folio-content ul li img {
+		width: 100%;
+		height: 156px;
+	}
+	.folio-page .folio-content ul li a {
+		left: 37%;
+	}
+	.folio-page .folio-content ul li:hover a {
+		top: 58px;
+	}
+	.folio-modal .modal-content .modal-title {
+		font-size: 24px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		width: 100%;
+		margin: 0px; 
+		margin-top: 7px;
+	}
+	.folio-modal .modal-content .folio-desc .desc-heading {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 22px;
+	}
+	.slider ul li .small-circle.robust {
+		font-size: 10px;
+	}
+	.slider ul li .small-circle.because {
+		font-size: 10px;
+	}
+	.slider ul li .big-circle .design {
+		font-size: 14px;
+	}
+	.slider ul li .big-circle .we-think {
+		font-size: 14px;
+	}
+	.slider ul li .big-circle .we-create {
+		font-size: 8px;
+		top: 45%;
+	}
+	.slider ul li .big-circle .button {
+		top: 68%;
+		left: 9%;
+	}
+	.slider ul li .big-circle .button a {
+		font-family: 'font_2';
+		font-size: 10px;
+	}
+	.slider ul li .big-circle .button a.discover-btn {
+		padding: 2px 4px;
+	}
+	.slider ul li .big-circle .button a.quote-btn {
+		padding: 2px 4px;
+	}
+	.company .think-different, .company .being-unique {
+		padding: 15px 0;
+		margin-top: 0px;
+	}
+	.company .who {
+		margin-top: 10px;
+	}
+	.company .who h2 {
+		font-size: 24px;
+	}
+	.company .company-brain img {
+		height: 180px;
+	}
+	.company .who .discover-tcm .ship {
+		width: 321px;
+		height: 156px;
+		margin: 20px auto 0px auto;
+		background-position: 0px -617px;
+		background-size: 570px;
+	}
+	.company .who .discover-tcm h1 {
+		font-size: 33px;
+	}
+	.company .who .discover-tcm p {
+		width: 100%;
+		font-size: 16px;
+	}
+	.company .trust h2 {
+		font-size: 30px;
+	}
+	.company .trust i{
+		display: none;
+	}
+	.company .trust p {
+		width: 100%;
+		font-size: 16px;
+		padding-top: 20px;
+	}
+	.company .trust {
+		background: #ffffdf;
+		text-align: center;
+		padding: 40px 0 40px;
+	}
+	.company .company-progress {
+		padding: 30px 0;
+	}
+	.company .company-progress h3 {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.company .company-progress ul li {
+		display: inline-block;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.company .company-progress li i {
+		width: 54px;
+		height: 58px;
+		margin: 0 auto 5px;
+	}
+	.company-progress .coffee i {
+		background-position: 2px -266px;
+		background-size: 580px;
+	}
+	.company-progress .code i {
+		width: 69px !important;
+		background-position: -79px -266px;
+		background-size: 580px;
+	}
+	.company-progress .pixel i {
+		background-position: -181px -266px;
+		background-size: 580px;
+	}
+	.company-progress .songs i {
+		background-position: -361px -266px;
+		background-size: 580px;
+	}
+	.company-progress li span.num {
+		font-size: 22px;
+	}
+	.company-progress li span.text {
+		font-size: 16px;
+	}
+	.company .connect h3 {
+		padding: 20px 0 20px;
+		font-size: 26px;
+		text-align: center;
+	}
+	.company .connect ul li a i {
+		width: 69px;
+		height: 69px;
+	}
+	.company .connect ul li a.facebook i {
+		background-position: 0px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.facebook:hover i {
+		background-position: 0px -439px;
+	}
+	.company .connect ul li a.twitter i {
+		background-position: -349px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.twitter:hover i {
+		background-position: -349px -439px;
+	}
+	.company .connect ul li a.youtube i{
+		background-position: -209px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.youtube:hover i{
+		background-position: -209px -439px;
+	}
+	.company .connect ul li a.google i {
+		background-position: -140px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.google:hover i {
+		background-position: -140px -439px;
+	}
+	.company .connect ul li a.linkedin i {
+		background-position: -69px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.linkedin:hover i {
+		background-position: -69px -439px;
+	}
+	.company .connect ul li a.pinterest i {
+		background-position: -278px -369px;
+		background-size: 585px;
+	}
+	.company .connect ul li a.pinterest:hover i {
+		background-position: -278px -439px;
+	}
+	.company .connect ul li a {
+		text-align: center;
+	}
+	.company .connect .get-started {
+		padding: 14px 0;
+	}
+	.company .connect .get-started a {
+		width: 100%;
+		padding: 65px 0;
+	}
+	.company .connect .get-started i {
+		width: 97px;
+		height: 64px;
+		background-position: -13px -4484px;
+		margin: 0 auto;
+		display: block;
+		background-size: 580px;
+	}
+	.company .connect .get-started h6 {
+		font-size: 30px;
+	}
 }
 
 
@@ -2246,6 +3208,7 @@
 	}
 	.service-banner h1 span {
 		font-size: 12px;
+		line-height: 2;
 	}
 	.side-bar{
 		display: none;
@@ -2390,5 +3353,271 @@
 	.footer-action .col-lg-6{
 		width: 100%;
 		float: none;
+	}
+
+	.quote .service-banner h1 span {
+		font-size: 11px;
+		line-height: 2.5;
+	}
+	.quote .service-banner p {
+		width: 100%;
+	}
+	.quote .quote-overview {
+		padding-left: 15px;
+	}
+	.quote .quote-overview h2 {
+		font-size: 24px;
+	}
+	.quote .quote-overview .form-section {
+		width: 94%;
+	}
+	.quote .quote-overview .form {
+		margin-top: 5px;
+	}
+	.quote .quote-overview .labeled {
+		font-size: 14px;
+	}
+	.quote .quote-overview input, .quote .quote-overview select{
+		height: 33px;
+	}
+	.quote .quote-overview textarea {
+		height: 89px !important;
+	}
+	#submit-form {
+		padding: 8px 0px;
+		font-size: 15px;
+		width: 72%;
+		margin-top: 10px;
+	}
+	.quote-overview .r-s {
+		padding: 15px;
+	}
+	.quote-overview .r-s p {
+		font-size: 14px;
+		width: 100%;
+	}
+	.quote-overview .r-s p a {
+		font-size: 14px;
+		text-decoration: underline;
+	}
+
+	#map_canvas{
+		height: 160px !important;
+	}
+	
+	.map-data{
+		display: none;
+	}
+	.mobile-contact-us{
+		display: block;
+	}
+	.mobile-contact-us h2 {
+		padding-left: 8px;
+	}
+	.folio-page .folio-banner span {
+		font-family: 'font_1';
+		font-size: 13px;
+	}
+	.folio-page .folio-banner p {
+		font-family: 'font_2';
+		font-size: 15px;
+	}
+	.folio-page .folio-banner {
+		padding: 0px;
+		padding-top: 25px;
+	}
+	.folio-page .folio-banner h1 {
+		font-size: 26px;
+	}
+	.folio-page .folio-content ul li {
+		width: 100%;
+	}
+	.folio-modal .modal-content .modal-title {
+		font-size: 21px;
+	}
+	.folio-modal .modal-content .folio-image img {
+		width: 100%;
+		margin: 0px; 
+		margin-top: 7px;
+	}
+	.folio-modal .modal-content .folio-desc .desc-heading {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.slider ul li .small-circle.robust {
+		top: 15%;
+		left: 4%;
+		font-size: 7px;
+	}
+	.slider ul li .small-circle.because {
+		font-size: 7px;
+	}
+	.slider ul li .big-circle .design {
+		font-size: 11px;
+		top: 31%;
+	}
+	.slider ul li .big-circle .we-think {
+		font-size: 11px;
+		top: 31%;
+	}
+	.slider ul li .big-circle .we-create{
+		display: none;
+	}
+	.slider ul li .big-circle .button{
+		display: none;
+	}
+
+	.company .think-different, .company .being-unique {
+		padding: 15px 0;
+		margin-top: 0px;
+	}
+	.company .who h2 {
+		font-size: 21px;
+	}
+	
+	.company .company-brain img {
+		height: 160px;
+	}
+	.company .who .discover-tcm .ship {
+		width: 269px;
+		height: 137px;
+		margin: 20px auto 0px auto;
+		background-position: 0px -527px;
+		background-size: 487px;
+	}
+	.company .who .discover-tcm h1 {
+		font-size: 26px;
+	}
+	.company .who .discover-tcm p {
+		width: 100%;
+		font-size: 14px;
+	}
+	.company .trust h2 {
+		font-size: 26px;
+	}
+	.company .trust i{
+		display: none;
+	}
+	.company .trust p {
+		width: 100%;
+		font-size: 15px;
+		padding-top: 20px;
+	}
+	.company .trust {
+		background: #ffffdf;
+		text-align: center;
+		padding: 40px 0 40px;
+	}
+	.company .company-progress {
+		padding: 30px 0;
+	}
+	.company .company-progress h3 {
+		font-size: 26px;
+		padding-bottom: 10px;
+	}
+	.company .company-progress ul li {
+		display: inline-block;
+		width: 50%;
+		margin-top: 20px;
+	}
+	.company .company-progress li i {
+		width: 54px;
+		height: 51px;
+		margin: 0 auto 5px;
+	}
+	.company-progress .coffee i {
+		background-position: 7px -228px;
+		background-size: 500px;
+	}
+	.company-progress .code i {
+		width: 60px !important;
+		background-position: -69px -228px;
+		background-size: 500px;
+	}
+	.company-progress .pixel i {
+		background-position: -152px -225px;
+		background-size: 500px;
+	}
+	.company-progress .songs i {
+		background-position: -307px -225px;
+		background-size: 500px;
+	}
+	.company-progress li span.num {
+		font-size: 19px;
+	}
+	.company-progress li span.text {
+		font-size: 14px;
+	}
+	.company .connect h3 {
+		padding: 20px 0 20px;
+		font-size: 26px;
+		text-align: center;
+	}
+	.company .connect ul li a i {
+		width: 59px;
+		height: 60px;
+	}
+	.company .connect ul li a.facebook i {
+		background-position: 0px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.facebook:hover i {
+		background-position: 0px -375px;
+	}
+	.company .connect ul li a.twitter i {
+		background-position: -298px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.twitter:hover i {
+		background-position: -298px -375px;
+	}
+	.company .connect ul li a.youtube i{
+		background-position: -179px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.youtube:hover i{
+		background-position: -179px -375px;
+	}
+	.company .connect ul li a.google i {
+		background-position: -119px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.google:hover i {
+		background-position: -119px -375px;
+	}
+	.company .connect ul li a.linkedin i {
+		background-position: -57px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.linkedin:hover i {
+		background-position: -57px -375px;
+	}
+	.company .connect ul li a.pinterest i {
+		background-position: -237px -315px;
+		background-size: 500px;
+	}
+	.company .connect ul li a.pinterest:hover i {
+		background-position: -237px -375px;
+	}
+	.company .connect ul li a {
+		text-align: center;
+	}
+	.company .connect .get-started {
+		padding: 14px 0;
+	}
+	.company .connect .get-started a {
+		width: 100%;
+		padding: 50px 0;
+	}
+	.company .connect .get-started i {
+		width: 82px;
+		height: 57px;
+		background-position: -12px -3867px;
+		margin: 0 auto;
+		display: block;
+		background-size: 500px;
+	}
+	.company .connect .get-started h6 {
+		font-size: 25px;
 	}
 }

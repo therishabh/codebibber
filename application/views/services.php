@@ -90,8 +90,8 @@
 								of the day users are the targets. We 
 								tend to concentrate on the requirements 
 								and wants of the users to create 
-								revolutionising solutions via our 
-								dedication to Researching, Strategising 
+								revolutionizing solutions via our 
+								dedication to Researching, Strategizing 
 								and Designing techniques...
 							</p>
 							<a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="bttn gray-btn">Learn More</a>

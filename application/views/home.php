@@ -1,29 +1,47 @@
 <div class="home-page">
-    
-    <div class="row banner">
-        <div class="col-lg-12">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 play">
-                    <a href="//fast.wistia.net/embed/iframe/jyqikw1uk8?popover=true" class="play-btn ico wistia-popover[height=512,playerColor=7b796a,width=640]"></a>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 banner-content">
-                    <div class="info">
-                        <h1>
-                            <span>Robust</span>
-                            Design & Development
-                        </h1>
-                        
-                        <div class="first">We create things that look magnificent and work best.</div> 
-                        <div>Generate more traffic, leads and sales with us. <a href="<?php echo base_url() ?>quote">Get a quote</a>.</div> 
-                        <div class="link">
-                            <a href="<?php echo base_url() ?>quote" class="quote red-btn">Get a Quote</a>
-                            <a href="<?php echo base_url() ?>company" class="discover">Discover</a>
+
+    <div class="row">
+        <section class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <div class="small-circle robust">Robust</div>
+                        <div class="big-circle">
+                            <div class="design">Design<br> & <br>Development</div>
+                            <div class="we-create">
+                            Our work encloses inseparable blend of design and development.
+                            </div>
+                            <div class="button">
+                                <a href="<?php echo base_url(); ?>company" class="discover-btn">Discover</a>
+                                <a href="<?php echo base_url(); ?>quote" class="quote-btn">Get a Quote</a>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                        <img src="<?php echo base_url(); ?>images/slider/1.png" />
+                    </li>
+                    <li>
+                        <div class="small-circle because">Because</div>
+                        <div class="big-circle">
+                            <div class="we-think">We<br>Think<br>Products</div>
+                            <div class="we-create">
+                            Our every project delivers an outright product.
+                            </div>
+                            <div class="button">
+                                <a href="<?php echo base_url(); ?>company" class="discover-btn">Discover</a>
+                                <a href="<?php echo base_url(); ?>quote" class="quote-btn">Get a Quote</a>
+                            </div>
+                        </div>
+                        <img src="<?php echo base_url(); ?>images/slider/2.png" />
+                    </li>
+                </ul>
             </div>
-        </div>
+        </section>
     </div>
+
+
+
+   
+
+
     <div class="home-content">
         <div class="row">
             <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
@@ -78,7 +96,7 @@
                         <div class="meet">
                             <div class="row">
                                 <div class="col-lg-8 col-md-8 col-sm-8">
-                                   <h3>YOUR IDEA</h3>
+                                   <h3>Your Idea</h3>
                                    <p>
                                        We meet up to understand you and your Company. 
                                        We absorb your core idea, elaborate and discuss 
@@ -162,38 +180,38 @@
                 <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                             
                     <div class="view view-first">
-                        <img src="<?php echo base_url(); ?>images/1.png" />
+                        <img src="<?php echo base_url(); ?>images/work-1.png" />
                         <div class="mask">
-                            <h2>Project #1</h2>
-                            <p>A wonderful serenity has taken possession of my entire soul, which I enjoy with my whole heart.</p>
-                            <a href="#" class="info">View</a>
+                            <h2>GrownOut</h2>
+                            <!-- <p>A wonderful serenity has taken possession of my entire soul, which I enjoy with my whole heart.</p> -->
+                            <a href="<?php echo base_url() ?>folio" class="info">View</a>
                         </div>
                     </div> 
                     
                     <div class="view view-first">
-                        <img src="<?php echo base_url(); ?>images/2.png" />
+                        <img src="<?php echo base_url(); ?>images/work-2.png" />
                         <div class="mask">
-                            <h2>Project #2</h2>
-                            <p>A wonderful serenity  of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="#" class="info">View</a>
+                            <h2>90Bids</h2>
+                            <!-- <p>A wonderful serenity  of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                            <a href="<?php echo base_url() ?>folio" class="info">View</a>
                         </div>
                     </div> 
 
                     <div class="view view-first">
-                        <img src="<?php echo base_url(); ?>images/3.png" />
+                        <img src="<?php echo base_url(); ?>images/work-3.png" />
                         <div class="mask">
-                            <h2>Project #3</h2>
-                            <p>A wonderful serenity has  like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="#" class="info">View</a>
+                            <h2>Shalent</h2>
+                            <!-- <p>A wonderful serenity has  like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                            <a href="<?php echo base_url() ?>folio" class="info">View</a>
                         </div>
                     </div> 
 
                     <div class="view view-first">
-                        <img src="<?php echo base_url(); ?>images/4.png" />
+                        <img src="<?php echo base_url(); ?>images/work-4.png" />
                         <div class="mask">
-                            <h2>Project #4</h2>
-                            <p>A wonderful serenity has taken  like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                            <a href="#" class="info">View</a>
+                            <h2>IndoGenius</h2>
+                            <!-- <p>A wonderful serenity has taken  like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                            <a href="<?php echo base_url() ?>folio" class="info">View</a>
                         </div>
                     </div>
 
@@ -202,7 +220,7 @@
 
         </div><!-- end home-sample-work -->
 
-        <div class="blog-news row">
+        <!-- <div class="blog-news row">
             <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-sm-6 blog-section">
@@ -230,7 +248,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row why-us">
             <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
@@ -276,3 +294,21 @@
         </div><!-- end get-to-know-us -->
     </div><!-- end home-content -->
 </div><!-- end home-page -->
+
+<!-- add java script for slider -->
+<script type="text/javascript" src="<?php echo base_url(); ?>js/slider/jquery.flexslider.js"></script>
+<!-- // end java script for slider -->
+
+<script type="text/javascript">
+
+$(window).load(function(){
+  $('.flexslider').flexslider({
+    animation: "slide",
+    pauseOnHover: false,
+    directionNav: false,
+    start: function(slider){
+      $('body').removeClass('loading');
+    }
+  });
+});
+</script>

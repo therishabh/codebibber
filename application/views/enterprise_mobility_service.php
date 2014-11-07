@@ -77,38 +77,38 @@
             <div class="col-lg-10 col-md-10 col-sm-11 col-centered">
                         
                 <div class="view view-first">
-                    <img src="<?php echo base_url(); ?>images/1.png" />
+                    <img src="<?php echo base_url(); ?>images/work-1.png" />
                     <div class="mask">
-                        <h2>Project #1</h2>
-                        <p>A wonderful serenity has taken possession of my entire soul, which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">View</a>
+                        <h2>GrownOut</h2>
+                        <!-- <p>A wonderful serenity has taken possession of my entire soul, which I enjoy with my whole heart.</p> -->
+                        <a href="<?php echo base_url() ?>folio" class="info">View</a>
                     </div>
                 </div> 
                 
                 <div class="view view-first">
-                    <img src="<?php echo base_url(); ?>images/2.png" />
+                    <img src="<?php echo base_url(); ?>images/work-2.png" />
                     <div class="mask">
-                        <h2>Project #2</h2>
-                        <p>A wonderful serenity  of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">View</a>
+                        <h2>90Bids</h2>
+                        <!-- <p>A wonderful serenity  of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                        <a href="<?php echo base_url() ?>folio" class="info">View</a>
                     </div>
                 </div> 
 
                 <div class="view view-first">
-                    <img src="<?php echo base_url(); ?>images/3.png" />
+                    <img src="<?php echo base_url(); ?>images/work-3.png" />
                     <div class="mask">
-                        <h2>Project #3</h2>
-                        <p>A wonderful serenity has  like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">View</a>
+                        <h2>Shalent</h2>
+                        <!-- <p>A wonderful serenity has  like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                        <a href="<?php echo base_url() ?>folio" class="info">View</a>
                     </div>
                 </div> 
 
                 <div class="view view-first">
-                    <img src="<?php echo base_url(); ?>images/4.png" />
+                    <img src="<?php echo base_url(); ?>images/work-4.png" />
                     <div class="mask">
-                        <h2>Project #4</h2>
-                        <p>A wonderful serenity has taken  like these sweet mornings of spring which I enjoy with my whole heart.</p>
-                        <a href="#" class="info">View</a>
+                        <h2>IndoGenius</h2>
+                        <!-- <p>A wonderful serenity has taken  like these sweet mornings of spring which I enjoy with my whole heart.</p> -->
+                        <a href="<?php echo base_url() ?>folio" class="info">View</a>
                     </div>
                 </div>
 

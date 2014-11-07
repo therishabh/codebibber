@@ -9,7 +9,7 @@ class Company extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Services | CodeBibber";
+		$data['title'] = "Company | CodeBibber";
 		$data['page'] = "company";
 		$this->load->view('template',$data);
 	}

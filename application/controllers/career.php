@@ -9,7 +9,7 @@ class Career extends CI_Controller {
 	}
 	public function index()
 	{
-		$data['title'] = "Services | CodeBibber";
+		$data['title'] = "Career | CodeBibber";
 		$data['page'] = "career";
 		$this->load->view('template',$data);
 	}

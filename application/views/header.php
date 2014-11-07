@@ -10,13 +10,19 @@ $page_name = uri_string();
 	<title><?php echo isset($title) ? $title : "Codebibber"  ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/media-query.css">
-	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 	<meta name="viewport" content="width=device-width">
+
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
 	<!-- for internet explorer 8 -->
 	<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	<!-- // end for internet explorer 8 -->
+
 	
+	<!-- add css for slider -->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/flexslider.css">
+	<!-- // end css for slider -->
 
 	<!-- add basic jquery -->
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
@@ -25,9 +31,6 @@ $page_name = uri_string();
 	
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.js"></script>
 
-	<!-- slider -->
-	<script type="text/javascript" src="<?php echo base_url(); ?>js/slider.js"></script>
-	<!-- // slider -->
 
 	<!-- use favicon -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>images/favicon-icon.ico"/>
@@ -131,7 +134,7 @@ $page_name = uri_string();
 					</a>
 				</li>
 			
-				<li>
+				<!-- <li>
 					<a href="<?php echo base_url(); ?>news">
 						News
 					</a>
@@ -140,7 +143,7 @@ $page_name = uri_string();
 					<a href="<?php echo base_url(); ?>blog">
 						Blog
 					</a>
-				</li>
+				</li> -->
 				
 				<li>
 					<a href="<?php echo base_url(); ?>contact">
@@ -161,7 +164,7 @@ $page_name = uri_string();
 		<div class="col-lg-10 col-md-10 col-sm-11 col-centered">
 			<ul class="ft-lt">
 				<li>
-					<a href="<?php echo base_url(); ?>services" <?php echo $page_name == 'services' ? 'class="active"' : '' ?>>
+					<a href="<?php echo base_url(); ?>services" <?php echo ($page_name == 'services' || $page_name == 'services/web-development-service' || $page_name == 'services/user-interface-design-service'|| $page_name == 'services/mobile-development-service' || $page_name == 'services/enterprise-mobility-service' || $page_name == 'services/digital-marketing-agency') ? 'class="active"' : '' ?>>
 						SERVICES
 					</a>
 				</li>
@@ -177,7 +180,7 @@ $page_name = uri_string();
 				</li>
 			</ul>
 			<ul class="ft-rt">
-				<li>
+				<!-- <li>
 					<a href="<?php echo base_url(); ?>news"  <?php echo $page_name == 'news' ? 'class="active"' : '' ?>>
 						News
 					</a>
@@ -186,7 +189,7 @@ $page_name = uri_string();
 					<a href="<?php echo base_url(); ?>blog"  <?php echo $page_name == 'blog' ? 'class="active"' : '' ?>>
 						Blog
 					</a>
-				</li>
+				</li> -->
 				<li>
 					<a href="<?php echo base_url(); ?>quote" <?php echo $page_name == 'quote' ? 'class="active"' : '' ?>>
 						Get a Quote
@@ -212,7 +215,7 @@ $page_name = uri_string();
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
 				<ul class="first">
 					<li>
-						<a href="<?php echo base_url(); ?>services" <?php echo $page_name == 'services' ? 'class="active"' : '' ?>>
+						<a href="<?php echo base_url(); ?>services" <?php echo ($page_name == 'services' || $page_name == 'services/web-development-service' || $page_name == 'services/user-interface-design-service'|| $page_name == 'services/mobile-development-service' || $page_name == 'services/enterprise-mobility-service' || $page_name == 'services/digital-marketing-agency')  ? 'class="active"' : '' ?>>
 							SERVICES
 						</a>
 					</li>
@@ -227,7 +230,7 @@ $page_name = uri_string();
 						</a>
 					</li>
 				
-					<li>
+					<!-- <li>
 						<a href="<?php echo base_url(); ?>news" <?php echo $page_name == 'news' ? 'class="active"' : '' ?>>
 							News
 						</a>
@@ -236,7 +239,7 @@ $page_name = uri_string();
 						<a href="<?php echo base_url(); ?>blog" <?php echo $page_name == 'blog' ? 'class="active"' : '' ?>>
 							Blog
 						</a>
-					</li>
+					</li> -->
 					
 					<li>
 						<a href="<?php echo base_url(); ?>contact" <?php echo $page_name == 'contact' ? 'class="active"' : '' ?>>
