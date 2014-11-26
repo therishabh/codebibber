@@ -38,7 +38,9 @@
 /*user color */
 /*Blue : #0F5040*/
 /*end user color */
-
+.red-text{
+	color: #db3737;
+}
 .WebRupee{
 	font-family: 'webrupeebook';
 }
@@ -214,9 +216,10 @@ strong{
 	-ms-transition: all 300ms;
 	-o-transition: all 300ms;
 	transition: all 300ms;
-	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+/*	-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+*/
 }
 .mobile-menu .logo{
 	float: left;
@@ -622,6 +625,8 @@ color: #FFF;
 .home-page .home-content .home-services-overview ul li{
 	display: inline-block;
 	width: 32.5%;
+	margin-left: -3px;
+	margin-bottom: -1px;
 }
 .home-page .home-content .home-services-overview ul li a{
 	width: 100%;
@@ -681,16 +686,18 @@ color: #FFF;
 	background: #ef7b22;
 }
 .home-page .home-content .home-services-overview ul li a.enterprises i {
-	width: 66px;
-	background-position: -147px -195px;
+	width: 72px;
+	background-position: -250px -238px;
+	background-size: 1091px;
 }
 
 .home-page .home-content .home-services-overview ul li a.digital {
 	background: #4b9342;
 }
 .home-page .home-content .home-services-overview ul li a.digital i {
-	width: 64px;
-	background-position: -210px -188px;
+	width: 75px;
+	background-position: -325px -232px;
+	background-size: 1091px;
 }
 /*****************************/
 /* // end home services overview*/
@@ -705,7 +712,7 @@ color: #FFF;
 	font-family: 'font_2';
 	position: relative;
 }
-.home-page .home-content .our-approach h2{
+.home-page .home-content .our-approach h1{
 	text-align: right;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -1495,10 +1502,11 @@ background-position: -132px -323px;
 	left: 30px;
 }
 
+
 .services .services-overview .graphic-design a.ico {
-	height: 60px;
+	height: 158px;
 	width: 221px;
-	background-position: 236px -1520px;
+	background-position: 238px -1134px;
 	right: 30px;
 	top: 53px;
 }
@@ -2072,7 +2080,7 @@ padding-left: 34px;
 }
 
 .form-section #project-needs{
-	width: 85%;
+	width: 90%;
 }
 .form-section #your-budget{
 	width: 60%;
@@ -2084,7 +2092,8 @@ padding-left: 34px;
 	width: 75%;
 }
 
-#submit-form{
+
+.submit-form-btn{
 	padding: 14px 20px;
 	background: #db3737;
 	font-size: 16px;
@@ -2096,7 +2105,7 @@ padding-left: 34px;
 	width: 71%;
 	text-align: center;
 }
-#submit-form:hover{
+.submit-form-btn:hover{
 	background: #000;
 }
 
@@ -2539,8 +2548,32 @@ padding-left: 34px;
 
 
 
-
-
+/*start error-page*/
+.error-page{
+	text-align: center;
+}
+.error-page h1{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 42px;
+	color: #979797;
+	margin-top: 65px;
+}
+.error-page h2{
+	color: #979797;
+	font-size: 80px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	padding: 14px 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.error-page p{
+	color: #979797;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	margin: 15px 0px 34px;
+}
+/*start error-page*/
 
 
 

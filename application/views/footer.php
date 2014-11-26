@@ -55,27 +55,27 @@
 				<h3>Services</h3>
 				<ul>
 					<li>
-						<a href="<?php echo base_url(); ?>services/web-development-service/">
+						<a href="<?php echo base_url(); ?>web-development-services">
 							<div>Web Development</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/user-interface-design-service/">
-							<div>UI / UX</div>
-						</a>
-					</li>
-					<li>
-						<a href="<?php echo base_url(); ?>services/mobile-development-service/">
+						<a href="<?php echo base_url(); ?>mobile-development-services">
 							<div>Mobile Development</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/enterprise-mobility-service/">
+						<a href="<?php echo base_url(); ?>enterprise-mobility-services">
 							<div>Enterprise Mobility</div>
 						</a>
 					</li>
 					<li>
-						<a href="<?php echo base_url(); ?>services/digital-marketing-agency/">
+						<a href="<?php echo base_url(); ?>user-interface-design-services">
+							<div>UI / UX</div>
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo base_url(); ?>digital-marketing-agency/">
 							<div>Digital Marketing</div>
 						</a>
 					</li>
@@ -85,7 +85,7 @@
 				<h3>Contact Us</h3>
 				<ul>
 					<li>
-						A - 281 Basement Block A, Shivalik, Malviya Nagar
+						A - 281 Block A, Shivalik, Malviya Nagar
 					</li>
 					<li>
 						New Delhi, 110017
@@ -210,18 +210,21 @@ jQuery(document).ready(function($) {
         	}
 	});
 
-	// var lastScrollTop = 0;
-	// $(window).scroll(function(event){
-	//    var st = $(this).scrollTop();
-	//    if (st > lastScrollTop){
-	//    	$(".mobile-menu").removeClass('fix-menu');
-	//    } else {
-	//        console.log("success")
-	//        $(".mobile-menu").addClass('fix-menu');
-	//       // upscroll code
-	//    }
+	var lastScrollTop = 0;
+	$(window).scroll(function(event){
+		var st = $(this).scrollTop();
+		
+		if (st > 41)
+		{
+	   		$(".mobile-menu").addClass('fix-menu');
+		} 
+		else 
+		{
+	       $(".mobile-menu").removeClass('fix-menu');
+	      // upscroll code
+	   	}
 	//    lastScrollTop = st;
-	// });
+	});
 });
 </script>
 

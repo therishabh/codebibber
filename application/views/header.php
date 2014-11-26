@@ -8,6 +8,8 @@ $page_name = uri_string();
 <html>
 <head>
 	<title><?php echo isset($title) ? $title : "Codebibber"  ?></title>
+	<meta name="description" content="<?php echo isset($meta_description) ? $meta_description : ""  ?>" />
+	<meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : ""  ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/media-query.css">
 	<meta name="viewport" content="width=device-width">
@@ -35,7 +37,17 @@ $page_name = uri_string();
 	<!-- use favicon -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>images/favicon-icon.ico"/>
 	<!-- // end use favicon -->
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+	  ga('create', 'UA-48091371-1', 'codebibber.com');
+	  ga('send', 'pageview');
+
+	</script>
 
 </head>
 <body onload="initialize()">
@@ -103,61 +115,64 @@ $page_name = uri_string();
 		</div>
 	</div>
 
-	<div class="row mobile-menu">
-		<div class="col-lg-12 col-md-12">
-			
-			<div class="logo">
-				<a href="<?php echo base_url(); ?>">
-					<img src="<?php echo base_url(); ?>images/logo-white.png" alt="Logo Image" >
-					<div class="logo-name">CODE <span>BIBBER</span></div>
-				</a>
-			</div>
-			<div class="menu-icon">
-				<a href="#">
-					<img src="<?php echo base_url(); ?>images/menu-nav.png" alt="">
-				</a>
-			</div>
-			<ul class="mobile-menu-nav">
-				<li>
-					<a href="<?php echo base_url(); ?>services" >
-						SERVICES
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo base_url(); ?>folio" >
-						FOLIO
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo base_url(); ?>company" >
-						COMPANY
-					</a>
-				</li>
-			
-				<!-- <li>
-					<a href="<?php echo base_url(); ?>news">
-						News
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo base_url(); ?>blog">
-						Blog
-					</a>
-				</li> -->
+	<div class="mobile-menu-outer">
+		<div class="row mobile-menu">
+			<div class="col-lg-12 col-md-12">
 				
-				<li>
-					<a href="<?php echo base_url(); ?>contact">
-						Contact Us
+				<div class="logo">
+					<a href="<?php echo base_url(); ?>">
+						<img src="<?php echo base_url(); ?>images/logo-white.png" alt="Logo Image" >
+						<div class="logo-name">CODE <span>BIBBER</span></div>
 					</a>
-				</li>
-				<li>
-					<a href="<?php echo base_url(); ?>quote">
-						Get a Quote
+				</div>
+				<div class="menu-icon">
+					<a href="#">
+						<img src="<?php echo base_url(); ?>images/menu-nav.png" alt="">
 					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+				</div>
+				<ul class="mobile-menu-nav">
+					<li>
+						<a href="<?php echo base_url(); ?>services" >
+							SERVICES
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo base_url(); ?>folio" >
+							FOLIO
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo base_url(); ?>company" >
+							COMPANY
+						</a>
+					</li>
+				
+					<!-- <li>
+						<a href="<?php echo base_url(); ?>news">
+							News
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo base_url(); ?>blog">
+							Blog
+						</a>
+					</li> -->
+					
+					<li>
+						<a href="<?php echo base_url(); ?>contact">
+							Contact Us
+						</a>
+					</li>
+					<li>
+						<a href="<?php echo base_url(); ?>quote">
+							Get a Quote
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- // end mobile-menu -->
+	</div><!-- // end mobile-menu-outer -->
+
 
 	<!-- menu section -->
 	<div class="row main-menu">

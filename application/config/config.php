@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://192.168.0.120/codebibber/';
+$config['base_url']	= 'http://192.168.0.100/codebibber/';
 
 /*
 |--------------------------------------------------------------------------

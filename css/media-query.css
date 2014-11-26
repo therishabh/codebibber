@@ -82,7 +82,7 @@
 		padding: 28px 0;
 		font-size: 19px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 30px;
 		padding-top: 30px;
 		font-size: 62px;
@@ -336,22 +336,22 @@
 	.services .services-overview .branding a.ico {
 		height: 204px;
 		width: 249px;
-		background-position: 264px -669px;
-		top: 70px;
+		background-position: 268px -660px;
+		top: 53px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
-		background-size: 1050px;
+		background-size: 1041px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 68px;
+		height: 184px;
 		width: 246px;
-		background-position: 263px -1722px;
+		background-position: 263px -1282px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
 		background-size: 1050px;
-		top: 77px;
+		top: 67px;
 	}
 
 	.content-section p{
@@ -490,46 +490,34 @@
 		width: 1119px;
 	}
 	.slider ul li .small-circle.robust {
-		top: 106px;
-		left: 83px;
-		font-size: 44px;
+		font-size: 36px;
 	}
 	.slider ul li .small-circle.because {
-		top: 105px;
-		left: 73px;
-		font-size: 44px;
+		font-size: 36px;
 	}
 	.slider ul li .big-circle .we-think {
-		left: 252px;
-		top: 88px;
+
 		font-size: 63px;
-		width: 319px;
 	}
 	.slider ul li .big-circle .design {
-		left: 223px;
-		top: 102px;
 		font-size: 63px;
-		width: 418px;
 	}
 	.slider ul li .big-circle .we-create {
 		font-size: 28px;
-		top: 305px;
-		width: 520px;
-		left: 150px;
 	}
 	.slider ul li .big-circle .button {
-		position: absolute;
+		/*position: absolute;
 		top: 477px;
-		left: 184px;
+		left: 184px;*/
 	}
 	.slider ul li .big-circle .button a {
-		font-size: 33px;
+		font-size: 29px;
 	}
 	.slider ul li .big-circle .button a.quote-btn {
-		padding: 10px 30px;
+		padding: 10px 21px;
 	}
 	.slider ul li .big-circle .button a.discover-btn {
-		padding: 10px 30px;
+		padding: 10px 21px;
 	}
 }
 /* end Desktops and laptops ----------- */
@@ -626,7 +614,7 @@
 		height: 62px;
 		margin: 0 auto 7px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 20px;
 		padding-top: 19px;
 		font-size: 42px;
@@ -849,17 +837,17 @@
 	.services .services-overview .branding a.ico {
 		height: 154px;
 		width: 185px;
-		background-position: 197px -495px;
+		background-position: 198px -484px;
 		top: 70px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
-		background-size: 780px;
+		background-size: 768px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 51px;
+		height: 141px;
 		width: 185px;
-		background-position: 198px -1278px;
+		background-position: 198px -950px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
@@ -1112,7 +1100,7 @@
 		height: 62px;
 		margin: 0 auto 7px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 20px;
 		padding-top: 17px;
 		font-size: 40px;
@@ -1324,17 +1312,17 @@
 	.services .services-overview .branding a.ico {
 		height: 147px;
 		width: 177px;
-		background-position: 188px -473px;
+		background-position: 190px -465px;
 		top: 70px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
-		background-size: 744px;
+		background-size: 735px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 48px;
+		height: 129px;
 		width: 177px;
-		background-position: 188px -1220px;
+		background-position: 188px -910px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
@@ -1645,7 +1633,7 @@
 		height: 62px;
 		margin: 0 auto 7px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 20px;
 		padding-top: 17px;
 		font-size: 37px;
@@ -1659,7 +1647,7 @@
 	}
 	.home-page .home-content .home-services-overview ul li a.mobile-design i {
 		width: 60px !important;
-		background-position: -152px -198px !important;
+		background-position: -151px -198px !important;
 		background-size: 920px !important;
 		height: 62px !important;
 	}
@@ -1882,17 +1870,17 @@
 	.services .services-overview .branding a.ico {
 		height: 128px;
 		width: 154px;
-		background-position: 163px -409px;
+		background-position: 165px -404px;
 		top: 62px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
-		background-size: 644px;
+		background-size: 636px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 45px;
+		height: 114px;
 		width: 152px;
-		background-position: 162px -1055px;
+		background-position: 162px -787px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
@@ -2260,6 +2248,9 @@
 		display: block;
 		height: 60px;
 	}
+	.mobile-menu-outer{
+		height: 60px;
+	}
 	.mobile-menu .logo .logo-name {
 		font-size: 16px !important;
 		top: 10px !important;
@@ -2316,7 +2307,7 @@
 		padding: 28px 0;
 		font-size: 13px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 20px;
 		padding-top: 17px;
 		font-size: 31px;
@@ -2539,17 +2530,17 @@
 	.services .services-overview .branding a.ico {
 		height: 115px;
 		width: 137px;
-		background-position: 147px -370px;
+		background-position: 148px -361px;
 		top: 81px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
-		background-size: 582px;
+		background-size: 573px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 47px;
+		height: 101px;
 		width: 137px;
-		background-position: 147px -949px;
+		background-position: 147px -712px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
@@ -2893,6 +2884,20 @@
 	.company .connect .get-started h6 {
 		font-size: 30px;
 	}
+	.error-page h1{
+		font-size: 24px;
+		margin-top: 45px;
+		line-height: 1.4;
+	}
+	.error-page h2{
+		font-size: 50px;
+		padding: 14px 0px;
+		padding-top: 5px;
+	}
+	.error-page p{
+		font-size: 16px;
+		margin: 15px 0px 34px;
+	}
 }
 
 
@@ -2912,6 +2917,9 @@
 	}
 	.mobile-menu{
 		display: block;
+		height: 51px;
+	}
+	.mobile-menu-outer{
 		height: 51px;
 	}
 	.mobile-menu .logo .logo-name {
@@ -3003,14 +3011,14 @@
 	}
 	.home-page .home-content .home-services-overview ul li a.enterprises i {
 		width: 41px !important;
-		background-position: -97px -129px !important;
+		background-position: -137px -128px !important;
 		background-size: 600px !important;
 		height: 41px !important;
 	}
 	.home-page .home-content .home-services-overview ul li a.digital i {
 		width: 41px;
 		height: 33px;
-		background-position: -137px -128px;
+		background-position: -179px -128px;
 		background-size: 600px;
 	}
 	.home-page .home-content .home-services-overview ul li a {
@@ -3018,7 +3026,7 @@
 		padding: 15px 0;
 		font-size: 13px;
 	}
-	.home-page .home-content .our-approach h2 {
+	.home-page .home-content .our-approach h1 {
 		padding-bottom: 14px;
 		padding-top: 11px;
 		font-size: 26px;
@@ -3282,16 +3290,16 @@
 		height: 99px;
 		width: 121px;
 		top: 62px;
-		background-position: 127px -318px;
+		background-position: 129px -318px;
 		left: 0px;
 		right: 0px;
 		margin: auto;
 		background-size: 500px;
 	}
 	.services .services-overview .graphic-design a.ico {
-		height: 39px;
+		height: 86px;
 		width: 122px;
-		background-position: 127px -819px;
+		background-position: 130px -612px;
 		right: 0px;
 		left: 0px;
 		margin: auto;
@@ -3299,7 +3307,7 @@
 		top: 68px;
 	}
 	.services .services-overview .graphic-design p{
-		padding-top: 55px;
+		padding-top: 97px;
 	}
 	/* end service section*/
 
@@ -3619,5 +3627,19 @@
 	}
 	.company .connect .get-started h6 {
 		font-size: 25px;
+	}
+	.error-page h1{
+		font-size: 24px;
+		margin-top: 45px;
+		line-height: 1.4;
+	}
+	.error-page h2{
+		font-size: 40px;
+		padding: 14px 0px;
+		padding-top: 5px;
+	}
+	.error-page p{
+		font-size: 14px;
+		margin: 15px 0px 34px;
 	}
 }

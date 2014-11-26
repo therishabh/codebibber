@@ -17,12 +17,12 @@
 			<div class="side-bar">
 				<h6>Services</h6>
 				<ul>
-					<li><a href="<?php echo base_url(); ?>services/">Overview</a></li>
-					<li><a href="<?php echo base_url(); ?>services/web-development-service/">Web Development</a></li>
-					<li><a href="<?php echo base_url(); ?>services/user-interface-design-service/">UI / UX</a></li>
-					<li><a href="<?php echo base_url(); ?>services/mobile-development-service/">Mobile Development</a></li>
-					<li><a href="<?php echo base_url(); ?>services/enterprise-mobility-service/" class="active">Enterprise Mobility</a></li>
-					<li><a href="<?php echo base_url(); ?>services/digital-marketing-agency/">Digital Marketing</a></li>
+					<li><a href="<?php echo base_url(); ?>services">Overview</a></li>
+					<li><a href="<?php echo base_url(); ?>web-development-services">Web Development</a></li>
+					<li><a href="<?php echo base_url(); ?>user-interface-design-services">UI / UX</a></li>
+					<li><a href="<?php echo base_url(); ?>mobile-development-services">Mobile Development</a></li>
+					<li><a href="<?php echo base_url(); ?>enterprise-mobility-services" class="active">Enterprise Mobility</a></li>
+					<li><a href="<?php echo base_url(); ?>digital-marketing-agency">Digital Marketing</a></li>
 				</ul>
 			</div>
 			<!-- end side-bar -->

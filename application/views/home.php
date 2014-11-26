@@ -52,31 +52,31 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 home-services-overview">
                         <ul>
                             <li>
-                                <a href="<?php echo base_url(); ?>services/web-development-service/" class="web-design">
+                                <a href="<?php echo base_url(); ?>web-development-services" class="web-design">
                                     <i></i>
                                     Web Development
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/mobile-development-service/" class="mobile-design">
+                                 <a href="<?php echo base_url(); ?>mobile-development-services" class="mobile-design">
                                     <i></i>
                                     Mobile Development
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="ui-ux">
+                                 <a href="<?php echo base_url(); ?>user-interface-design-services" class="ui-ux">
                                     <i></i>
                                     UI / UX
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/enterprise-mobility-service/" class="enterprises">
+                                 <a href="<?php echo base_url(); ?>enterprise-mobility-services" class="enterprises">
                                     <i></i>
                                     Enterprise Mobility
                                 </a>
                             </li>
                             <li>
-                                 <a href="<?php echo base_url(); ?>services/digital-marketing-agency/" class="digital">
+                                 <a href="<?php echo base_url(); ?>digital-marketing-agency" class="digital">
                                     <i></i>
                                     Digital Marketing
                                 </a>
@@ -88,7 +88,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 our-approach">
                         <div class="row">
                             <div class="col-lg-6 col-lg-offset-6">
-                                <h2>The CodeBibber Process</h2>
+                                <h1>The CodeBibber Process</h1>
                             </div>
                         </div>
 

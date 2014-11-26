@@ -27,12 +27,12 @@
 			<div class="side-bar">
 				<h6>Services</h6>
 				<ul>
-					<li><a href="<?php echo base_url(); ?>services/" class="active">Overview</a></li>
-					<li><a href="<?php echo base_url(); ?>services/web-development-service/">Web Development</a></li>
-					<li><a href="<?php echo base_url(); ?>services/user-interface-design-service/">UI / UX</a></li>
-					<li><a href="<?php echo base_url(); ?>services/mobile-development-service/">Mobile Development</a></li>
-					<li><a href="<?php echo base_url(); ?>services/enterprise-mobility-service/">Enterprise Mobility</a></li>
-					<li><a href="<?php echo base_url(); ?>services/digital-marketing-agency/">Digital Marketing</a></li>
+					<li><a href="<?php echo base_url(); ?>services" class="active">Overview</a></li>
+					<li><a href="<?php echo base_url(); ?>web-development-services">Web Development</a></li>
+					<li><a href="<?php echo base_url(); ?>user-interface-design-services">UI / UX</a></li>
+					<li><a href="<?php echo base_url(); ?>mobile-development-services">Mobile Development</a></li>
+					<li><a href="<?php echo base_url(); ?>enterprise-mobility-services">Enterprise Mobility</a></li>
+					<li><a href="<?php echo base_url(); ?>digital-marketing-agency">Digital Marketing</a></li>
 				</ul>
 			</div>
 			<!-- end side-bar -->
@@ -50,10 +50,10 @@
 					<!-- start web section -->
 					<div class="row web service-section">
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 ft-rt">
-							<a href="<?php echo base_url(); ?>services/web-development-service/" class="ico"></a>
+							<a href="<?php echo base_url(); ?>web-development-services" class="ico"></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-8 ft-lt">
-							<h2><a href="<?php echo base_url(); ?>services/web-development-service/">Web Development</a></h2>
+							<h2><a href="<?php echo base_url(); ?>web-development-services">Web Development</a></h2>
 							<p>
 								The current robust web environment demands 
 								keeping up with the latest and greatest 
@@ -69,7 +69,7 @@
 								DESIGNS WEBSITES that by far, giving them  
 								unique touch...
 							</p>
-							<a href="<?php echo base_url(); ?>services/web-development-service/" class="bttn gray-btn">Learn More</a>
+							<a href="<?php echo base_url(); ?>web-development-services" class="bttn gray-btn">Learn More</a>
 						</div>
 					</div>
 					<!-- end web section -->
@@ -78,10 +78,10 @@
 					<!-- ui-ux section -->
 					<div class="row ui-ux service-section">
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 ft-lt">
-							<a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="ico"></a>
+							<a href="<?php echo base_url(); ?>user-interface-design-services" class="ico"></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-8 ft-rt">
-							<h2><a href="<?php echo base_url(); ?>services/user-interface-design-service/">UI / UX</a></h2>
+							<h2><a href="<?php echo base_url(); ?>user-interface-design-services">UI / UX</a></h2>
 							<p>
 								CodeBibber apart from being obsessed 
 								with technology, is passionate about 
@@ -94,7 +94,7 @@
 								dedication to Researching, Strategizing 
 								and Designing techniques...
 							</p>
-							<a href="<?php echo base_url(); ?>services/user-interface-design-service/" class="bttn gray-btn">Learn More</a>
+							<a href="<?php echo base_url(); ?>user-interface-design-services" class="bttn gray-btn">Learn More</a>
 						</div>
 					</div>
 					<!-- end ui-ux section -->
@@ -103,10 +103,10 @@
 					<!-- start mobile-design section -->
 					<div class="row mobile-design service-section">
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 ft-rt">
-							<a href="<?php echo base_url(); ?>services/mobile-development-service/" class="ico"></a>
+							<a href="<?php echo base_url(); ?>mobile-development-services" class="ico"></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-8 ft-lt">
-							<h2><a href="<?php echo base_url(); ?>services/mobile-development-service/">Mobile Development</a></h2>
+							<h2><a href="<?php echo base_url(); ?>mobile-development-services">Mobile Development</a></h2>
 							<p>
 								A considerable percentage of the internet users access 
 								online content from their mobile devices. We emphasize 
@@ -114,7 +114,7 @@
 								style and ensure the right configuration to assist in 
 								making it a profitable one...
 							</p>
-							<a href="<?php echo base_url(); ?>services/mobile-development-service/" class="bttn gray-btn">Learn More</a>
+							<a href="<?php echo base_url(); ?>mobile-development-services" class="bttn gray-btn">Learn More</a>
 						</div>
 						
 					</div>
@@ -124,17 +124,17 @@
 					<!-- branding section -->
 					<div class="row branding service-section">
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 ft-lt">
-							<a href="<?php echo base_url(); ?>services/enterprise-mobility-service/" class="ico"></a>
+							<a href="<?php echo base_url(); ?>enterprise-mobility-services" class="ico"></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-8 ft-rt">
-							<h2><a href="<?php echo base_url(); ?>services/enterprise-mobility-service/">Enterprise Mobility</a></h2>
+							<h2><a href="<?php echo base_url(); ?>enterprise-mobility-services">Enterprise Mobility</a></h2>
 							<p>
 								Flexible, handy, easy to integrate and secure Solutions. Stay at lead of the competition in this dynamic 
 								business world by providing the insight data & information which 
 								you can use to increase customer satisfactions, employee productivity, 
 								optimize processes and ESCALATE your revenue...
 							</p>
-							<a href="<?php echo base_url(); ?>services/enterprise-mobility-service/" class="bttn gray-btn">Learn More</a>
+							<a href="<?php echo base_url(); ?>enterprise-mobility-services" class="bttn gray-btn">Learn More</a>
 						</div>
 					</div>
 					<!-- end branding section -->
@@ -143,10 +143,10 @@
 					<!-- start graphic-design section -->
 					<div class="row graphic-design service-section">
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 ft-rt">
-							<a href="<?php echo base_url(); ?>services/digital-marketing-agency/" class="ico"></a>
+							<a href="<?php echo base_url(); ?>digital-marketing-agency/" class="ico"></a>
 						</div>
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-8 ft-lt">
-							<h2><a href="<?php echo base_url(); ?>services/digital-marketing-agency/">Digital Marketing</a></h2>
+							<h2><a href="<?php echo base_url(); ?>digital-marketing-agency/">Digital Marketing</a></h2>
 							<p>
 								You've got a superb product/ service. Now how to distinguish and 
 								bring it to notice in the pool of products and services? We get 
@@ -156,7 +156,7 @@
 								which highlights your relevancy and credibility to your prospective 
 								clients...
 							</p>
-							<a href="<?php echo base_url(); ?>services/digital-marketing-agency/" class="bttn gray-btn">Learn More</a>
+							<a href="<?php echo base_url(); ?>digital-marketing-agency/" class="bttn gray-btn">Learn More</a>
 						</div>
 						
 					</div>

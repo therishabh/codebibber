@@ -33,10 +33,10 @@
 						
 						<div class="row form">
 							<div class="col-lg-4">
-								<div class="labeled" for="first-name">First Name</div>
+								<div class="labeled" for="first-name">First Name <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="first-name">
+								<input type="text" class="form-control f-name" id="first-name">
 							</div>
 						</div>
 
@@ -45,16 +45,16 @@
 								<div class="labeled" for="last-name">Last Name</div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="last-name">
+								<input type="text" class="form-control l-name" id="last-name">
 							</div>
 						</div>
 
 						<div class="row form">
 							<div class="col-lg-4">
-								<div class="labeled" for="email">Email Address</div>
+								<div class="labeled" for="email">Email Address <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="email">
+								<input type="text" class="form-control email" id="email">
 							</div>
 						</div>
 
@@ -63,16 +63,16 @@
 								<div class="labeled" for="website">Website</div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="website">
+								<input type="text" class="form-control website" id="website">
 							</div>
 						</div>
 
 						<div class="row form">
 							<div class="col-lg-4">
-								<div class="labeled" for="phone">Phone Number</div>
+								<div class="labeled" for="phone">Phone Number <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="phone">
+								<input type="text" class="form-control phone-no" id="phone">
 							</div>
 						</div>
 
@@ -81,44 +81,29 @@
 								<div class="labeled" for="company-name">Company Name</div>
 							</div>
 							<div class="col-lg-8">
-								<input type="text" class="form-control" id="company-name">
+								<input type="text" class="form-control company-name" id="company-name">
 							</div>
 						</div>
 
-						<div class="row form">
-							<div class="col-lg-4">
-								<div class="labeled" for="your-title">Your Title</div>
-							</div>
-							<div class="col-lg-8">
-								<input type="text" class="form-control" id="your-title">
-							</div>
-						</div>
+					
 
 						<div class="row form">
 							<div class="col-lg-4">
-								<div class="labeled" for="project-needs">Project Needs</div>
+								<div class="labeled" for="project-needs">Project Needs <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<select id="project-needs" class="form-control"> 
+								<select id="project-needs" class="form-control project-needs"> 
 									<option value="" selected="selected"></option>
-									<option value="Web Design &amp; Development">Web Design &amp; Development</option>
-									<option value="SEO">SEO</option>
-									<option value="SEM">SEM</option>
-									<option value="Corporate Identity / Branding">Corporate Identity / Branding</option>
-									<option value="Logo Design">Logo Design</option>
-									<option value="Graphic Design">Graphic Design</option>
-									<option value="Explainer Videos">Explainer Videos</option>
-									<option value="E-commerce">E-commerce</option>
-									<option value="Mobile">Mobile</option>
-									<option value="Brochure Design">Brochure Design</option>
-									<option value="Tradeshow Display Design">Tradeshow Display Design</option>
-									<option value="Print Production">Print Production</option>
-									<option value="Copywriting">Copywriting</option>
-									<option value="PR">PR</option>
-									<option value="Advertising">Advertising</option>
-									<option value="Social Media">Social Media</option>
-									<option value="Web Hosting">Web Hosting</option>
-									<option value="Web Analytics">Web Analytics</option>
+									<option value="Web Application Development">Web Application Development</option>
+									<option value="Android App Development">Android App Development</option>
+									<option value="iOS App Development">iOS App Development</option>
+									<option value="E-Commerce">E-Commerce</option>
+									<option value="SaaS Product Development">SaaS Product Development</option>
+									<option value="Enterprise Mobility Solution">Enterprise Mobility Solution</option>
+									<option value="Mobile Gaming">Mobile Gaming</option>
+									<option value="Software Development">Software Development</option>
+									<option value="Web Design & Development">Web Design & Development</option>
+									<option value="SEO, SEM, SMO">SEO, SEM, SMO</option>
 									<option value="Other">Other</option>
 								</select>
 							</div>
@@ -126,51 +111,19 @@
 
 						<div class="row form">
 							<div class="col-lg-4">
-								<div class="labeled" for="your-budget" style="padding-top:0px;">Do you have a budget in mind?</div>
+								<div class="labeled" for="your-budget" style="padding-top:0px;">Do you have a budget in mind? <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<select id="your-budget" class="form-control"> 
-									<option value="" selected="selected"></option>
-									<option value="10,000 - 15,000" >
-										<span class="WebRupee">Rs.</span>10,000 - <span class="WebRupee">Rs.</span>15,000
-									</option>
-									<option value="15,000 - 20,000">
-										<span class="WebRupee">Rs.</span>15,000 - <span class="WebRupee">Rs.</span>20,000
-									</option>
-									<option value="20,000 - 35,000">
-										<span class="WebRupee">Rs.</span>20,000 - <span class="WebRupee">Rs.</span>35,000
-									</option>
-									<option value="35,000 - 50,000">
-										<span class="WebRupee">Rs.</span>35,000 - <span class="WebRupee">Rs.</span>50,000
-									</option>
-									<option value="50,000 - 100,000">
-										<span class="WebRupee">Rs.</span>50,000 - <span class="WebRupee">Rs.</span>100,000
-									</option>
-									<option value="100,000 - 250,000">
-										<span class="WebRupee">Rs.</span>100,000 - <span class="WebRupee">Rs.</span>250,000
-									</option>
-									<option value="250,000 - 500,000">
-										<span class="WebRupee">Rs.</span>250,000 - <span class="WebRupee">Rs.</span>500,000
-									</option>
-									<option value="500,000 - 1,000,000">
-										<span class="WebRupee">Rs.</span>500,000 - <span class="WebRupee">Rs.</span>1,000,000
-									</option>
-									<option value="1,000,000 +">
-										<span class="WebRupee">Rs.</span>1,000,000 +
-									</option>
-									<option value="Undetermined">
-										Undetermined
-									</option>
-								</select>
+								<input type="text" class="form-control your-budget" id="your-budget">
 							</div>
 						</div>
 
 						<div class="row form">
 							<div class="col-lg-4" style="padding-right:0px;">
-								<div class="labeled" for="your-plan"  style="padding-top:0px;">How quickly do you plan to proceed?</div>
+								<div class="labeled" for="your-plan"  style="padding-top:0px;">How quickly do you plan to proceed? <span class="red-text">*</span></div>
 							</div>
 							<div class="col-lg-8">
-								<select id="your-plan" class="form-control"> 
+								<select id="your-plan" class="form-control plan"> 
 									<option value="" selected="selected"></option>
 									<option value="Immediately">
 										Immediately
@@ -199,53 +152,33 @@
 								<div class="labeled" style="padding-top:0px;">How did you hear about us?</div>
 							</div>
 							<div class="col-lg-8">
-								<select id="hear-aboutus" class="form-control"> 
+								<select id="hear-aboutus" class="form-control hear"> 
 									<option value="" selected="selected"></option>
-									<option value="10 Best Design">
-										10 Best Design
+									<option value="Google Search">
+										Google Search
 									</option>
-									<option value="Best Web Design Agencies">
-										Best Web Design Agencies
+									<option value="Google Ads">
+										Google Ads
 									</option>
-									<option value="Top SEOS">
-										Top SEOS
-									</option>
-									<option value="Visibility Magazine">
-										Visibility Magazine
-									</option>
-									<option value="Google">
-										Google
-									</option>
-									<option value="Video">
-										Video
-									</option>
-									<option value="Referral">
-										Referral
-									</option>
-									<option value="LinkedIn">
-										LinkedIn
-									</option>
-									<option value="Facebook">
-										Facebook
+									<option value="Facebook Ads">
+										Facebook Ads
 									</option>
 									<option value="Twitter">
 										Twitter
 									</option>
-									<option value="Website">
-										Website
+									<option value="Linkedin">
+										Linkedin
 									</option>
-									<option value="Professional Contact">
-										Professional Contact
+									<option value="Referral">
+										Referral
 									</option>
-									<option value="Friend">
-										Friend
+									<option value="Friends">
+										Friends
 									</option>
-									<option value="Press Release">
-										Press Release
-									</option>
-									<option value="Other">
+									<option value="Others">
 										Other
 									</option>
+									
 								</select>
 							</div>
 						</div>
@@ -255,7 +188,7 @@
 								<div class="labeled" for="phone">Brief Description</div>
 							</div>
 							<div class="col-lg-8">
-								<textarea class="form-control" id="brief-description" style="height:110px; resize:none;"></textarea>
+								<textarea class="form-control description" id="brief-description" style="height:110px; resize:none;"></textarea>
 							</div>
 						</div>
 
@@ -263,7 +196,7 @@
 							<div class="col-lg-4">
 							</div>
 							<div class="col-lg-8">
-								<div id="submit-form">Send Your Request</div>
+								<div id="submit-form" class="submit-form-btn">Send Your Request</div>
 							</div>
 						</div>
 
@@ -277,7 +210,7 @@
 						<div class="col-lg-6 col-md-6 col-sm-6 ">
 							<h2>Where to find us</h2>
 							<p>
-								A-281 Basement
+								A-281 
 								Block A, Shivalik, Malviya Nagar
 								New Delhi, 110017, India
 							</p>
@@ -344,6 +277,124 @@
 
 <script type="text/javascript">
 jQuery(document).ready(function($) {
+	$("#submit-form").click(function() {
+		var first_name = $(".f-name").val();
+		var last_name = $(".l-name").val();
+		var email = $(".email").val();
+		var website = $(".website").val();
+		var phone_no = $(".phone-no").val();
+		var company_name = $(".company-name").val();
+		var project_needs = $(".project-needs").val();
+		var budget = $(".your-budget").val();
+		var plan = $(".plan").val();
+		var hear= $(".hear").val();
+		var description = $(".description").val();
+		var flag = 1;
+		var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+		if(first_name == "")
+		{
+			$(".f-name").parent().addClass('has-error');
+			$(".f-name").focus();
+			flag = 0;
+		}
+		else if(email == "")
+		{
+			$(".email").parent().addClass('has-error');
+			$(".email").focus();
+			flag = 0;
+		}
+		else if(phone_no == "")
+		{
+			$(".phone-no").parent().addClass('has-error');
+			$(".phone-no").focus();
+			flag = 0;
+		}
+		else if(project_needs == "")
+		{
+			$(".project-needs").parent().addClass('has-error');
+			$(".project-needs").focus();
+			flag = 0;
+		}
+		else if(budget == "")
+		{
+			$(".your-budget").parent().addClass('has-error');
+			$(".your-budget").focus();
+			flag = 0;
+		}
+		else if(plan == "")
+		{
+			$(".plan").parent().addClass('has-error');
+			$(".plan").focus();
+			flag = 0;
+		}
+		if(email != "")
+		{
+			if( reg.test($(".email").val()) )
+			{
+				
+			}
+			else
+			{
+				$(".email").parent().addClass('has-error');
+				$(".email").focus();
+				flag = 0;
+			}
+		}	
+
+		if(flag == 1)
+		{
+			$(".submit-form-btn").text("Submiting ...");
+			$(".submit-form-btn").removeAttr('id');
+
+			$(".submit-form-btn").css({
+				'background': 'rgb(32, 161, 74)',
+				'color': '#fff'
+			});
+
+
+
+			$.ajax({
+				url: '<?php echo base_url(); ?>contact/form',
+				type: 'POST',
+				data: { first_name: first_name, 
+						last_name: last_name,
+						email: email,
+						website: website,
+						phone_no: phone_no,
+						company_name: company_name,
+						project_needs: project_needs,
+						budget: budget,
+						plan: plan,
+						hear: hear,
+						description: description
+					}
+			})
+			.done(function(result) {
+
+				setTimeout(function() {
+
+				  	$(".submit-form-btn").text("Send Your Request");
+				  	$(".submit-form-btn").css({
+						'background': '#db3737',
+						'color': '#fff'
+					});
+					$(".form-control").val("");
+					$(".form-control").prop('selectedIndex',0);
+				},2000);
+				$(".submit-form-btn").attr('id', 'submit-form');
+
+				// console.log(result);
+			});
+		}
+
+	});
 	
+	$(".form-control").keypress(function() {
+		$(this).parent().removeClass('has-error')
+	});
+	$(".form-control").change(function() {
+		$(this).parent().removeClass('has-error')
+	});
 });
 </script>

@@ -39,12 +39,12 @@
 */
 
 $route['default_controller'] = "home";
-$route['404_override'] = '';
-$route['services/web-development-service'] = "services/web_development_service";
-$route['services/user-interface-design-service'] = "services/user_interface_design_service";
-$route['services/mobile-development-service'] = "services/mobile_development_service";
-$route['services/enterprise-mobility-service'] = "services/enterprise_mobility_service";
-$route['services/digital-marketing-agency'] = "services/digital_marketing_agency";
+$route['404_override'] = 'error/_404';
+$route['web-development-services'] = "services/web_development_service";
+$route['user-interface-design-services'] = "services/user_interface_design_service";
+$route['mobile-development-services'] = "services/mobile_development_service";
+$route['enterprise-mobility-services'] = "services/enterprise_mobility_service";
+$route['digital-marketing-agency'] = "services/digital_marketing_agency";
 
 
 /* End of file routes.php */
