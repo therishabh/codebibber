@@ -1,6 +1,6 @@
 <div class="error-page">
 	<div class="row">
-		<div class="col-lg-10 col-centered ">
+		<div class="col-lg-10 col-centered">
 			<h1>SOMETHING JUST WENT WRONG !</h1>
 			<h2>404 error</h2>
 			<p>

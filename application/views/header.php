@@ -10,34 +10,29 @@ $page_name = uri_string();
 	<title><?php echo isset($title) ? $title : "Codebibber"  ?></title>
 	<meta name="description" content="<?php echo isset($meta_description) ? $meta_description : ""  ?>" />
 	<meta name="keywords" content="<?php echo isset($meta_keywords) ? $meta_keywords : ""  ?>" />
+	
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/style.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/media-query.css">
 	<meta name="viewport" content="width=device-width">
 
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	
-	<!-- for internet explorer 8 -->
-	<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<!-- // end for internet explorer 8 -->
-
-	
 	<!-- add css for slider -->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/flexslider.css">
 	<!-- // end css for slider -->
+	
 
 	<!-- add basic jquery -->
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.js"></script>
-	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery-ui.js"></script>
 	<!-- // end add basic jquery -->
 	
 	<script type="text/javascript" src="<?php echo base_url(); ?>js/bootstrap.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>js/jquery.snow.js"></script>
 
+	
 
 	<!-- use favicon -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo base_url(); ?>images/favicon-icon.ico"/>
 	<!-- // end use favicon -->
-	
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -105,7 +100,7 @@ $page_name = uri_string();
 				<!-- logo section -->
 				<div class="logo">
 					<a href="<?php echo base_url(); ?>">
-						<img src="<?php echo base_url(); ?>images/logo.png" alt="Logo Image" >
+						<img src="<?php echo base_url(); ?>images/logo-christmas.png" alt="Logo Image" >
 						<div class="logo-name">CODE <span>BIBBER</span></div>
 					</a>
 				</div>
@@ -121,7 +116,7 @@ $page_name = uri_string();
 				
 				<div class="logo">
 					<a href="<?php echo base_url(); ?>">
-						<img src="<?php echo base_url(); ?>images/logo-white.png" alt="Logo Image" >
+						<img src="<?php echo base_url(); ?>images/logo-white-christmas.png" alt="Logo Image" >
 						<div class="logo-name">CODE <span>BIBBER</span></div>
 					</a>
 				</div>
@@ -224,7 +219,7 @@ $page_name = uri_string();
 		<div class="col-lg-10 col-centered">
 			<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
 				<div class="logo">
-					<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>images/logo-white.png" alt=""></a>
+					<a href="<?php echo base_url(); ?>"><img src="<?php echo base_url(); ?>images/logo-white-christmas.png" alt=""></a>
 				</div>
 			</div>
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">

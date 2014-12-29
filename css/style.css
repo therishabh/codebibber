@@ -174,14 +174,14 @@ strong{
 	position: relative;
 }
 .top-header .logo img{
-	margin-left: 30px;
+	margin-left: 20px;
 	height: 75px;
 }
 .top-header .logo .logo-name{
 	position: absolute;
 	font-family: 'font_1';
 	font-size: 30px;
-	top: 15px;
+	top: 19px;
 	left: 116px;
 	color: #000;
 }
@@ -301,7 +301,7 @@ color: #FFF;
 }
 .main-menu ul.ft-lt li a{
 	font-size: 30px;
-	font-family: 'font_1';
+	font-family: 'font_3';
 	display: block;
 	color: #fff;
 	padding: 15px 20px;

@@ -1016,10 +1016,9 @@
 		height: 57px;
 	}
 	.top-header .logo .logo-name {
-		font-size: 25px;
+		font-size: 27px;
 		top: 11px;
-		left: 68px;
-
+		left: 72px;
 	}
 	.main-menu ul.ft-lt li a {
 		font-size: 18px;
@@ -1554,7 +1553,7 @@
 	.top-header .logo .logo-name {
 		font-size: 23px;
 		top: 11px;
-		left: 64px;
+		left: 67px;
 	}
 	.main-menu ul.ft-lt li a {
 		font-size: 16px;
@@ -2254,7 +2253,7 @@
 	.mobile-menu .logo .logo-name {
 		font-size: 16px !important;
 		top: 10px !important;
-		left: 63px !important;
+		left: 67px !important;
 	}
 
 	.mobile-menu .logo img {
@@ -2925,7 +2924,7 @@
 	.mobile-menu .logo .logo-name {
 		font-size: 15px !important;
 		top: 6px !important;
-		left: 55px !important;
+		left: 59px !important;
 	}
 
 	.mobile-menu .logo img {

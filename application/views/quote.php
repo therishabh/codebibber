@@ -384,7 +384,7 @@ jQuery(document).ready(function($) {
 				},2000);
 				$(".submit-form-btn").attr('id', 'submit-form');
 
-				// console.log(result);
+				console.log(result);
 			});
 		}
 

@@ -167,6 +167,8 @@
 <script type="text/javascript">
 jQuery(document).ready(function($) {
 
+	$.fn.snow();
+
 	$(window).scroll(function() {
 	var width = $(window).width();
 	// offset =  $(".main-menu").offset();
