@@ -5,20 +5,10 @@
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 					<h1>
 						<span>Services</span>
-						Outline
+						Overview
 					</h1>
 					<p>
-						We specialize in providing lucid solutions to 
-						complexities, with our services including 
-						customized web development ,mobile development 
-						and blending all that we develop with exuberant 
-						User Interface and Experience. Other services 
-						that CodeBibber provides to clients ( B2B, 
-						B2C, consulting, security and non-profit) 
-						are Enterprise mobility solutions, Digital 
-						MARKETING, SEO, SMO, custom Graphics and 
-						Logo designing, Branding, Advertising, and 
-						Strategic Planning .
+						We specialize in providing solutions to complexities, with our services including customized Web development, Mobile development and blending all that we develop with exuberant User Interface Experience. Other services that CodeBibber provides to clients are Enterprise mobility solutions, SaaS Product Development, Digital Marketing, SEO, SMO, Custom Graphics and Logo designing, Branding, Advertising, and Strategic Planning.
 					</p>
 				</div>
 			</div>

@@ -35,37 +35,6 @@
 
 	
 
-	<div class="footer-action row">
-		<div class="col-lg-10 col-md-10 col-sm-10 col-centered">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="generation-info">
-						<i></i>
-						<h5>Get in Touch</h5>
-						<p>
-							Get the chat started and lets meet up over a coffee with any question you may be pondering upon.
-						</p>
-						<p>
-							<a href="mailto:info@codebibber.com">info@codebibber.com</a>
-						</p>
-						<p>
-							<a href="#">+91-9711575088</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-					<div class="request-quote">
-						<i></i>
-						<h5>Request a Quote</h5>
-						<p>
-							<strong>Get your dream Mobile App Developed !</strong>
-							Quick and easy, simply request a quote by clicking below.
-						</p>
-						<a href="quote/" class="bttn white-btn">Request Quote Today</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 
 </div>	

@@ -99,6 +99,9 @@
 					<li>
 						you@codebibber.com
 					</li>
+					<li>
+						info@codebibber.com
+					</li>
 				</ul>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3">

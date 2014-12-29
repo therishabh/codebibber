@@ -256,7 +256,10 @@
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <h2>Why us?</h2>
                         <p>
-                            We enforce our ingenious engineering focus with a dedication to flawless design. We take pride in possessing a team which comprehensively understands the unique needs of our clients. We assist you outshine in mobile apps pool by designing and developing tailor-made exuberant Mobile Application Solutions. We help you glitz in the boundless web with art-of-the-class Websites and Web Applications. We facilitate solutions to expedite your Enterprise efficiency by transforming sophisticated problems to simple handy solutions. We ensure that your idea and business reaches all corners of the great wide interwebs. Hence, ensuring your 'light bulb moment' the dead-on direction to evolve and be recognized by the world.
+                            Ingenious engineering focus with a dedication to flawless design. 
+                        </p>
+                        <p>
+                            The young minds on our development teams adhere to the clients unique and deliver art-of-the-class applications. We facilitate solutions to advance your Enterprise efficiency by transforming sophisticated problems to simple handy solutions in the form of Web applications, Mobile Applications (Android and IOS), Enterprise Mobility solutions, all backed with precise UX & UI designs and digital marketing.
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 get-start-now">

@@ -161,8 +161,11 @@
         			<strong>Developed On :</strong> DJango
         		</p>
         		<p>
-        			It is a platform that offers you exclusive deals on flights and accommodation, providing you a one point stoppage to plan your holiday or business trips. 
+              It is a platform that offers you exclusive deals on flights and accommodation, providing you a one point stoppage to plan your holiday or business trips.
         		</p>
+            <p>
+              CodeBibber developed its website. For its Airlines booking section, we integrated the Global Distribution system to the Application Programming Interface made by TBO, and for the Hotels booking section, it was integrated to the Application Programming Interface by MGM. A cutting feature added, was to select 5 lucky winners to be offered with a defined discount from an unknown number of users in an hour. The edge was given through the unique UX design.
+            </p>
         	</div>
         </div>
       </div>
@@ -188,8 +191,11 @@
         	<div class="col-lg-6 col-md-6 col-sm-6 folio-desc">
         		<div class="desc-heading">Description</div>
         		<p>
-        			GrownOut focuses on referral hiring. This portal uses access to your linkledIn profile and lets you have access to the network of your network. Next you can filter them out according to your Business’s requirement and approach them though GrownOut, ending up fast tracking the quality hiring process.
+            GrownOut focuses on referral hiring. This portal uses access to your linkledIn profile and lets you have access to the network of your network. Next you can filter them out according to your Business's requirement and approach them though GrownOut, ending up fast tracking the quality hiring process.
         		</p>
+            <p>
+              CodeBibber did the entire designing and SEO for Grown Out. The SEO was successful, as the search containing the main keywords defining the USPs of the client, now lead to the results page with Grown out as the first link. The Logo and the website elements were designed by us.
+            </p>
         	</div>
         </div>
 
@@ -218,11 +224,14 @@
         	<div class="col-lg-6 col-md-6 col-sm-6 folio-desc">
         		<div class="desc-heading">Description</div>
         		<p>
-        			<strong>Developed On :</strong> Nodejs
+        			<strong>Developed On :</strong> Nodejs, Socket
         		</p>
         		<p>
-        		90bids is a pay-to-deal site for flights and travel products. The aim is making shopping exciting and fun. 90 Bids lets large number of users to bid in real time across various categories such as  Travel, Hotels, Spa Vouchers, Cars, Mobile phones, etc. 
+              90bids is a pay-to-deal Auction site for flights and travel products. The aim is making shopping exciting and fun. 90 Bids lets large number of users to bid in real time across various categories such as Travel, Hotels, Spa Vouchers, Cars, Mobile phones, etc. 
         		</p>
+            <p>
+              CodeBibber developed the Web application and the Mobile Application (Android and IOS). We enabled flawless real time bidding by overcoming the different time and time zones anomalies from various users, making and fair and clean. The admin of the site was provided with the Content Management System to enable adding and monitoring deals under various categories.
+            </p>
         	</div>
         </div>
 
@@ -253,8 +262,11 @@
         			<strong>Developed On :</strong> PHP (CodeIgniter)
         		</p>
         		<p>
-        		MineManage is an web application developed for internal usage at  a Columbia Mine company , which eases the way of managing the tedious daily mine functions. It provides automated calculations of coal mined, payments pending and reports that lead to make the process more efficient.
-        		</p>
+        		  MineManage is an web application developed for internal usage at a Columbia Mine company, which eases the way of managing the tedious daily mine functions. 
+            </p>
+            <p>
+              It provides automated calculations of coal mined, payments pending and reports that lead to make the process more efficient. An admin panel is created to grant revoke and modify access granted to the managers, operators and drivers. The Dashboard allows entries into various forms all perfected with range checks, and are integrated with each other providing perfect automated reports in real time.
+            </p>
         	</div>
         </div>
 
@@ -285,9 +297,8 @@
         			<strong>Developed On :</strong> PHP (CodeIgniter)
         		</p>
         		<p>
-            LearnEx is an internal management application which the coaching institute uses to manage their day to day coaching schedules, manages the attendance 
-      and enable easy access and distribution of notes. Its a very efficient ERP system designed to custom for our client
-        		</p>
+            LearnEx is an internal management application which the coaching institute uses to manage their day to day coaching schedules, manages the attendance and enable easy access and distribution of notes. It's a very efficient ERP system designed to custom for our client
+            </p>
         	</div>
         </div>
 
@@ -315,9 +326,12 @@
         	</div>
         	<div class="col-lg-6 col-md-6 col-sm-6 folio-desc">
         		<div class="desc-heading">Description</div>
-          		<p>
-          		Shaadi Saga is a very unique platform independent project  which lets the couples make a dedicated page including photos and events of their wedding which can be shared with friends, family and loved ones to invite and make everyone feel invited. It enables receiving RSVPs and managing the guests efficiently, all though personalised URLs.
+          	<p>
+              Shaadi Saga is a very unique platform independent project  which lets the couples make a dedicated page including photos and events of their wedding which can be shared with friends, family and loved ones to invite and make everyone feel invited.
         		</p>
+            <p>
+              CodeBibber developed its Website. It enables receiving RSVPs and managing the guests efficiently, all though personalised URLs.
+            </p>
         	</div>
         </div>
 
@@ -348,9 +362,12 @@
         		<p>
         			<strong>Developed on :</strong> DJango
         		</p>
-          		<p>
-          		Rutogo lets you have access to free options to travel economically by empowering you to compare the cabs instantly from various operator of the city, connect to them and enjoy saving time, money and effort.
+          	<p>
+              Rutogo lets you have access to free options to travel economically by empowering you to compare the cabs instantly from various operator of the city, connect to them and enjoy saving time, money and effort.
         		</p>
+            <p>
+              CodeBibber developed the Web application and The Android Mobile application for it. It is developed as the aggregator of aggregators, i.e. the local car services which are usually ignored are included. The dashboard compares the rates and time from various taxi services, allows the user to choose options then the control is passed to admin to make necessary arrangements. A final feedback is taken from the customer after the end of trip.
+            </p>
         	</div>
         </div>
 
@@ -380,8 +397,11 @@
             <p>
               <strong>Developed on :</strong> DJango
             </p>
-              <p>
-              Shalent is a unique artist networking portal which helps artists get noticed, get to meet event managers, agents, managers and star on a big stage events. The artists get to upload their work in written, audio or video form, and be recognised by getting likes and opinions on their work.
+            <p>
+            Shalent is a unique artist networking portal which helps artists get noticed, get to meet event managers, agents, managers and star on a big stage events.
+            </p>
+            <p>
+              The artists get to upload their work in written, audio or video form, and be recognized by getting likes and opinions on their work. All the videos that are uploaded on the website are converted to mp4 format, and we devised our very own streamer for videos. The AWS architecture was strictly followed for media sharing. The artists get to earn badges on the basis of likes and popularity of their posts, further which they may win tickets to their favorite shows, concerts, etc. An E-commerce Plugin was added to enable Event hiring of the artists.
             </p>
           </div>
         </div>
@@ -410,10 +430,13 @@
           <div class="col-lg-6 col-md-6 col-sm-6 folio-desc">
             <div class="desc-heading">Description</div>
             <p>
-              <strong>Services:</strong>  Designing, SEO and SMO
+              <strong>Services:</strong>  Mobile Application
             </p>
-              <p>
-              The aim at IndoGenius is to work to increase international interaction. It help universities, businesses, NGOs and government agencies from around the world interact with India. An app was developed for internal usage which helped the international interns to manage their internships, get help via the SOS system and know more about India through informatics and questionnaires.
+            <p>
+              The aim at IndoGenius is to work to increase international interaction. It help universities, businesses, NGOs and government agencies from around the world interact with India. 
+            </p>
+            <p>
+              An app was developed for internal usage which helped the international interns to manage their internships, get help via the SOS system and know more about India through informatics and questionnaires. Other features of the app included updates on schedules, newsfeed and rankings on the basis of quizzes. The App was designed for tri usage, i.e. for Admin, Group Mentors and the Intern users.
             </p>
           </div>
         </div>

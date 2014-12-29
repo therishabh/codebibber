@@ -239,7 +239,9 @@
 							<p>
 								<a href="mainto:you@codebibber.com">you@codebibber.com</a>
 							</p>
-							
+							<p>
+								<a href="mainto:info@codebibber.com">info@codebibber.com</a>
+							</p>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 ">
 							<!-- <h2>Hear our voice</h2>
